@@ -8,9 +8,9 @@
 
   <style>
     :root {
-      --blue-200: rgb(0,0,200);
-      --blue-225: rgb(0,0,225);
-      --blue-255: rgb(0,0,255);
+      --bg: #ffffff;
+      --text-primary: #dddddd;
+      --text-secondary: #cccccc;
       --accent: #f12345;
     }
 
@@ -21,42 +21,43 @@
     }
 
     html {
-      font-size: clamp(15px, 1.2vw, 18px);
+      font-size: clamp(15px, 1.1vw, 18px);
     }
 
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.6;
-      background: var(--blue-255);
-      color: var(--blue-200);
+      line-height: 1.65;
+      background: var(--bg);
+      color: var(--text-primary);
       padding: 1.5rem;
     }
 
     main {
-      max-width: 72ch;
+      max-width: 70ch;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
-      gap: 1.5rem;
+      gap: 1.6rem;
     }
 
     h1, h2, h3 {
-      line-height: 1.2;
-      font-weight: 600;
-      color: var(--blue-225);
+      font-weight: 500;
+      line-height: 1.25;
+      color: var(--text-primary);
     }
 
     h1 {
-      font-size: clamp(2rem, 4vw, 3rem);
-      color: var(--blue-255);
+      font-size: clamp(2rem, 4vw, 2.8rem);
     }
 
     h2 {
-      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      color: var(--text-secondary);
     }
 
     h3 {
-      font-size: 1.2rem;
+      font-size: 1.15rem;
+      color: var(--text-secondary);
     }
 
     p, li {
@@ -65,12 +66,16 @@
 
     ul {
       padding-left: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
     }
 
     a {
-      color: var(--blue-255);
+      color: var(--text-primary);
       text-decoration: none;
-      border-bottom: 2px solid var(--blue-225);
+      border-bottom: 1px solid var(--text-secondary);
+      transition: color 0.2s ease, border-color 0.2s ease;
     }
 
     a:hover {
@@ -83,18 +88,30 @@
       margin-top: 1rem;
       padding: 0.6rem 1rem;
       background: var(--accent);
-      color: var(--blue-255);
+      color: #ffffff;
       font-weight: 600;
       border-radius: 0.4rem;
       width: fit-content;
     }
 
+    .cta:hover {
+      opacity: 0.9;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--text-secondary);
+      margin: 2rem 0;
+    }
+
     footer {
       margin-top: 4rem;
       font-size: 0.85rem;
-      color: var(--blue-225);
+      color: var(--text-secondary);
+      text-align: left;
     }
 
+    /* Responsive spacing */
     @media (min-width: 768px) {
       body {
         padding: 3rem;
@@ -107,7 +124,7 @@
 
     @media (min-width: 1200px) {
       main {
-        max-width: 80ch;
+        max-width: 78ch;
       }
     }
   </style>
