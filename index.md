@@ -1,8 +1,7 @@
-
 ---
 layout: default
-title: Kushal Samant
-description: Architect, designer, and independent researcher
+title: Page Title
+description: One clear sentence about the page
 ---
 
 # Kushal Samant
