@@ -8,9 +8,9 @@
 
   <style>
     :root {
+      --text-primary: #888888;
+      --text-muted: #aaaaaa;
       --bg: #ffffff;
-      --text-primary: #dddddd;
-      --text-secondary: #cccccc;
       --accent: #f12345;
     }
 
@@ -21,19 +21,19 @@
     }
 
     html {
-      font-size: clamp(15px, 1.1vw, 18px);
+      font-size: clamp(15px, 1.2vw, 18px);
     }
 
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.65;
-      background: var(--bg);
       color: var(--text-primary);
+      background: var(--bg);
       padding: 1.5rem;
     }
 
     main {
-      max-width: 70ch;
+      max-width: 72ch;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
@@ -52,63 +52,49 @@
 
     h2 {
       font-size: clamp(1.4rem, 3vw, 1.9rem);
-      color: var(--text-secondary);
     }
 
     h3 {
       font-size: 1.15rem;
-      color: var(--text-secondary);
     }
 
-    p, li {
+    p {
       max-width: 65ch;
     }
 
     ul {
       padding-left: 1.2rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.4rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
     }
 
     a {
       color: var(--text-primary);
       text-decoration: none;
-      border-bottom: 1px solid var(--text-secondary);
-      transition: color 0.2s ease, border-color 0.2s ease;
+      border-bottom: 1px solid var(--text-muted);
     }
 
     a:hover {
-      color: var(--accent);
       border-color: var(--accent);
     }
 
     .cta {
       display: inline-block;
       margin-top: 1rem;
-      padding: 0.6rem 1rem;
+      padding: 0.55rem 0.9rem;
       background: var(--accent);
       color: #ffffff;
-      font-weight: 600;
-      border-radius: 0.4rem;
+      font-weight: 500;
+      border-radius: 0.35rem;
       width: fit-content;
-    }
-
-    .cta:hover {
-      opacity: 0.9;
-    }
-
-    hr {
-      border: none;
-      border-top: 1px solid var(--text-secondary);
-      margin: 2rem 0;
     }
 
     footer {
       margin-top: 4rem;
       font-size: 0.85rem;
-      color: var(--text-secondary);
-      text-align: left;
+      color: var(--text-muted);
     }
 
     /* Responsive spacing */
@@ -124,7 +110,7 @@
 
     @media (min-width: 1200px) {
       main {
-        max-width: 78ch;
+        max-width: 80ch;
       }
     }
   </style>
