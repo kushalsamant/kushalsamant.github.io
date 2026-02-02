@@ -3,6 +3,11 @@ layout: default
 title: Page Title
 description: One clear sentence about the page
 ---
+---
+layout: default
+title: About
+description: Background, work history, and long-term practice of architect Kushal Dhananjay Samant.
+---
 
 # Kushal Samant
 
