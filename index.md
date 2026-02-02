@@ -5,8 +5,8 @@ description: One clear sentence about the page
 ---
 ---
 layout: default
-title: About
-description: Background, work history, and long-term practice of architect Kushal Dhananjay Samant.
+title: Kushal Samant
+description: Architect and interior designer working across design, research, and automation.
 ---
 
 # Kushal Samant
