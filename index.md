@@ -7,6 +7,6 @@ Currently exploring automated publishing, spatial research,
 and independent practice.
 
 
-- [About]({{ "/about" | relative_url }})
-- [People]({{ "/people" | relative_url }})
-- [Projects]({{ "/projects" | relative_url }})
+- [About](/about)
+- [People](/people)
+- [Projects](/projects)
