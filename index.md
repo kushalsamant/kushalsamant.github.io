@@ -5,3 +5,9 @@ design, research, and automation.
 
 Currently exploring automated publishing, spatial research,
 and independent practice.
+
+# About
+
+- [About](/about)
+- [People](/people)
+- [Projects](/projects)
