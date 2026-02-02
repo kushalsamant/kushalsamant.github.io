@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Page Title
+title: index.md
 description: One clear sentence about the page
 ---
 ---
