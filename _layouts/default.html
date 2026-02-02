@@ -8,9 +8,9 @@
 
   <style>
     :root {
-      --blue-1: rgb(0,0,200);
-      --blue-2: rgb(0,0,225);
-      --blue-3: rgb(0,0,255);
+      --blue-200: rgb(0,0,200);
+      --blue-225: rgb(0,0,225);
+      --blue-255: rgb(0,0,255);
       --accent: #f12345;
     }
 
@@ -27,8 +27,8 @@
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.6;
-      color: var(--blue-1);
-      background: #ffffff;
+      background: var(--blue-255);
+      color: var(--blue-200);
       padding: 1.5rem;
     }
 
@@ -43,30 +43,34 @@
     h1, h2, h3 {
       line-height: 1.2;
       font-weight: 600;
-      color: var(--blue-3);
+      color: var(--blue-225);
     }
 
     h1 {
       font-size: clamp(2rem, 4vw, 3rem);
+      color: var(--blue-255);
     }
 
     h2 {
       font-size: clamp(1.5rem, 3vw, 2rem);
-      color: var(--blue-2);
     }
 
     h3 {
       font-size: 1.2rem;
     }
 
-    p {
+    p, li {
       max-width: 65ch;
     }
 
+    ul {
+      padding-left: 1.2rem;
+    }
+
     a {
-      color: var(--blue-3);
+      color: var(--blue-255);
       text-decoration: none;
-      border-bottom: 1px solid var(--blue-2);
+      border-bottom: 2px solid var(--blue-225);
     }
 
     a:hover {
@@ -79,23 +83,18 @@
       margin-top: 1rem;
       padding: 0.6rem 1rem;
       background: var(--accent);
-      color: #ffffff;
+      color: var(--blue-255);
       font-weight: 600;
       border-radius: 0.4rem;
       width: fit-content;
     }
 
-    .cta:hover {
-      opacity: 0.9;
-    }
-
     footer {
       margin-top: 4rem;
       font-size: 0.85rem;
-      color: var(--blue-2);
+      color: var(--blue-225);
     }
 
-    /* Responsive enhancements */
     @media (min-width: 768px) {
       body {
         padding: 3rem;
