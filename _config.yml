@@ -2,5 +2,5 @@ markdown: kramdown
 title: Kushal Samant
 description: Architect
 theme: null
-baseurl: "/kushalsamant.github.io"
+baseurl: ""
 url: "https://kvshvl.in"
