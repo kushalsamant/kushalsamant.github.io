@@ -2,3 +2,5 @@ markdown: kramdown
 title: Kushal Samant
 description: Architect
 theme: null
+plugins: []
+
