@@ -25,8 +25,8 @@ These are the projects/ventures I've worked on.
 - <a href="https://kushalsamant.github.io/projects/yourmailproject_archive.html">Your&nbsp;Mail&nbsp;Project</a>. <br>
 - <a href="https://sandishridhar.tumblr.com" rel="noopener noreferrer" target="_blank">Web Design + Digital Marketing + Automation for Sandeep Shridhar Dhabale</a>. <br>
 - <a href="https://phifilms.in" rel="noopener noreferrer" target="_blank">Web Design + Digital Marketing + Automation for PhiFilms</a>. <br>
-<a href="https://cinemamu.in" rel="noopener noreferrer" target="_blank">Web Design + Digital Marketing + Automation for Cinemamu</a>. <br>
-<a href="https://devmantechnology.com" rel="noopener noreferrer" target="_blank">Creative Content Writing at Devman Technology Solutions</a>. <br>
+- <a href="https://cinemamu.in" rel="noopener noreferrer" target="_blank">Web Design + Digital Marketing + Automation for Cinemamu</a>. <br>
+- <a href="https://devmantechnology.com" rel="noopener noreferrer" target="_blank">Creative Content Writing at Devman Technology Solutions</a>. <br>
 Visiting Faculty for Architectural Design, Architectural Graphics & Drawing Representation, AutoDesk AutoCAD at Dr D.Y. Patil College of Architecture, Navi Mumbai. <br>
 Proofreading Academic Research Papers (CSR) at SVKM's NMIMS, Mumbai (NMIMS School  of Branding & Advertising). <br>
 Editing Ph.D. Research Papers (Marketing) for Turn-it-in tests at SVKM's NMIMS, Mumbai (NMIMS School of Branding & Advertising). <br>
@@ -149,14 +149,14 @@ Mega Food Park, Gujarat. Client: State Government of Gujarat. <br>
 
 <p><strong>funktion design. Bangalore.</strong></p>
 Arbors By The Lake, Gated Community & Villas Project, Jigani, Bangalore. Client: CK  Narotham. <br>
-Residence, Sarjapur Road, Bangalore. Client: Mr. Harish Bhatia. <br>
-funktion design Office Building, Sanjaynagar, Bangalore. Client: Ar. Madhusudhan Sridhar. <br>
-Commercial Complex, Jayanagar, Bangalore. Client: Mrs. Lakshmi and Mr. Jagadish. <br>
-Apartment, Sarjapur Road, Bangalore. Client: Ar. Madhusudhan Sridhar. <br>
-Heritage Conservation, Basavangudi, Bangalore. Client: Adv. Ramadhyani. <br>
-Kevala Retreat, Chikmagalur. Client: Dr. Pradeep Ullal. <br>
+- Residence, Sarjapur Road, Bangalore. Client: Mr. Harish Bhatia. <br>
+- funktion design Office Building, Sanjaynagar, Bangalore. Client: Ar. Madhusudhan Sridhar. <br>
+- Commercial Complex, Jayanagar, Bangalore. Client: Mrs. Lakshmi and Mr. Jagadish. <br>
+- Apartment, Sarjapur Road, Bangalore. Client: Ar. Madhusudhan Sridhar. <br>
+- Heritage Conservation, Basavangudi, Bangalore. Client: Adv. Ramadhyani. <br>
+- Kevala Retreat, Chikmagalur. Client: Dr. Pradeep Ullal. <br>
 Hotel Peridot, Mysore. Client: Peridot Group. <br>
-Apartment, Sanjaynagar, Bangalore. Client: Mr. Nori Phanindra. <br>
-Residence, Chamarajpet, Bangalore. Client: Mr. Sitaram and Mrs. Shruti. <br>
-Residence + Interiors, Bangalore. Client: Dr. Ravindran. <br>
-Interiors, Sanjaynagar, Bangalore. Client: Ar. Madhusudhan Sridhar. <br>
+- Apartment, Sanjaynagar, Bangalore. Client: Mr. Nori Phanindra. <br>
+- Residence, Chamarajpet, Bangalore. Client: Mr. Sitaram and Mrs. Shruti. <br>
+- Residence + Interiors, Bangalore. Client: Dr. Ravindran. <br>
+- Interiors, Sanjaynagar, Bangalore. Client: Ar. Madhusudhan Sridhar. <br>
