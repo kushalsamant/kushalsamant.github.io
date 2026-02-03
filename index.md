@@ -20,6 +20,7 @@ and independent practice.
 [Lin](https://linkedin.com/in/kvshvl). 
 [Med](https://medium.com/@kvshvl). 
 [Pin](https://in.pinterest.com/kvshvl). 
+[Thr](https://kvshvl.threadless.com).
 [Ske](https://sketchfab.com/kvshvl/models). 
 [X](https://x.com/kvshvl_). 
 [You](https://youtube.com/@kvshvl/videos). 
