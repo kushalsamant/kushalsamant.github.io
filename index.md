@@ -14,6 +14,7 @@ The studio works across residential and cultural projects, shaping spaces that a
 
 [Air](https://airbnb.co.in/users/show/21563871). 
 [Git](https://github.com/kushalsamant). 
+[Gum](https://kvshvl.gumroad.com).  
 [Ins](https://instagram.com/kvshvl). 
 [Lin](https://linkedin.com/in/kvshvl). 
 [Med](https://medium.com/@kvshvl). 
