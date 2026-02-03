@@ -104,16 +104,16 @@ Interview, Ar. Deepak Guggari, VDGA, Pune for Annual Architectural Magazine, Ocu
 <a href="https://kushalsamant.github.io/projects/ivavelux_award_competition.html">IVAVELUX Award Competition (International)</a>. <br>
 The Red Bag - A film showcasing the quote, "Things go to those who want to keep them,  and not use them."  <br>
 Innu Onde Gadi Kathe - A stop motion film based on a Bollywood love story plot, made of toy  cars characters that speak slang lingua. <br>
-Chase in Life - A short film about growth and the desire to grow that is common within all  things that are within nature and man. <br>
-Special Mention for Housing and Urban Development Corporation Design Trophy for 3  consecutive years. <br>
-Institute of Design - Studied design principles of Alvaro Siza and used them for a proposed campus design project. <br>
-Interview, Ar. Sanjay Mohe, Mindspace Architects, Bangalore for Annual Architectural Magazine, Oculus 3 of KLS GIT, Belgaum. <br>
-Internship for 16 weeks at funktion design, Bangalore. <br>
-Diagnostic Center - Proposed using elements of calm and peace to cure traumas. <br>
-Cultural Center - Evolved the masterplan from the site boundaries, contours and topography. <br>
-Community Center - Proposed a circular form with split sections for adding a stadia. <br>
-Housing - The master-plan focused on ease of access, child safety, and large pedestrian zones coupled with event spaces. <br>
-Motel - Adapted artificial balconies to capture surrounding picturesque views. <br>
+- Chase in Life - A short film about growth and the desire to grow that is common within all  things that are within nature and man. <br>
+- Special Mention for Housing and Urban Development Corporation Design Trophy for 3  consecutive years. <br>
+- Institute of Design - Studied design principles of Alvaro Siza and used them for a proposed campus design project. <br>
+- Interview, Ar. Sanjay Mohe, Mindspace Architects, Bangalore for Annual Architectural Magazine, Oculus 3 of KLS GIT, Belgaum. <br>
+- Internship for 16 weeks at funktion design, Bangalore. <br>
+- Diagnostic Center - Proposed using elements of calm and peace to cure traumas. <br>
+- Cultural Center - Evolved the masterplan from the site boundaries, contours and topography. <br>
+- Community Center - Proposed a circular form with split sections for adding a stadia. <br>
+- Housing - The master-plan focused on ease of access, child safety, and large pedestrian zones coupled with event spaces. <br>
+- Motel - Adapted artificial balconies to capture surrounding picturesque views. <br>
 - Meditation Center - Designed a path around light and glass water tanks to create an ambience for meditation. <br>
 - Residence, Kudal. Client: Prof. Uday Bhatye. <br>
 - Residence, Muzaffarpur. Client: Mr. Vibhu Kumar. <br>
