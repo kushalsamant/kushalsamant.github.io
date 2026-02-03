@@ -142,13 +142,13 @@ Penthouse + Interiors, Bangalore. Client: Mr. Ansari. <br>
 Residence, Bangalore. Client: Mr. Haleem. <br>
 
 <p><strong>de.Sign Studio LLC. New York . Mumbai.</strong></p>
-93 Starr Street, Brooklyn. Client: Rahul Marathe. <br>
-Manhattan Loft, Manhattan. Client. Ar. Viren Brahmbhatt. <br>
-SNS Platina, Surat. Client: SNS Developers Pvt. Ltd. <br>
-Mega Food Park, Gujarat. Client: State Government of Gujarat. <br>
+- 93 Starr Street, Brooklyn. Client: Rahul Marathe. <br>
+- Manhattan Loft, Manhattan. Client. Ar. Viren Brahmbhatt. <br>
+- SNS Platina, Surat. Client: SNS Developers Pvt. Ltd. <br>
+- Mega Food Park, Gujarat. Client: State Government of Gujarat. <br>
 
 <p><strong>funktion design. Bangalore.</strong></p>
-Arbors By The Lake, Gated Community & Villas Project, Jigani, Bangalore. Client: CK  Narotham. <br>
+- Arbors By The Lake, Gated Community & Villas Project, Jigani, Bangalore. Client: CK  Narotham. <br>
 - Residence, Sarjapur Road, Bangalore. Client: Mr. Harish Bhatia. <br>
 - funktion design Office Building, Sanjaynagar, Bangalore. Client: Ar. Madhusudhan Sridhar. <br>
 - Commercial Complex, Jayanagar, Bangalore. Client: Mrs. Lakshmi and Mr. Jagadish. <br>
