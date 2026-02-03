@@ -1,10 +1,7 @@
-# Kushal Samant
+# Kushal Samant Architects
 
-Architect and interior designer working at the intersection of
-design, research, and automation.
-
-Currently exploring automated publishing, spatial research,
-and independent practice.
+Kushal Samant Architects is an architecture and interior design practice rooted in context, material intelligence, and spatial restraint.
+The studio works across residential and cultural projects, shaping spaces that are precise, enduring, and deeply tied to everyday life.
 
 ## Index
 
@@ -23,4 +20,4 @@ and independent practice.
 [Thr](https://kvshvl.threadless.com).
 [Ske](https://sketchfab.com/kvshvl/models). 
 [X](https://x.com/kvshvl_). 
-[You](https://youtube.com/@kvshvl/videos). 
+[You](https://youtube.com/@kvshvl/videos).
