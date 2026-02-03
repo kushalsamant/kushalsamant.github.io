@@ -21,5 +21,5 @@ and independent practice.
 [Med](https://medium.com/@kvshvl). 
 [Pin](https://in.pinterest.com/kvshvl). 
 [Ske](https://sketchfab.com/kvshvl/models). 
-[Twi](https://twitter.com/kvshvl). 
+[X](https://x.com/kvshvl_). 
 [You](https://youtube.com/@kvshvl/videos). 
