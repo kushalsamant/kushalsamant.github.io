@@ -10,7 +10,7 @@ and independent practice.
 
 [About](/about.md).  
 [People](/people.md).  
-[Projects](/projects.md)
+[Projects](/projects.md).
 
 ## Social
 
