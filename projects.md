@@ -16,17 +16,15 @@ These are the projects/ventures I've worked on.
 
 **What it can become**: The project acts as a base for future tools that link design, documentation, fabrication, and digital construction workflows.
 
-Residence, Panvel, Navi Mumbai. Client: Mrs. Sunita Tak. <br>
-_ASK_: Daily Research. <br>
-<a href="https://geometry.printify.com" rel="noopener noreferrer" target="_blank">Geometry</a>. <br>
-Residence, Renigunta. Client: Mr. Yogender Reddy. <br>
-Wine Shop, Seawoods, Navi Mumbai. Client: Mr. Sanjay Turde. <br>
-Assistant Professor of Architecture at Dr D.Y. Patil School of Architecture, Navi Mumbai. <br>
-Assistant Professor of Architecture at Dr D.Y. Patil School of Architecture, Navi Mumbai. <br>
-Assistant Professor of Architecture at Dr D.Y. Patil School of Architecture, Navi Mumbai. <br>
-<a href="https://kushalsamant.github.io/projects/yourmailproject_archive.html">Your&nbsp;Mail&nbsp;Project</a>. <br>
-<a href="https://sandishridhar.tumblr.com" rel="noopener noreferrer" target="_blank">Web Design + Digital Marketing + Automation for Sandeep Shridhar Dhabale</a>. <br>
-<a href="https://phifilms.in" rel="noopener noreferrer" target="_blank">Web Design + Digital Marketing + Automation for PhiFilms</a>. <br>
+- Residence, Panvel, Navi Mumbai. Client: Mrs. Sunita Tak. <br>
+- _ASK_: Daily Research. <br>
+- <a href="https://geometry.printify.com" rel="noopener noreferrer" target="_blank">Geometry</a>. <br>
+- Residence, Renigunta. Client: Mr. Yogender Reddy. <br>
+- Wine Shop, Seawoods, Navi Mumbai. Client: Mr. Sanjay Turde. <br>
+- Assistant Professor of Architecture at Dr D.Y. Patil School of Architecture, Navi Mumbai. <br>
+- <a href="https://kushalsamant.github.io/projects/yourmailproject_archive.html">Your&nbsp;Mail&nbsp;Project</a>. <br>
+- <a href="https://sandishridhar.tumblr.com" rel="noopener noreferrer" target="_blank">Web Design + Digital Marketing + Automation for Sandeep Shridhar Dhabale</a>. <br>
+- <a href="https://phifilms.in" rel="noopener noreferrer" target="_blank">Web Design + Digital Marketing + Automation for PhiFilms</a>. <br>
 <a href="https://cinemamu.in" rel="noopener noreferrer" target="_blank">Web Design + Digital Marketing + Automation for Cinemamu</a>. <br>
 <a href="https://devmantechnology.com" rel="noopener noreferrer" target="_blank">Creative Content Writing at Devman Technology Solutions</a>. <br>
 Visiting Faculty for Architectural Design, Architectural Graphics & Drawing Representation, AutoDesk AutoCAD at Dr D.Y. Patil College of Architecture, Navi Mumbai. <br>
