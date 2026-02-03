@@ -1,6 +1,6 @@
 ## About
 
-![Architect Kushal Dhananjay Samant](/assets/img/kushal_samant_profile_picture_cute.png){:width="150"}
+![Architect Kushal Dhananjay Samant](/assets/img/kushal_samant_profile_picture_cute_100kb.png){:width="150"}
 
 Kushal Dhananjay Samant is an Architect, based in India.
 
