@@ -27,60 +27,60 @@ These are the projects/ventures I've worked on.
 - <a href="https://phifilms.in" rel="noopener noreferrer" target="_blank">Web Design + Digital Marketing + Automation for PhiFilms</a>. <br>
 - <a href="https://cinemamu.in" rel="noopener noreferrer" target="_blank">Web Design + Digital Marketing + Automation for Cinemamu</a>. <br>
 - <a href="https://devmantechnology.com" rel="noopener noreferrer" target="_blank">Creative Content Writing at Devman Technology Solutions</a>. <br>
-Visiting Faculty for Architectural Design, Architectural Graphics & Drawing Representation, AutoDesk AutoCAD at Dr D.Y. Patil College of Architecture, Navi Mumbai. <br>
-Proofreading Academic Research Papers (CSR) at SVKM's NMIMS, Mumbai (NMIMS School  of Branding & Advertising). <br>
-Editing Ph.D. Research Papers (Marketing) for Turn-it-in tests at SVKM's NMIMS, Mumbai (NMIMS School of Branding & Advertising). <br>
-Anechoic Room, Khopoli. Client: SoundCodes. <br>
-Residence, Allahabad. Client: Sadguru. <br>
-Residence, Sankeshwar. Client: Vishal Bhopale. <br>
-Food Concierge at Scootsy, Mumbai. <br>
-Amazon, and Flipkart Sales Manager at Ria Enterprises. <br>
-<a href="https://kushalsamant.github.io/projects/shlvng.html">SHLVNG</a>. <br>
-Furniture Maker at OpenDesk. <br>
-Web Design for Studio Diksuchi. <br>
-<a href="https://studiodetail.co.in" rel="noopener noreferrer" target="_blank">Web Design for Studio Detail</a>. <br>
-Business Development, Live Videographer, Co-Lyricist for Thomas Albert Music, Mumbai. <br>
-Web Design for Tashi Films. <br>
-Operations Manager for The Black Canvas, Mumbai. <br>
-Logistics Manager for The Black Canvas, Mumbai. <br>
-Operations Manager for POLKA Clothing Store, Mumbai. <br>
-Redevelopment of Revdanda Fort, Kashid. Client: Maharashtra Tourism Development Corporation, Government of Maharashtra. <br>
-The Hive Black Box Theatre, Sassoon Dock, Colaba, Mumbai. Client: Alt Culture Entertainment Pvt Ltd. <br>
-The Hive Black Box Theatre, Brewbot, Andheri, Mumbai. Client: Alt Culture Entertainment Pvt Ltd. <br>
-Underwear Exhibition with PracticeNext, Mumbai. Client: Saatchi & Saatchi. <br>
-Office, Sion, Mumbai. Client: The Black Canvas. <br>
-El Tunal Stadium (International). <br>
-Fontanar Del Rio Stadium (International). <br>
-<a href="https://kushalsamant.github.io/projects/housing_for_kalejdohill_kvarnbacken_jakobsberg.html">Housing for Kalejdohill, Kvarnbacken, Jakobsberg, Jarfalla (International)</a>. <br>
-Coworking Offices, Bandra, Mumbai. Client: Collab Works Pvt Ltd. <br>
-The Cuckoo Club, Cafe, Bandra, Mumbai. Client: Alt Culture Entertainment Pvt Ltd. <br>
-The Cuckoo Club, Theatre, Bandra, Mumbai. Client: Alt Culture Entertainment Pvt Ltd. <br>
-Hotel Royal Residency, Kurla, Mumbai. Client: Pavan Shetty. <br>
-Manufacturing Plant, Lower Parel, Mumbai Client: NRB Bearings. <br>
-A room full of books, Savaroli. Client: Mahua Farms. <br>
-Ambisonic Lab, Savaroli. Client: SoundCodes. <br>
-Airbnb Superhost for Mumbai. <br>
-Airbnb, Andheri, Mumbai. Client: Sachin Maheshwari. <br>
-<a href="https://kushalsamant.github.io/projects/gruham.html">GRÜHAM</a>. <br>
-WAVE Innovation Space, Nehru Center, Mumbai. Client: BNP Paribas. <br>
-<a href="https://kushalsamant.github.io/projects/infinity_mirror.html">Infinity Mirror Installation, Todi Mill Social, Mumbai. Client: Adidas</a>. <br>
-WikiHouse / BOM chapter of The WikiHouse Foundation, UK. <br>
-Varna Library International Architectural Competition (International). <br>
-Makerspace, Andheri, Mumbai. Client: Maker's Asylum. <br>
-Makerspace, Lower Parel, Indian School of Design and Innovation, Mumbai. Client: Maker's  Asylum. <br>
-Velugam School, Dadra & Nagar Haveli. Client: Ar. Shreyank Khemalapure. <br>
-Angel Investor for Home for Artists, Jaipur. <br>
-Coworking Offices, Khar, Mumbai. Client: Collab Works Pvt Ltd. <br>
-Office, Khar, Mumbai. Client: Genius U. <br>
-Woollen Watch, Thane. Client: Beyond Your Thoughts. <br>
-Workshop Event Space, Khar. Client: Alt Culture Entertainment Pvt Ltd. <br>
-Product Strategy (India) at SoundCloud. <br>
-Xircus Performance Space, Khar. Client: Alt Culture Entertainment Pvt Ltd. <br>
-The Hive Black Box Theatre, Khar, Mumbai. Client: Alt Culture Entertainment Pvt Ltd. <br>
-The Hungry Traveller Cafe, Khar, Mumbai. Client: Alt Culture Entertainment Pvt Ltd. <br>
-kNOw Smoking A short film about the experiences of the nicotine addicts. <br>
-The Swedavia Bromma Stockholm Airport Challenge (International). <br>
-Residence, Kudal. Client: Jayaram Londhe. <br>
+- Visiting Faculty for Architectural Design, Architectural Graphics & Drawing Representation, AutoDesk AutoCAD at Dr D.Y. Patil College of Architecture, Navi Mumbai. <br>
+- Proofreading Academic Research Papers (CSR) at SVKM's NMIMS, Mumbai (NMIMS School  of Branding & Advertising). <br>
+- Editing Ph.D. Research Papers (Marketing) for Turn-it-in tests at SVKM's NMIMS, Mumbai (NMIMS School of Branding & Advertising). <br>
+- Anechoic Room, Khopoli. Client: SoundCodes. <br>
+- Residence, Allahabad. Client: Sadguru. <br>
+- Residence, Sankeshwar. Client: Vishal Bhopale. <br>
+- Food Concierge at Scootsy, Mumbai. <br>
+- Amazon, and Flipkart Sales Manager at Ria Enterprises. <br>
+- <a href="https://kushalsamant.github.io/projects/shlvng.html">SHLVNG</a>. <br>
+- Furniture Maker at OpenDesk. <br>
+- Web Design for Studio Diksuchi. <br>
+- <a href="https://studiodetail.co.in" rel="noopener noreferrer" target="_blank">Web Design for Studio Detail</a>. <br>
+- Business Development, Live Videographer, Co-Lyricist for Thomas Albert Music, Mumbai. <br>
+- Web Design for Tashi Films. <br>
+- Operations Manager for The Black Canvas, Mumbai. <br>
+- Logistics Manager for The Black Canvas, Mumbai. <br>
+- Operations Manager for POLKA Clothing Store, Mumbai. <br>
+- Redevelopment of Revdanda Fort, Kashid. Client: Maharashtra Tourism Development Corporation, Government of Maharashtra. <br>
+- The Hive Black Box Theatre, Sassoon Dock, Colaba, Mumbai. Client: Alt Culture Entertainment Pvt Ltd. <br>
+- The Hive Black Box Theatre, Brewbot, Andheri, Mumbai. Client: Alt Culture Entertainment Pvt Ltd. <br>
+- Underwear Exhibition with PracticeNext, Mumbai. Client: Saatchi & Saatchi. <br>
+- Office, Sion, Mumbai. Client: The Black Canvas. <br>
+- El Tunal Stadium (International). <br>
+- Fontanar Del Rio Stadium (International). <br>
+- <a href="https://kushalsamant.github.io/projects/housing_for_kalejdohill_kvarnbacken_jakobsberg.html">Housing for Kalejdohill, Kvarnbacken, Jakobsberg, Jarfalla (International)</a>. <br>
+- Coworking Offices, Bandra, Mumbai. Client: Collab Works Pvt Ltd. <br>
+- The Cuckoo Club, Cafe, Bandra, Mumbai. Client: Alt Culture Entertainment Pvt Ltd. <br>
+- The Cuckoo Club, Theatre, Bandra, Mumbai. Client: Alt Culture Entertainment Pvt Ltd. <br>
+- Hotel Royal Residency, Kurla, Mumbai. Client: Pavan Shetty. <br>
+- Manufacturing Plant, Lower Parel, Mumbai Client: NRB Bearings. <br>
+- A room full of books, Savaroli. Client: Mahua Farms. <br>
+- Ambisonic Lab, Savaroli. Client: SoundCodes. <br>
+- Airbnb Superhost for Mumbai. <br>
+- Airbnb, Andheri, Mumbai. Client: Sachin Maheshwari. <br>
+- <a href="https://kushalsamant.github.io/projects/gruham.html">GRÜHAM</a>. <br>
+- WAVE Innovation Space, Nehru Center, Mumbai. Client: BNP Paribas. <br>
+- <a href="https://kushalsamant.github.io/projects/infinity_mirror.html">Infinity Mirror Installation, Todi Mill Social, Mumbai. Client: Adidas</a>. <br>
+- WikiHouse / BOM chapter of The WikiHouse Foundation, UK. <br>
+- Varna Library International Architectural Competition (International). <br>
+- Makerspace, Andheri, Mumbai. Client: Maker's Asylum. <br>
+- Makerspace, Lower Parel, Indian School of Design and Innovation, Mumbai. Client: Maker's  Asylum. <br>
+- Velugam School, Dadra & Nagar Haveli. Client: Ar. Shreyank Khemalapure. <br>
+- Angel Investor for Home for Artists, Jaipur. <br>
+- Coworking Offices, Khar, Mumbai. Client: Collab Works Pvt Ltd. <br>
+- Office, Khar, Mumbai. Client: Genius U. <br>
+- Woollen Watch, Thane. Client: Beyond Your Thoughts. <br>
+- Workshop Event Space, Khar. Client: Alt Culture Entertainment Pvt Ltd. <br>
+- Product Strategy (India) at SoundCloud. <br>
+- Xircus Performance Space, Khar. Client: Alt Culture Entertainment Pvt Ltd. <br>
+- The Hive Black Box Theatre, Khar, Mumbai. Client: Alt Culture Entertainment Pvt Ltd. <br>
+- The Hungry Traveller Cafe, Khar, Mumbai. Client: Alt Culture Entertainment Pvt Ltd. <br>
+- kNOw Smoking A short film about the experiences of the nicotine addicts. <br>
+- The Swedavia Bromma Stockholm Airport Challenge (International). <br>
+- Residence, Kudal. Client: Jayaram Londhe. <br>
 - <a href="https://kushalsamant.github.io/projects/bridging_emotions.html">Final Architectural Thesis (Bridging Emotions) - Explored the utility value of space around the Sea Link Bridge, Mumbai and proposed architectural design to treat citywide clinical depression</a>. <br>
 - Shortlisted for University of Westminster Design Trophy at International Rank No. 4. <br>
 - Shortlisted for Landscape Design Trophy for 2 consecutive years. <br>
