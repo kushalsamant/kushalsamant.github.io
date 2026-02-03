@@ -18,7 +18,7 @@ and independent practice.
 [Lin](https://linkedin.com/in/kvshvl). 
 [Pin](https://in.pinterest.com/kvshvl). 
 [Med](https://medium.com/kvshvl). 
-[Ins](https://instagram.com/kvshvl). 
+[Git](https://github.com/kushalsamant). 
 [Ins](https://instagram.com/kvshvl). 
 [Ins](https://instagram.com/kvshvl). 
 [Ins](https://instagram.com/kvshvl). 
