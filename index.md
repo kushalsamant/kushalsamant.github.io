@@ -14,15 +14,11 @@ and independent practice.
 
 ## Social
 
-[Ins](https://instagram.com/kvshvl). 
-[Lin](https://linkedin.com/in/kvshvl). 
-[Pin](https://in.pinterest.com/kvshvl). 
-[Med](https://medium.com/kvshvl). 
+[Air](https://airbnb.co.in/users/show/21563871). 
 [Git](https://github.com/kushalsamant). 
 [Ins](https://instagram.com/kvshvl). 
-[Ins](https://instagram.com/kvshvl). 
-[Ins](https://instagram.com/kvshvl). 
-[Ins](https://instagram.com/kvshvl). 
-[Ins](https://instagram.com/kvshvl). 
+[Lin](https://linkedin.com/in/kvshvl). 
+[Med](https://medium.com/kvshvl). 
+[Pin](https://in.pinterest.com/kvshvl). 
 [Ske](https://sketchfab.com/kvshvl/models). 
 [You](https://youtube.com/@kvshvl/videos). 
