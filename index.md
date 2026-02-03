@@ -6,7 +6,23 @@ design, research, and automation.
 Currently exploring automated publishing, spatial research,
 and independent practice.
 
+## Index
 
-- [About](/about.md)
-- [People](/people.md)
-- [Projects](/projects.md)
+[About](/about.md).  
+[People](/people.md).  
+[Projects](/projects.md)
+
+## Social
+
+[Ins](https://instagram.com/kvshvl). 
+[Lin](https://linkedin.com/in/kvshvl). 
+[Pin](https://in.pinterest.com/kvshvl). 
+[Med](https://medium.com/kvshvl). 
+[Ins](https://instagram.com/kvshvl). 
+[Ins](https://instagram.com/kvshvl). 
+[Ins](https://instagram.com/kvshvl). 
+[Ins](https://instagram.com/kvshvl). 
+[Ins](https://instagram.com/kvshvl). 
+[Ins](https://instagram.com/kvshvl). 
+[Ins](https://instagram.com/kvshvl). 
+[You](https://youtube.com/@kvshvl/videos). 
