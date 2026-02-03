@@ -128,18 +128,18 @@ Articles for Annual Architectural Magazine, Oculus 2 of KLS GIT, Belgaum. <br>
 <h2>Other Projects</h2>
 
 <p><strong>edStudio Architects. Bangalore.</strong></p>
-Residence, Bangalore. Client: Mr. Mujeeb Rehman. <br>
-Apartment and Interiors, Bangalore. Client: Dr. Shabbir. <br>
-Industrial Campus, Bangalore. Client: SR Seatings. <br>
-Corporate Office and Interiors, Bangalore. Client: SR Seatings. <br>
+- Residence, Bangalore. Client: Mr. Mujeeb Rehman. <br>
+- Apartment and Interiors, Bangalore. Client: Dr. Shabbir. <br>
+- Industrial Campus, Bangalore. Client: SR Seatings. <br>
+- Corporate Office and Interiors, Bangalore. Client: SR Seatings. <br>
 Rowhouse, Bangalore. Client: Mr. Ansari. <br>
-Residence, Bangalore. Client: Mr. Mohsin. <br>
-Residence, Bangalore. Client: Mr. Jameel. <br>
-Corporate Office + Interiors, Bangalore. Client: Ultra Laboratories. <br>
-Warehouse, Hassan. Client: Ultra Laboratories. <br>
-Apartment, Hoodi. Client: Mr. Mujeeb Rehman. <br>
-Penthouse + Interiors, Bangalore. Client: Mr. Ansari. <br>
-Residence, Bangalore. Client: Mr. Haleem. <br>
+- Residence, Bangalore. Client: Mr. Mohsin. <br>
+- Residence, Bangalore. Client: Mr. Jameel. <br>
+- Corporate Office + Interiors, Bangalore. Client: Ultra Laboratories. <br>
+- Warehouse, Hassan. Client: Ultra Laboratories. <br>
+- Apartment, Hoodi. Client: Mr. Mujeeb Rehman. <br>
+- Penthouse + Interiors, Bangalore. Client: Mr. Ansari. <br>
+- Residence, Bangalore. Client: Mr. Haleem. <br>
 
 <p><strong>de.Sign Studio LLC. New York . Mumbai.</strong></p>
 - 93 Starr Street, Brooklyn. Client: Rahul Marathe. <br>
