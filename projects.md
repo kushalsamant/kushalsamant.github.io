@@ -81,29 +81,29 @@ The Hungry Traveller Cafe, Khar, Mumbai. Client: Alt Culture Entertainment Pvt L
 kNOw Smoking A short film about the experiences of the nicotine addicts. <br>
 The Swedavia Bromma Stockholm Airport Challenge (International). <br>
 Residence, Kudal. Client: Jayaram Londhe. <br>
-<a href="https://kushalsamant.github.io/projects/bridging_emotions.html">Final Architectural Thesis (Bridging Emotions) - Explored the utility value of space around the Sea Link Bridge, Mumbai and proposed architectural design to treat citywide clinical depression</a>. <br>
-Shortlisted for University of Westminster Design Trophy at International Rank No. 4. <br>
-Shortlisted for Landscape Design Trophy for 2 consecutive years. <br>
-Shortlisted for Annual NASA Design Competition for 5 consecutive years. <br>
-<a href="https://kushalsamant.github.io/projects/perspicacity.html" rel="noopener noreferrer" target="_blank">Perspicacity</a>. <br>
-Android Application for Archiperspecta with Pawan Hegde. <br>
-Ouch - An animated film about incidents in the lives of Mumbaikars. <br>
-Editorial Team for Annual Architectural Magazine, Oculus 5 of KLS GIT, Belgaum. <br>
-<a href="https://kushalsamant.github.io/projects/catalytic_corridor.html" rel="noopener noreferrer" target="_blank">Catalytic Corridor - LAjournal Design Competition (Landscape, India)</a>. <br>
-<a href="https://kushalsamant.github.io/projects/urban_insert_design.html" rel="noopener noreferrer" target="_blank">Urban Insert Design - Proposed a way to cure religious tension and ongoing riots in the Old city and the Fort, Belgaum using socio economic principles of urban design and space making</a>. <br>
-Book Store Interior Design - Proposed redesigning an old watch tower into a bookstore inside the military cantonment/camp area of Belgaum. <br>
-<a href="https://kushalsamant.github.io/projects/processism.html">Processism</a>. <br>
-Admission Brochure 2012 of KLS GIT, Belgaum. <br>
-Prospectus 2012 of KLS GIT, Belgaum. <br>
-Avalanche Annual Fest Magazine 2012 of KLS GIT, Belgaum. <br>
-Citation for GSen Redesign Trophy for 4 consecutive years. <br>
-Citation for 3 consecutive years for Louis I Kahn Documentation Trophy. <br>
-Shortlisted for Annual NASA Journalism Trophy, Zo-NASA Journalism Trophy for 3  consecutive years. <br>
-Shortlisted and Published for Cityscape Article Writing Competition at National Level. <br>
-Interview, Ar. Deepak Guggari, VDGA, Pune for Annual Architectural Magazine, Oculus 4 of  KLS GIT, Belgaum. <br>
-<a href="https://kushalsamant.github.io/projects/ivavelux_award_competition.html">IVAVELUX Award Competition (International)</a>. <br>
-The Red Bag - A film showcasing the quote, "Things go to those who want to keep them,  and not use them."  <br>
-Innu Onde Gadi Kathe - A stop motion film based on a Bollywood love story plot, made of toy  cars characters that speak slang lingua. <br>
+- <a href="https://kushalsamant.github.io/projects/bridging_emotions.html">Final Architectural Thesis (Bridging Emotions) - Explored the utility value of space around the Sea Link Bridge, Mumbai and proposed architectural design to treat citywide clinical depression</a>. <br>
+- Shortlisted for University of Westminster Design Trophy at International Rank No. 4. <br>
+- Shortlisted for Landscape Design Trophy for 2 consecutive years. <br>
+- Shortlisted for Annual NASA Design Competition for 5 consecutive years. <br>
+- <a href="https://kushalsamant.github.io/projects/perspicacity.html" rel="noopener noreferrer" target="_blank">Perspicacity</a>. <br>
+- Android Application for Archiperspecta with Pawan Hegde. <br>
+- Ouch - An animated film about incidents in the lives of Mumbaikars. <br>
+- Editorial Team for Annual Architectural Magazine, Oculus 5 of KLS GIT, Belgaum. <br>
+- <a href="https://kushalsamant.github.io/projects/catalytic_corridor.html" rel="noopener noreferrer" target="_blank">Catalytic Corridor - LAjournal Design Competition (Landscape, India)</a>. <br>
+- <a href="https://kushalsamant.github.io/projects/urban_insert_design.html" rel="noopener noreferrer" target="_blank">Urban Insert Design - Proposed a way to cure religious tension and ongoing riots in the Old city and the Fort, Belgaum using socio economic principles of urban design and space making</a>. <br>
+- Book Store Interior Design - Proposed redesigning an old watch tower into a bookstore inside the military cantonment/camp area of Belgaum. <br>
+- <a href="https://kushalsamant.github.io/projects/processism.html">Processism</a>. <br>
+- Admission Brochure 2012 of KLS GIT, Belgaum. <br>
+- Prospectus 2012 of KLS GIT, Belgaum. <br>
+- Avalanche Annual Fest Magazine 2012 of KLS GIT, Belgaum. <br>
+- Citation for GSen Redesign Trophy for 4 consecutive years. <br>
+- Citation for 3 consecutive years for Louis I Kahn Documentation Trophy. <br>
+- Shortlisted for Annual NASA Journalism Trophy, Zo-NASA Journalism Trophy for 3  consecutive years. <br>
+- Shortlisted and Published for Cityscape Article Writing Competition at National Level. <br>
+- Interview, Ar. Deepak Guggari, VDGA, Pune for Annual Architectural Magazine, Oculus 4 of  KLS GIT, Belgaum. <br>
+- <a href="https://kushalsamant.github.io/projects/ivavelux_award_competition.html">IVAVELUX Award Competition (International)</a>. <br>
+- The Red Bag - A film showcasing the quote, "Things go to those who want to keep them,  and not use them."  <br>
+- Innu Onde Gadi Kathe - A stop motion film based on a Bollywood love story plot, made of toy  cars characters that speak slang lingua. <br>
 - Chase in Life - A short film about growth and the desire to grow that is common within all  things that are within nature and man. <br>
 - Special Mention for Housing and Urban Development Corporation Design Trophy for 3  consecutive years. <br>
 - Institute of Design - Studied design principles of Alvaro Siza and used them for a proposed campus design project. <br>
