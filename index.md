@@ -24,5 +24,5 @@ and independent practice.
 [Ins](https://instagram.com/kvshvl). 
 [Ins](https://instagram.com/kvshvl). 
 [Ins](https://instagram.com/kvshvl). 
-[Ins](https://instagram.com/kvshvl). 
+[Ske](https://sketchfab.com/kvshvl/models). 
 [You](https://youtube.com/@kvshvl/videos). 
