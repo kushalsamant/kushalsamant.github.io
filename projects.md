@@ -155,7 +155,7 @@ These are the projects/ventures I've worked on.
 - Apartment, Sarjapur Road, Bangalore. Client: Ar. Madhusudhan Sridhar. <br>
 - Heritage Conservation, Basavangudi, Bangalore. Client: Adv. Ramadhyani. <br>
 - Kevala Retreat, Chikmagalur. Client: Dr. Pradeep Ullal. <br>
-Hotel Peridot, Mysore. Client: Peridot Group. <br>
+- Hotel Peridot, Mysore. Client: Peridot Group. <br>
 - Apartment, Sanjaynagar, Bangalore. Client: Mr. Nori Phanindra. <br>
 - Residence, Chamarajpet, Bangalore. Client: Mr. Sitaram and Mrs. Shruti. <br>
 - Residence + Interiors, Bangalore. Client: Dr. Ravindran. <br>
