@@ -132,7 +132,7 @@ Articles for Annual Architectural Magazine, Oculus 2 of KLS GIT, Belgaum. <br>
 - Apartment and Interiors, Bangalore. Client: Dr. Shabbir. <br>
 - Industrial Campus, Bangalore. Client: SR Seatings. <br>
 - Corporate Office and Interiors, Bangalore. Client: SR Seatings. <br>
-Rowhouse, Bangalore. Client: Mr. Ansari. <br>
+- Rowhouse, Bangalore. Client: Mr. Ansari. <br>
 - Residence, Bangalore. Client: Mr. Mohsin. <br>
 - Residence, Bangalore. Client: Mr. Jameel. <br>
 - Corporate Office + Interiors, Bangalore. Client: Ultra Laboratories. <br>
