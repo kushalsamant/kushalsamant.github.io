@@ -17,7 +17,7 @@ These are the projects/ventures I've worked on.
 **What it can become**: The project acts as a base for future tools that link design, documentation, fabrication, and digital construction workflows.
 
 Residence, Panvel, Navi Mumbai. Client: Mrs. Sunita Tak. <br>
-_ASK_: Daily Research</a>. <br>
+_ASK_: Daily Research. <br>
 <a href="https://geometry.printify.com" rel="noopener noreferrer" target="_blank">Geometry</a>. <br>
 Residence, Renigunta. Client: Mr. Yogender Reddy. <br>
 Wine Shop, Seawoods, Navi Mumbai. Client: Mr. Sanjay Turde. <br>
