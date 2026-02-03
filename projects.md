@@ -114,16 +114,16 @@ Cultural Center - Evolved the masterplan from the site boundaries, contours and 
 Community Center - Proposed a circular form with split sections for adding a stadia. <br>
 Housing - The master-plan focused on ease of access, child safety, and large pedestrian zones coupled with event spaces. <br>
 Motel - Adapted artificial balconies to capture surrounding picturesque views. <br>
-Meditation Center - Designed a path around light and glass water tanks to create an ambience for meditation. <br>
-Residence, Kudal. Client: Prof. Uday Bhatye. <br>
-Residence, Muzaffarpur. Client: Mr. Vibhu Kumar. <br>
-Café, New Delhi. Client: Mr. Varun Ashok. <br>
-<a href="https://kushalsamant.github.io/projects/farmhouse_savaroli.html">Farmhouse, Savaroli - Client: Mrs. Heera Subhan and Mr. Sharad Yadav</a>. <br>
-Restaurant - Proposed a thin concrete slab pierced at various points by structural steel columns and oriented towards the lake while creating natural ventilation. <br>
-Web Design for Archiperspecta on Joomla/ Wordpress/ Vanilla with customization, and  improved web traffic strategies. <br>
-Brno City Square Design Competition (International). <br>
-Bungalow. Proposed a lake house with circular form and bridges as corridors. <br>
-Articles for Annual Architectural Magazine, Oculus 2 of KLS GIT, Belgaum. <br>
+- Meditation Center - Designed a path around light and glass water tanks to create an ambience for meditation. <br>
+- Residence, Kudal. Client: Prof. Uday Bhatye. <br>
+- Residence, Muzaffarpur. Client: Mr. Vibhu Kumar. <br>
+- Café, New Delhi. Client: Mr. Varun Ashok. <br>
+- <a href="https://kushalsamant.github.io/projects/farmhouse_savaroli.html">Farmhouse, Savaroli - Client: Mrs. Heera Subhan and Mr. Sharad Yadav</a>. <br>
+- Restaurant - Proposed a thin concrete slab pierced at various points by structural steel columns and oriented towards the lake while creating natural ventilation. <br>
+- Web Design for Archiperspecta on Joomla/ Wordpress/ Vanilla with customization, and  improved web traffic strategies. <br>
+- Brno City Square Design Competition (International). <br>
+- Bungalow. Proposed a lake house with circular form and bridges as corridors. <br>
+- Articles for Annual Architectural Magazine, Oculus 2 of KLS GIT, Belgaum. <br>
 
 <h2>Other Projects</h2>
 
