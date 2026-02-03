@@ -2,17 +2,21 @@
 
 These are the projects/ventures I've worked on.
 
-## sketch2bim
+## Sketch2BIM.
 
-**sketch2bim** is an experimental open-source repository exploring the translation of early-stage architectural sketch thinking into structured, machine-readable BIM logic.
+What it is: <a href="https://github.com/kushalsamant/sketch2bim" rel="noopener noreferrer" target="_blank">Sketch2BIM</a> is an open-source experiment that studies how rough architectural sketches and simple massing models can slowly become clear, structured building data.
 
-The project investigates how loose, designer-first workflows (such as SketchUp-style massing and conceptual geometry) can be incrementally formalized into parametric, rule-based building information without forcing premature rigidity or software lock-in.
+Why it exists: It tries to keep the freedom of early design thinking while avoiding the pressure to decide everything too early or get stuck inside one software.
 
-Rather than attempting direct file-format conversion, sketch2bim focuses on encoding architectural intent early in the design process, so that spatial decisions, proportions, and construction logic remain traceable as projects move toward documentation, fabrication, or automation.
+How it works: Instead of converting files directly, it records design intent like spaces, sizes, and relationships so ideas stay understandable as the project develops.
 
-The repository sits at the intersection of architectural research, scripting, and open-source construction systems, and functions as a research tool, teaching aid, and foundation for future automation workflows in BIM and digital construction.
+What it explores: It looks at how sketchy forms can turn into rules, parameters, and logic that computers can understand without killing creativity.
 
-<a href="https://github.com/kushalsamant/ask" rel="noopener noreferrer" target="_blank">_ASK_: Daily Research</a>. <br>
+Who it is for: It is useful for students, researchers, and designers who want to learn how design thinking connects to BIM, automation, and construction systems.
+
+What it can become: The project acts as a base for future tools that link design, documentation, fabrication, and digital construction workflows.
+
+_ASK_: Daily Research</a>. <br>
 <a href="https://geometry.printify.com" rel="noopener noreferrer" target="_blank">Geometry</a>. <br>
 Assistant Professor of Architecture at Dr D.Y. Patil School of Architecture, Navi Mumbai. <br>
 <a href="https://kushalsamant.github.io/projects/yourmailproject_archive.html">Your&nbsp;Mail&nbsp;Project</a>. <br>
