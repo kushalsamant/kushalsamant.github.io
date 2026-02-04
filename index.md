@@ -9,7 +9,6 @@ The studio works across residential and cultural projects, shaping spaces that a
 [About](/about.md).  
 [People](/people.md).  
 [Projects](/projects.md).  
-[Social](/social.md).
 
 ## Social
 
