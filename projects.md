@@ -16,6 +16,7 @@ These are the projects/ventures I've worked on.
 
 **What it can become**: The project acts as a base for future tools that link design, documentation, fabrication, and digital construction workflows.
 
+- Sketch2BIM. <br>
 - _ASK_: Daily Research. <br>
 - <a href="https://geometry.printify.com" rel="noopener noreferrer" target="_blank">Geometry</a>. <br>
 - Residence, Renigunta. Client: Mr. Yogender Reddy. <br>
