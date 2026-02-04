@@ -1,3 +1,4 @@
 ## Tenant House.
-
-Residence, Renigunta. Client: Mr. Yogender Reddy.
+Category: Residence. 
+Location: Renigunta.
+Client: Yogender Reddy.
