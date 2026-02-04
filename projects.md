@@ -15,7 +15,7 @@ These are the projects/ventures I've worked on.
 - <a href="https://cinemamu.in" rel="noopener noreferrer" target="_blank">Web Design + Digital Marketing + Automation for Cinemamu</a>.  
 - <a href="https://devmantechnology.com" rel="noopener noreferrer" target="_blank">Creative Content Writing at Devman Technology Solutions</a>.  
 - Visiting Faculty for Architectural Design, Architectural Graphics & Drawing Representation, AutoDesk AutoCAD at Dr D.Y. Patil College of Architecture, Navi Mumbai.  
-- Proofreading Academic Research Papers (CSR) at SVKM's NMIMS, Mumbai (NMIMS School  of Branding & Advertising).  
+- Proofreading Academic Research Papers (CSR) at SVKM's NMIMS, Mumbai (NMIMS School of Branding & Advertising).  
 - Editing Ph.D. Research Papers (Marketing) for Turn-it-in tests at SVKM's NMIMS, Mumbai (NMIMS School of Branding & Advertising).  
 - Anechoic Room, Khopoli. Client: SoundCodes.  
 - Residence, Allahabad. Client: Sadguru.  
