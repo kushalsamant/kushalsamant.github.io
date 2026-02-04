@@ -68,7 +68,7 @@ These are the projects/ventures I've worked on.
 - kNOw Smoking A short film about the experiences of the nicotine addicts. <br>
 - The Swedavia Bromma Stockholm Airport Challenge (International). <br>
 - Residence, Kudal. Client: Jayaram Londhe. <br>
-- <a href="https://kushalsamant.github.io/projects/bridging_emotions.html">Final Architectural Thesis (Bridging Emotions) - Explored the utility value of space around the Sea Link Bridge, Mumbai and proposed architectural design to treat citywide clinical depression</a>. <br>
+- <a href="https://kushalsamant.github.io/projects/bridging_emotions.html">Final Architectural Thesis (Bridging Emotions)</a> - Explored the utility value of space around the Sea Link Bridge, Mumbai and proposed architectural design to treat citywide clinical depression. <br>
 - Shortlisted for University of Westminster Design Trophy at International Rank No. 4. <br>
 - Shortlisted for Landscape Design Trophy for 2 consecutive years. <br>
 - Shortlisted for Annual NASA Design Competition for 5 consecutive years. <br>
@@ -77,7 +77,7 @@ These are the projects/ventures I've worked on.
 - Ouch - An animated film about incidents in the lives of Mumbaikars. <br>
 - Editorial Team for Annual Architectural Magazine, Oculus 5 of KLS GIT, Belgaum. <br>
 - <a href="https://kushalsamant.github.io/projects/catalytic_corridor.html" rel="noopener noreferrer" target="_blank">Catalytic Corridor - LAjournal Design Competition (Landscape, India)</a>. <br>
-- <a href="https://kushalsamant.github.io/projects/urban_insert_design.html" rel="noopener noreferrer" target="_blank">Urban Insert Design - Proposed a way to cure religious tension and ongoing riots in the Old city and the Fort, Belgaum using socio economic principles of urban design and space making</a>. <br>
+- <a href="https://kushalsamant.github.io/projects/urban_insert_design.html" rel="noopener noreferrer" target="_blank">Urban Insert Design</a> - Proposed a way to cure religious tension and ongoing riots in the Old city and the Fort, Belgaum using socio economic principles of urban design and space making. <br>
 - Book Store Interior Design - Proposed redesigning an old watch tower into a bookstore inside the military cantonment/camp area of Belgaum. <br>
 - <a href="https://kushalsamant.github.io/projects/processism.html">Processism</a>. <br>
 - Admission Brochure 2012 of KLS GIT, Belgaum. <br>
