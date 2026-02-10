@@ -1,24 +1,36 @@
 import os
-import base64
+import sys
 from pathlib import Path
 from dotenv import load_dotenv
 from together import Together
 
-# ---------- ENV ----------
+# -------------------------------------------------
+# ENV
+# -------------------------------------------------
 
 load_dotenv()
-
 API_KEY = os.getenv("TOGETHER_API_KEY")
-print("TOGETHER_API_KEY present:", bool(API_KEY))
+
+if not API_KEY:
+    print("ERROR: TOGETHER_API_KEY not found")
+    sys.exit(1)
+
+print("✔ TOGETHER_API_KEY loaded")
 
 client = Together(api_key=API_KEY)
 
-# ---------- PATHS ----------
+# -------------------------------------------------
+# PATHS
+# -------------------------------------------------
 
 PROJECTS_DIR = Path("projects")
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg"}
 
-# ---------- PROMPT ----------
+SITE_BASE_URL = "https://www.kvshvl.in"  # required for URL-based images
+
+# -------------------------------------------------
+# PROMPT (LOCKED)
+# -------------------------------------------------
 
 PROMPT = """
 You are an architect writing analytical notes for a single architectural diagram.
@@ -49,16 +61,44 @@ Output exactly in this Markdown structure:
 <3–5 sentence analytical paragraph>
 """
 
-# ---------- HELPERS ----------
+# -------------------------------------------------
+# IMAGE SELECTION LOGIC
+# -------------------------------------------------
 
-def encode_image(path: Path) -> str:
-    with open(path, "rb") as f:
-        return base64.b64encode(f.read()).decode("utf-8")
+def find_next_image():
+    print("\n🔍 Scanning /projects directory...")
 
-def generate_text_from_image(image_path: Path) -> str:
-    print("Calling Together API for:", image_path.name)
+    candidates = []
 
-    image_b64 = encode_image(image_path)
+    for img in PROJECTS_DIR.iterdir():
+        if img.suffix.lower() not in IMAGE_EXTENSIONS:
+            continue
+
+        md = img.with_suffix(".md")
+        if md.exists():
+            continue  # already processed
+
+        size_kb = img.stat().st_size / 1024
+        candidates.append((size_kb, img))
+
+    if not candidates:
+        return None
+
+    # smallest image first (4G-friendly)
+    candidates.sort(key=lambda x: x[0])
+    return candidates[0][1]
+
+# -------------------------------------------------
+# API CALL
+# -------------------------------------------------
+
+def generate_md(image_path: Path):
+    image_url = f"{SITE_BASE_URL}/projects/{image_path.name}"
+
+    print("\n📷 Selected image:", image_path.name)
+    print(f"📦 Image size: {image_path.stat().st_size // 1024} KB")
+    print("🌐 Image URL:", image_url)
+    print("🚀 Calling Together API...")
 
     response = client.chat.completions.create(
         model="ServiceNow-AI/Apriel-1.5-15b-Thinker",
@@ -69,8 +109,7 @@ def generate_text_from_image(image_path: Path) -> str:
                     {"type": "text", "text": PROMPT.strip()},
                     {
                         "type": "image",
-                        "image_base64": image_b64,
-                        "mime_type": "image/jpeg"
+                        "image_url": image_url
                     }
                 ]
             }
@@ -79,26 +118,40 @@ def generate_text_from_image(image_path: Path) -> str:
         max_tokens=700
     )
 
+    print("✅ API response received")
+
     return response.choices[0].message.content.strip()
 
-# ---------- MAIN ----------
+# -------------------------------------------------
+# MAIN (ONE IMAGE ONLY)
+# -------------------------------------------------
 
 def main():
-    images = sorted(
-        [p for p in PROJECTS_DIR.iterdir() if p.suffix.lower() in IMAGE_EXTENSIONS],
-        reverse=True
-    )
+    print("\n==============================")
+    print(" Diagram → Markdown Generator ")
+    print("==============================")
 
-    for image in images:
-        md_path = image.with_suffix(".md")
+    image = find_next_image()
 
-        if md_path.exists():
-            continue  # never overwrite
+    if not image:
+        print("\n🎉 All images already processed.")
+        return
 
-        print("Generating:", md_path.name)
+    md_path = image.with_suffix(".md")
 
-        text = generate_text_from_image(image)
-        md_path.write_text(text + "\n", encoding="utf-8")
+    try:
+        text = generate_md(image)
+    except Exception as e:
+        print("\n❌ API call failed:")
+        print(e)
+        return
+
+    md_path.write_text(text + "\n", encoding="utf-8")
+
+    print(f"\n📝 Markdown written: {md_path.name}")
+    print("⏭ Run again to process the next image.")
+
+# -------------------------------------------------
 
 if __name__ == "__main__":
     main()
