@@ -14,10 +14,9 @@ def main():
         md_path = image.with_suffix(".md")
 
         if md_path.exists():
-            continue  # never overwrite
+            continue  # never overwrite existing text
 
         print(f"Generating: {md_path.name}")
-
         text = image_to_markdown(image)
         md_path.write_text(text + "\n", encoding="utf-8")
 
