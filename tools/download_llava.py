@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 from transformers import AutoProcessor
 from transformers.models.llava import LlavaForConditionalGeneration
 
