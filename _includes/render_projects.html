@@ -1,20 +1,19 @@
-{% assign project_images = site.static_files
+{% assign diagrams = site.static_files
   | where_exp: "f", "f.path contains '/projects/'"
-  | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg'"
+  | where_exp: "f", "f.extname == '.jpg' or f.extname == '.png' or f.extname == '.jpeg'"
   | sort: "path"
   | reverse
 %}
 
-{% for img in project_images %}
-  <div class="diagram-block">
+{% for image in diagrams %}
+  {% assign md_path = image.path | replace: '.jpg', '.md' | replace: '.png', '.md' | replace: '.jpeg', '.md' %}
 
+  <div class="diagram-block">
     <img
-      src="{{ img.path }}"
-      alt="{{ img.name | replace: '_', ' ' }}"
+      src="{{ image.path }}"
+      alt="{{ image.name | replace: '_', ' ' }}"
       loading="lazy"
     >
-
-    {% assign md_path = img.path | replace: img.extname, '.md' %}
 
     {% for page in site.pages %}
       {% if page.path == md_path %}
@@ -23,6 +22,6 @@
         </div>
       {% endif %}
     {% endfor %}
-
   </div>
+
 {% endfor %}
