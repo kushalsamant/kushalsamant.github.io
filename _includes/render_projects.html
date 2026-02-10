@@ -1,47 +1,28 @@
-{% comment %}
-Renders project diagrams with their corresponding Markdown text.
-
-Rules:
-- Images live in /projects/
-- Supported image extensions: .png, .jpg, .jpeg
-- Each image may have a same-named .md file (no front matter)
-- Matching is done by exact filename (minus extension)
-- Images without .md files still render (text omitted)
-{% endcomment %}
-
 {% assign project_images = site.static_files
   | where_exp: "f", "f.path contains '/projects/'"
+  | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg'"
   | sort: "path"
   | reverse
 %}
 
-{% assign project_pages = site.pages
-  | where_exp: "p", "p.path contains '/projects/'"
-%}
+{% for img in project_images %}
+  <div class="diagram-block">
 
-{% for image in project_images %}
+    <img
+      src="{{ img.path }}"
+      alt="{{ img.name | replace: '_', ' ' }}"
+      loading="lazy"
+    >
 
-  {% if image.extname == '.png' or image.extname == '.jpg' or image.extname == '.jpeg' %}
+    {% assign md_path = img.path | replace: img.extname, '.md' %}
 
-    {% assign md_path = image.path | remove_first: '/' | replace: image.extname, '.md' %}
-    {% assign page = project_pages | where: "path", md_path | first %}
-
-    <div class="diagram-block">
-
-      <img
-        src="{{ image.path }}"
-        alt="{{ image.name | split: '.' | first }}"
-        loading="lazy"
-      >
-
-      {% if page %}
+    {% for page in site.pages %}
+      {% if page.path == md_path %}
         <div class="diagram-text">
           {{ page.content | markdownify }}
         </div>
       {% endif %}
+    {% endfor %}
 
-    </div>
-
-  {% endif %}
-
+  </div>
 {% endfor %}
