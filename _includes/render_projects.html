@@ -11,7 +11,6 @@ Rules:
 
 {% assign project_images = site.static_files
   | where_exp: "f", "f.path contains '/projects/'"
-  | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg'"
   | sort: "path"
   | reverse
 %}
@@ -22,23 +21,27 @@ Rules:
 
 {% for image in project_images %}
 
-  {% assign md_path = image.path | replace: image.extname, '.md' %}
-  {% assign page = project_pages | where: "path", md_path | first %}
+  {% if image.extname == '.png' or image.extname == '.jpg' or image.extname == '.jpeg' %}
 
-  <div class="diagram-block">
+    {% assign md_path = image.path | replace: image.extname, '.md' %}
+    {% assign page = project_pages | where: "path", md_path | first %}
 
-    <img
-      src="{{ image.path }}"
-      alt="{{ image.name | split: '.' | first }}"
-      loading="lazy"
-    >
+    <div class="diagram-block">
 
-    {% if page %}
-      <div class="diagram-text">
-        {{ page.content | markdownify }}
-      </div>
-    {% endif %}
+      <img
+        src="{{ image.path }}"
+        alt="{{ image.name | split: '.' | first }}"
+        loading="lazy"
+      >
 
-  </div>
+      {% if page %}
+        <div class="diagram-text">
+          {{ page.content | markdownify }}
+        </div>
+      {% endif %}
+
+    </div>
+
+  {% endif %}
 
 {% endfor %}
