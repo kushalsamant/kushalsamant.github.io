@@ -1,11 +1,15 @@
 import base64
+import os
 from pathlib import Path
 
 from dotenv import load_dotenv
 from together import Together
 
-# Load environment variables from .env
+# Load environment variables from .env (local) or system (prod)
 load_dotenv()
+
+# Debug: confirm key presence (safe – does not print the key)
+print("TOGETHER_API_KEY present:", bool(os.getenv("TOGETHER_API_KEY")))
 
 client = Together()
 
@@ -39,6 +43,9 @@ Output exactly in this Markdown structure:
 """
 
 def image_to_markdown(image_path: Path) -> str:
+    # 🔍 DEBUG: confirm per-image API call
+    print("Calling Together API for:", image_path.name)
+
     image_bytes = image_path.read_bytes()
     image_b64 = base64.b64encode(image_bytes).decode("utf-8")
 
