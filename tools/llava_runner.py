@@ -25,8 +25,9 @@ def run_llava(image_path: str, prompt: str) -> str:
     with torch.no_grad():
         output = model.generate(
             **inputs,
-            max_new_tokens=512,
-            do_sample=False
+            max_new_tokens=256,
+            do_sample=False,
+            num_beams=1
         )
 
     return processor.decode(output[0], skip_special_tokens=True)
