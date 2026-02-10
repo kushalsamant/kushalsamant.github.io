@@ -1,4 +1,4 @@
-# Coherence
+## Coherence
 
 If you write or work independently, you already know the problem.
 Thoughts accumulate faster than they can be revisited.
@@ -7,8 +7,6 @@ Ideas scatter across drafts, posts, and notes.
 Connections weaken. Arguments repeat. Useful contradictions get lost in volume.
 
 Over time, thinking becomes harder to hold together.
-
----
 
 ## A quarterly distillation
 
@@ -24,8 +22,6 @@ Contradictions are made visible instead of hidden.
 
 The result is a slow, readable archive of thinking over time.
 
----
-
 ## Why this exists
 
 * To reduce repetition across years of writing
@@ -36,8 +32,6 @@ The result is a slow, readable archive of thinking over time.
 This is not a feed.
 It is not optimized for attention.
 
----
-
 ## What each volume contains
 
 * A curated selection from 40–60 essays
@@ -47,16 +41,10 @@ It is not optimized for attention.
 
 Each volume stands on its own.
 
----
-
 [**View quarterly distillations**](https://kvshvl.gumroad.com/)
-
----
 
 This is a slow project.
 Released infrequently.
 Maintained deliberately.
-
----
 
 *Volumes are added as the writing accumulates.*
