@@ -14,4 +14,3 @@ The studio works across residential and cultural projects, shaping spaces that a
 {% include about.md %}
 {% include people.md %}
 {% include social.md %}
-{% include coherence.md %}
