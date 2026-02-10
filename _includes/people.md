@@ -2,135 +2,135 @@
 
 These people taught me things that I could not have learnt otherwise.
 
-A&nbsp;V,&nbsp;Suchendra. <br>
-Adams,&nbsp;Vesely. <br>
-Agarwal,&nbsp;Bharat. <br>
-Aknoji,&nbsp;Anand. <br>
-Albert,&nbsp;Thomas. <br>
-Allagui,&nbsp;Anis. <br>
-Alva,&nbsp;Praveen. <br>
-Ansari,&nbsp;Yusuf. <br>
-Anvekar,&nbsp;Rohit. <br>
-Banejee,&nbsp;Spandan. <br>
-Bansal,&nbsp;Amrita. <br>
-Barve,&nbsp;Aditya. <br>
-Barve,&nbsp;Shalmali&nbsp;Patkar. <br>
-Bhangare,&nbsp;Kaustubh. <br>
-Cervinkova,&nbsp;Katrina. <br>
-Chahal,&nbsp;Dapinder. <br>
-Chhabra,&nbsp;Vaibhav. <br>
-Chougule,&nbsp;Umesh. <br>
-Das,&nbsp;Prasoon G. <br>
-Dave,&nbsp;Poulomi. <br>
-Desai,&nbsp;Ashutosh. <br>
-Desai,&nbsp;Gauri. <br>
-Desai,&nbsp;Shirish. <br>
-Divos,&nbsp;Erika&nbsp;Jimena&nbsp;Montalvo. <br>
-Dodhia,&nbsp;Khyati. <br>
-Dolas,&nbsp;Akshay. <br>
-Dongare,&nbsp;Praveen. <br>
-Drake,&nbsp;Gemma. <br>
-D'Souza,&nbsp;Adolf. <br>
-D'Souza,&nbsp;Lloyd. <br>
-D'Souza,&nbsp;Mark. <br>
-D'Souza,&nbsp;Richard. <br>
-D'Souza,&nbsp;Winston. <br>
-Fernandes,&nbsp;Annie. <br>
-Fernando,&nbsp;Thomas. <br>
-Fuchs,&nbsp;Carl&nbsp;Justus. <br>
-Gabajiwala,&nbsp;Tasneem. <br>
-Gupta,&nbsp;HN&nbsp;Srikanth. <br>
-Gupta,&nbsp;Nikita. <br>
-Hegde,&nbsp;Pawan. <br>
-Hernandez,&nbsp;Penelope. <br>
-Ingalagi,&nbsp;Nagesh. <br>
-Jagger,&nbsp;Prashin. <br>
-Jain,&nbsp;Ankit. <br>
-Jayarajan,&nbsp;Ashwin. <br>
-Jayarajan,&nbsp;Geeta. <br>
-Jha,&nbsp;Shashank. <br>
-Joshua,&nbsp;Sneha. <br>
-Kadabi,&nbsp;Aditya. <br>
-Kalra,&nbsp;Sukhda. <br>
-Kamath,&nbsp;Deepa. <br>
-Kedia,&nbsp;Akshat. <br>
-Kenkre,&nbsp;Siddhi. <br>
-Khanolkar,&nbsp;Suyash. <br>
-Kharsati,&nbsp;Elgiva. <br>
-Khemalapure,&nbsp;Shreyank. <br>
-Khundrakpam,&nbsp;Sushilkumar. <br>
-Knight,&nbsp;Harry. <br>
-Konarikova,&nbsp;Michala. <br>
-Koutumbeerkar,&nbsp;Prashant. <br>
-Kubski,&nbsp;Kathrina. <br>
-Maheo,&nbsp;Asoni. <br>
-Maheshwari,&nbsp;Sachin. <br>
-Mahidharia,&nbsp;Anool. <br>
-Martin,&nbsp;Sara. <br>
-Masurkar,&nbsp;Jayesh. <br>
-Mathew,&nbsp;Abish. <br>
-MD,&nbsp;Mushab. <br>
-Modak,&nbsp;Balwant. <br>
-Moghe,&nbsp;Yash. <br>
-Mohandas,&nbsp;Manjusha. <br>
-Mohe,&nbsp;Sanjay. <br>
-Mohite,&nbsp;Rohit. <br>
-Mutkekar,&nbsp;Prasad. <br>
-Naik,&nbsp;Surabhi. <br>
-Nair,&nbsp;Sudeip. <br>
-Nambiar,&nbsp;EPG. <br>
-Natverlal,&nbsp;Piyush&nbsp;Prince. <br>
-Ortiz,&nbsp;Elian&nbsp;Miroslav&nbsp;Lopez. <br>
-Pai,&nbsp;Shivangi. <br>
-Patade,&nbsp;Yugandhar. <br>
-Patel,&nbsp;Anushree&nbsp;Hiren. <br>
-Patkar,&nbsp;Mandar. <br>
-Patkar,&nbsp;Pallavi. <br>
-Patkar,&nbsp;Sarthak. <br>
-Pesswani,&nbsp;Monica. <br>
-Pesswani,&nbsp;Nikita. <br>
-Philip,&nbsp;Sebastian. <br>
-Pinishetti,&nbsp;Srushti. <br>
-Poojary,&nbsp;Shivani. <br>
-Pradeep,&nbsp;Ankita. <br>
-Quimson,&nbsp;Ezra&nbsp;Leih. <br>
-Rai,&nbsp;Nitya. <br>
-Rana,&nbsp;Pradeep. <br>
-Rastogi,&nbsp;Krishna. <br>
-Rathod,&nbsp;Shraddha. <br>
-Renteria,&nbsp;Eric&nbsp;Gregory&nbsp;Lovell. <br>
-Rohida,&nbsp;Sakshi. <br>
-Saboji,&nbsp;Sharan. <br>
-Sadalage,&nbsp;Vishal. <br>
-Sahai,&nbsp;Arjit. <br>
-Salvi,&nbsp;Ashwini. <br>
-Samant,&nbsp;Dhananjay. <br>
-Samant,&nbsp;Kunal. <br>
-Samant,&nbsp;Mitalee. <br>
-Samant,&nbsp;Neha. <br>
-Samant,&nbsp;Nilima. <br>
-Samant,&nbsp;Raghunandan. <br>
-Samant,&nbsp;Shirish. <br>
-Sangolli,&nbsp;Padma. <br>
-Sawalkar,&nbsp;Prajakta. <br>
-Sethi,&nbsp;Kaushal. <br>
-Shah,&nbsp;Prachi. <br>
-Sharma,&nbsp;Akash. <br>
-Shetty,&nbsp;Chetan. <br>
-Shiroshi,&nbsp;Akshay. <br>
-Sridhar,&nbsp;Madhusudhan. <br>
-Sridharan,&nbsp;Shruti. <br>
-Swat,&nbsp;Justyna. <br>
-Talreja,&nbsp;Pooja. <br>
-Tavargeri,&nbsp;Avani. <br>
-Thelekkat,&nbsp;Jayarajan. <br>
-Thelekkat,&nbsp;Mohandas. <br>
-Timmermans,&nbsp;Thies. <br>
-Upasani,&nbsp;Sonali. <br>
-Van Gelder,&nbsp;Elke. <br>
-Varadkar,&nbsp;Neha. <br>
-Varadkar,&nbsp;Ramchandra. <br>
-Varadkar,&nbsp;Santosh. <br>
-Vora,&nbsp;Shyam. <br>
-Wadhwani,&nbsp;Sakshi. <br>
+A&nbsp;V,&nbsp;Suchendra.  
+Adams,&nbsp;Vesely.  
+Agarwal,&nbsp;Bharat.  
+Aknoji,&nbsp;Anand.  
+Albert,&nbsp;Thomas.  
+Allagui,&nbsp;Anis.  
+Alva,&nbsp;Praveen.  
+Ansari,&nbsp;Yusuf.  
+Anvekar,&nbsp;Rohit.  
+Banejee,&nbsp;Spandan.  
+Bansal,&nbsp;Amrita.  
+Barve,&nbsp;Aditya.  
+Barve,&nbsp;Shalmali&nbsp;Patkar.  
+Bhangare,&nbsp;Kaustubh.  
+Cervinkova,&nbsp;Katrina.  
+Chahal,&nbsp;Dapinder.  
+Chhabra,&nbsp;Vaibhav.  
+Chougule,&nbsp;Umesh.  
+Das,&nbsp;Prasoon G.  
+Dave,&nbsp;Poulomi.  
+Desai,&nbsp;Ashutosh.  
+Desai,&nbsp;Gauri.  
+Desai,&nbsp;Shirish.  
+Divos,&nbsp;Erika&nbsp;Jimena&nbsp;Montalvo.  
+Dodhia,&nbsp;Khyati.  
+Dolas,&nbsp;Akshay.  
+Dongare,&nbsp;Praveen.  
+Drake,&nbsp;Gemma.  
+D'Souza,&nbsp;Adolf.  
+D'Souza,&nbsp;Lloyd.  
+D'Souza,&nbsp;Mark.  
+D'Souza,&nbsp;Richard.  
+D'Souza,&nbsp;Winston.  
+Fernandes,&nbsp;Annie.  
+Fernando,&nbsp;Thomas.  
+Fuchs,&nbsp;Carl&nbsp;Justus.  
+Gabajiwala,&nbsp;Tasneem.  
+Gupta,&nbsp;HN&nbsp;Srikanth.  
+Gupta,&nbsp;Nikita.  
+Hegde,&nbsp;Pawan.  
+Hernandez,&nbsp;Penelope.  
+Ingalagi,&nbsp;Nagesh.  
+Jagger,&nbsp;Prashin.  
+Jain,&nbsp;Ankit.  
+Jayarajan,&nbsp;Ashwin.  
+Jayarajan,&nbsp;Geeta.  
+Jha,&nbsp;Shashank.  
+Joshua,&nbsp;Sneha.  
+Kadabi,&nbsp;Aditya.  
+Kalra,&nbsp;Sukhda.  
+Kamath,&nbsp;Deepa.  
+Kedia,&nbsp;Akshat.  
+Kenkre,&nbsp;Siddhi.  
+Khanolkar,&nbsp;Suyash.  
+Kharsati,&nbsp;Elgiva.  
+Khemalapure,&nbsp;Shreyank.  
+Khundrakpam,&nbsp;Sushilkumar.  
+Knight,&nbsp;Harry.  
+Konarikova,&nbsp;Michala.  
+Koutumbeerkar,&nbsp;Prashant.  
+Kubski,&nbsp;Kathrina.  
+Maheo,&nbsp;Asoni.  
+Maheshwari,&nbsp;Sachin.  
+Mahidharia,&nbsp;Anool.  
+Martin,&nbsp;Sara.  
+Masurkar,&nbsp;Jayesh.  
+Mathew,&nbsp;Abish.  
+MD,&nbsp;Mushab.  
+Modak,&nbsp;Balwant.  
+Moghe,&nbsp;Yash.  
+Mohandas,&nbsp;Manjusha.  
+Mohe,&nbsp;Sanjay.  
+Mohite,&nbsp;Rohit.  
+Mutkekar,&nbsp;Prasad.  
+Naik,&nbsp;Surabhi.  
+Nair,&nbsp;Sudeip.  
+Nambiar,&nbsp;EPG.  
+Natverlal,&nbsp;Piyush&nbsp;Prince.  
+Ortiz,&nbsp;Elian&nbsp;Miroslav&nbsp;Lopez.  
+Pai,&nbsp;Shivangi.  
+Patade,&nbsp;Yugandhar.  
+Patel,&nbsp;Anushree&nbsp;Hiren.  
+Patkar,&nbsp;Mandar.  
+Patkar,&nbsp;Pallavi.  
+Patkar,&nbsp;Sarthak.  
+Pesswani,&nbsp;Monica.  
+Pesswani,&nbsp;Nikita.  
+Philip,&nbsp;Sebastian.  
+Pinishetti,&nbsp;Srushti.  
+Poojary,&nbsp;Shivani.  
+Pradeep,&nbsp;Ankita.  
+Quimson,&nbsp;Ezra&nbsp;Leih.  
+Rai,&nbsp;Nitya.  
+Rana,&nbsp;Pradeep.  
+Rastogi,&nbsp;Krishna.  
+Rathod,&nbsp;Shraddha.  
+Renteria,&nbsp;Eric&nbsp;Gregory&nbsp;Lovell.  
+Rohida,&nbsp;Sakshi.  
+Saboji,&nbsp;Sharan.  
+Sadalage,&nbsp;Vishal.  
+Sahai,&nbsp;Arjit.  
+Salvi,&nbsp;Ashwini.  
+Samant,&nbsp;Dhananjay.  
+Samant,&nbsp;Kunal.  
+Samant,&nbsp;Mitalee.  
+Samant,&nbsp;Neha.  
+Samant,&nbsp;Nilima.  
+Samant,&nbsp;Raghunandan.  
+Samant,&nbsp;Shirish.  
+Sangolli,&nbsp;Padma.  
+Sawalkar,&nbsp;Prajakta.  
+Sethi,&nbsp;Kaushal.  
+Shah,&nbsp;Prachi.  
+Sharma,&nbsp;Akash.  
+Shetty,&nbsp;Chetan.  
+Shiroshi,&nbsp;Akshay.  
+Sridhar,&nbsp;Madhusudhan.  
+Sridharan,&nbsp;Shruti.  
+Swat,&nbsp;Justyna.  
+Talreja,&nbsp;Pooja.  
+Tavargeri,&nbsp;Avani.  
+Thelekkat,&nbsp;Jayarajan.  
+Thelekkat,&nbsp;Mohandas.  
+Timmermans,&nbsp;Thies.  
+Upasani,&nbsp;Sonali.  
+Van Gelder,&nbsp;Elke.  
+Varadkar,&nbsp;Neha.  
+Varadkar,&nbsp;Ramchandra.  
+Varadkar,&nbsp;Santosh.  
+Vora,&nbsp;Shyam.  
+Wadhwani,&nbsp;Sakshi.  
 Yalgi,&nbsp;Mohit.
