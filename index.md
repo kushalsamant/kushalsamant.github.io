@@ -11,6 +11,6 @@ The studio works across residential and cultural projects, shaping spaces that a
 
 {% include render_projects.html %}
 
-[About](/about.md).  
-[People](/people.md).  
-{% include_relative social.md %}
+[About](/_includes/about.md).  
+[People](/_includes/people.md).  
+{% include social.md %}
