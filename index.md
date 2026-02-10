@@ -9,20 +9,9 @@ Kushal Samant Architects is an architecture and interior design practice rooted 
 
 The studio works across residential and cultural projects, shaping spaces that are precise, enduring, and deeply tied to everyday life.
 
----
-
 {% include render_projects.html %}
 
----
-
-## About
 {% include about.md %}
-
-## People
 {% include people.md %}
-
-## Social
 {% include social.md %}
-
-## Coherence
 {% include coherence.md %}
