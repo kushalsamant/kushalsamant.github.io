@@ -1,6 +1,11 @@
 import base64
 from pathlib import Path
+
+from dotenv import load_dotenv
 from together import Together
+
+# Load environment variables from .env
+load_dotenv()
 
 client = Together()
 
