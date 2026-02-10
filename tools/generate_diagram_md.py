@@ -1,5 +1,5 @@
-import os
 from pathlib import Path
+from llava_runner import run_llava
 
 # -------- CONFIG --------
 
@@ -35,35 +35,36 @@ Output exactly in this Markdown structure:
 <3–5 sentence analytical paragraph>
 """
 
-# -------- MODEL CALL PLACEHOLDER --------
+# -------- GENERATION --------
 
 def generate_text_from_image(image_path: Path) -> str:
-    """
-    Replace this function with your actual vision-model call.
-    It must return Markdown text ONLY.
-    """
-    raise NotImplementedError(
-        "Connect this to a vision-language model (GPT-4 Vision, LLaVA, etc.)"
-    )
+    return run_llava(str(image_path), PROMPT)
 
-# -------- MAIN LOGIC --------
+# -------- MAIN --------
 
 def main():
+    if not PROJECTS_DIR.exists():
+        print("Error: /projects directory not found.")
+        return
+
     images = [
         p for p in PROJECTS_DIR.iterdir()
         if p.suffix.lower() in IMAGE_EXTENSIONS
     ]
 
+    if not images:
+        print("No images found in /projects.")
+        return
+
     for image in images:
         md_path = image.with_suffix(".md")
 
         if md_path.exists():
-            continue  # do not overwrite
+            continue  # do not overwrite existing files
 
         print(f"Generating: {md_path.name}")
 
         text = generate_text_from_image(image)
-
         md_path.write_text(text.strip() + "\n", encoding="utf-8")
 
 if __name__ == "__main__":
