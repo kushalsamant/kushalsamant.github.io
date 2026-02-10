@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+
+# --- Virtual environments ---
+tools/venv/
+
+# --- Hugging Face / ML models ---
+tools/models/
+**/models--*/
+
+# --- Hugging Face cache (Windows) ---
+.cache/
+.cache/huggingface/
+**/.cache/
+
+# --- PyTorch / Torch artifacts ---
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.index.json
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
+
+# --- Temporary files ---
+*.tmp
+*.bak
