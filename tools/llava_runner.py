@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 import torch
 from PIL import Image
 from transformers import AutoProcessor
