@@ -5,7 +5,7 @@ from transformers import AutoProcessor
 from transformers.models.llava import LlavaForConditionalGeneration
 
 MODEL_ID = "llava-hf/llava-1.5-7b-hf"
-CACHE_DIR = "tools/models"
+CACHE_DIR = "C:/Users/ADMIN/.ollama/models"
 
 print("Downloading processor...")
 AutoProcessor.from_pretrained(MODEL_ID, cache_dir=CACHE_DIR)
