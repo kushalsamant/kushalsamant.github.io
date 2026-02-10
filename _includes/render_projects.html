@@ -23,7 +23,7 @@ Rules:
 
   {% if image.extname == '.png' or image.extname == '.jpg' or image.extname == '.jpeg' %}
 
-    {% assign md_path = image.path | replace: image.extname, '.md' %}
+    {% assign md_path = image.path | remove_first: '/' | replace: image.extname, '.md' %}
     {% assign page = project_pages | where: "path", md_path | first %}
 
     <div class="diagram-block">
