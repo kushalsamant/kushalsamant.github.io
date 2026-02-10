@@ -13,9 +13,4 @@ The studio works across residential and cultural projects, shaping spaces that a
 
 [About](/about.md).  
 [People](/people.md).  
-
-<!--
-{% include about.md %}
-{% include people.md %}
--->
 {% include social.md %}
