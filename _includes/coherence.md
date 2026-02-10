@@ -1,4 +1,4 @@
-# Coherence
+## Coherence
 
 If you write or work independently, you already know the problem.
 Thoughts accumulate faster than they can be revisited.
