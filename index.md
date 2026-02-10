@@ -11,15 +11,18 @@ The studio works across residential and cultural projects, shaping spaces that a
 
 ---
 
-{% include_relative render_projects.html %}
+{% include render_projects.html %}
 
 ---
 
 ## About
-{% include_relative about.md %}
+{% include about.md %}
 
 ## People
-{% include_relative people.md %}
+{% include people.md %}
 
 ## Social
-{% include_relative social.md %}
+{% include social.md %}
+
+## Coherence
+{% include coherence.md %}
