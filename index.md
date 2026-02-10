@@ -8,7 +8,6 @@ Kushal Samant Architects is a public archive of architectural thinking and relat
 
 {% include render_projects.html %}
 
-[About](/about.md).  
-[People](/people.md).  
-
+{% include about.md %}
+{% include people.md %}
 {% include social.md %}
