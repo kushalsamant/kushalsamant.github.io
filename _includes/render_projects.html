@@ -13,13 +13,11 @@
 
       {% assign md_path = file.path | replace: ".jpg", ".md" %}
 
-      {% for static in site.static_files %}
-        {% if static.path == md_path %}
-
+      {% for page in site.pages %}
+        {% if page.path == md_path %}
           <div class="diagram-text">
-            {% include_relative {{ static.path }} %}
+            {{ page.content | markdownify }}
           </div>
-
         {% endif %}
       {% endfor %}
 
