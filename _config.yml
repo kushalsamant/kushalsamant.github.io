@@ -6,3 +6,6 @@ baseurl: ""
 url: "https://www.kvshvl.in"
 show_downloads: true
 google_analytics: G-MX1SJPM4HE
+collections:
+  diagrams:
+    output: false
