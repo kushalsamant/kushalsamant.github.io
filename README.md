@@ -11,8 +11,6 @@ The system is designed to be:
 - local-first  
 - safe to run repeatedly  
 
----
-
 ## What this does
 
 - Scans the `/projects` directory  
@@ -28,8 +26,6 @@ Each `.md` file:
 - does not reference other drawings  
 - can be rendered directly by Jekyll  
 
----
-
 ## What this does not do
 
 - No project summaries  
@@ -39,12 +35,9 @@ Each `.md` file:
 - No database  
 - No background workers  
 
----
-
 ## Directory structure (relevant parts)
 
 ```
-
 projects/
 diagram_01.jpg
 diagram_01.md
@@ -56,10 +49,7 @@ vision_runner.py
 diagram_prompt.txt
 
 .env
-
-````
-
----
+```
 
 ## Environment configuration
 
@@ -88,8 +78,6 @@ BATCH_SIZE=1
 
 Nothing else is required.
 
----
-
 ## How to run
 
 From the repository root:
@@ -103,8 +91,6 @@ python tools/generate_diagram_md.py
 * Safe to run repeatedly
 * Skips images already processed
 
----
-
 ## Prompt control
 
 The analytical structure is defined in:
@@ -115,8 +101,6 @@ tools/diagram_prompt.txt
 
 Changing this file affects **future outputs only**.
 
----
-
 ## Why this exists
 
 To separate:
@@ -126,8 +110,6 @@ To separate:
 
 This avoids project-level narration and keeps diagram thinking legible over time.
 
----
-
 ## Intentional limits
 
 This system is intentionally simple.
@@ -135,8 +117,6 @@ This system is intentionally simple.
 If a feature is not clearly necessary, it is not included.
 
 That is a design decision.
-
----
 
 ## Setup
 
