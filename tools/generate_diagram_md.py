@@ -4,59 +4,85 @@ from pathlib import Path
 from dotenv import load_dotenv
 from vision_runner import run_vision
 
+# ==============================
+# SETUP
+# ==============================
+
 load_dotenv()
 
 PROJECTS_DIR = Path(os.getenv("PROJECTS_DIR", "projects"))
-BASE_IMAGE_URL = os.getenv("BASE_IMAGE_URL")
-PROMPT_FILE = os.getenv("PROMPT_FILE")
-BATCH_SIZE = int(os.getenv("BATCH_SIZE", "1"))
-
-if not BASE_IMAGE_URL:
-    raise RuntimeError("BASE_IMAGE_URL not set in .env")
-
-if not PROMPT_FILE:
-    raise RuntimeError("PROMPT_FILE not set in .env")
-
-PROMPT = Path(PROMPT_FILE).read_text(encoding="utf-8")
+BASE_IMAGE_URL = os.getenv("BASE_IMAGE_URL", "https://www.kvshvl.in/projects")
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png"}
 
-def get_unprocessed_images(limit: int):
+PROMPT_FILE = Path(os.getenv("PROMPT_FILE", "tools/diagram_prompt.txt"))
+PROMPT = PROMPT_FILE.read_text(encoding="utf-8")
+
+FRONT_MATTER = """---
+layout: none
+---
+"""
+
+print("✔ TOGETHER_API_KEY loaded\n")
+
+# ==============================
+# HELPERS
+# ==============================
+
+def get_next_image():
     images = [
         p for p in PROJECTS_DIR.iterdir()
         if p.suffix.lower() in IMAGE_EXTENSIONS
-        and not p.with_suffix(".md").exists()
+        and not Path("_projects", p.with_suffix(".md").name).exists()
     ]
     images.sort(key=lambda p: p.stat().st_size)
-    return images[:limit]
+    return images[0] if images else None
+
+
+# ==============================
+# MAIN
+# ==============================
 
 def main():
-    print("Diagram → Markdown Generator")
-    print(f"Batch size: {BATCH_SIZE}\n")
+    print("==============================")
+    print(" Diagram → Markdown Generator ")
+    print("==============================\n")
 
-    images = get_unprocessed_images(BATCH_SIZE)
+    print(" Scanning /projects directory...\n")
 
-    if not images:
-        print("No images left to process.")
+    image = get_next_image()
+
+    if not image:
+        print(" No images left to process.")
         return
 
-    for idx, image in enumerate(images, start=1):
-        md_path = image.with_suffix(".md")
-        image_url = f"{BASE_IMAGE_URL}/{image.name}"
+    diagrams_dir = Path("_projects")
+    diagrams_dir.mkdir(exist_ok=True)
 
-        print(f"[{idx}/{len(images)}] Processing: {image.name}")
-        print(f"Image URL: {image_url}")
+    md_path = diagrams_dir / image.with_suffix(".md").name
+    image_url = f"{BASE_IMAGE_URL}/{image.name}"
 
-        try:
-            text = run_vision(image_url, PROMPT)
-        except Exception as e:
-            print("Vision inference failed")
-            print(e)
-            sys.exit(1)
+    print(f" Selected image: {image.name}")
+    print(f" Image size: {image.stat().st_size // 1024} KB")
+    print(f" Image URL: {image_url}\n")
 
-        md_path.write_text(text + "\n", encoding="utf-8")
-        print(f"Generated: {md_path.name}\n")
+    print(f"Calling Together Vision API for: {image.name}")
 
-    print("Batch complete.")
+    try:
+        body = run_vision(image_url, PROMPT)
+    except Exception as e:
+        print("\n Vision inference failed.")
+        print(e)
+        sys.exit(1)
+
+    md_path.write_text(
+        FRONT_MATTER + "\n" + body.strip() + "\n",
+        encoding="utf-8"
+    )
+
+    print("\n Markdown generated:")
+    print(f"   {md_path}")
+    print("\n Run again to process the next image.\n")
+
 
 if __name__ == "__main__":
     main()
