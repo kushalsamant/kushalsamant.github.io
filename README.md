@@ -2,7 +2,7 @@
 
 This repository contains a small system for generating **diagram-specific architectural notes** from images.
 
-Each diagram image in `/projects` is paired with a `.md` file containing analytical text written against a fixed prompt structure.
+Each diagram image in `/diagrams` is paired with a `.md` file containing analytical text written against a fixed prompt structure.
 
 The system is designed to be:
 
@@ -13,7 +13,7 @@ The system is designed to be:
 
 ## What this does
 
-- Scans the `/projects` directory  
+- Scans the `/diagrams` directory  
 - Finds diagram images without a corresponding `.md` file  
 - Selects the **smallest unprocessed image first**  
 - Sends the image (via URL) and a fixed prompt to a vision-language model  
@@ -38,7 +38,7 @@ Each `.md` file:
 ## Directory structure (relevant parts)
 
 ```
-projects/
+diagrams/
 diagram_01.jpg
 diagram_01.md
 diagram_02.jpg
@@ -69,8 +69,8 @@ TOGETHER_MODEL_ID=Qwen/Qwen3-VL-8B-Instruct
 TOGETHER_TIMEOUT=120
 TOGETHER_RETRIES=2
 
-PROJECTS_DIR=projects
-BASE_IMAGE_URL=https://www.kvshvl.in/projects
+DIAGRAMS_DIR=diagrams
+BASE_IMAGE_URL=https://www.kvshvl.in/diagrams
 PROMPT_FILE=tools/diagram_prompt.txt
 
 BATCH_SIZE=1

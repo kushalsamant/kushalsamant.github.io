@@ -5,26 +5,19 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
-TOGETHER_API_URL = os.getenv("TOGETHER_API_URL")
+API_KEY = os.getenv("TOGETHER_API_KEY")
+API_URL = os.getenv("TOGETHER_API_URL")
 MODEL_ID = os.getenv("TOGETHER_MODEL_ID")
-
 TIMEOUT = int(os.getenv("TOGETHER_TIMEOUT", "120"))
 RETRIES = int(os.getenv("TOGETHER_RETRIES", "2"))
 
-if not TOGETHER_API_KEY:
-    raise RuntimeError("TOGETHER_API_KEY not set")
-
-if not TOGETHER_API_URL:
-    raise RuntimeError("TOGETHER_API_URL not set")
-
-if not MODEL_ID:
-    raise RuntimeError("TOGETHER_MODEL_ID not set")
+assert API_KEY, "TOGETHER_API_KEY not set"
 
 HEADERS = {
-    "Authorization": f"Bearer {TOGETHER_API_KEY}",
+    "Authorization": f"Bearer {API_KEY}",
     "Content-Type": "application/json",
 }
+
 
 def run_vision(image_url: str, prompt: str) -> str:
     payload = {
@@ -45,23 +38,18 @@ def run_vision(image_url: str, prompt: str) -> str:
 
     for attempt in range(1, RETRIES + 1):
         try:
-            print(f"Vision inference attempt {attempt}")
-
+            print(f" Calling Together Vision API (attempt {attempt})")
             response = requests.post(
-                TOGETHER_API_URL,
+                API_URL,
                 headers=HEADERS,
                 json=payload,
                 timeout=TIMEOUT,
             )
-
             response.raise_for_status()
             data = response.json()
-
             return data["choices"][0]["message"]["content"].strip()
 
         except Exception as e:
-            print(f"Vision call failed: {e}")
-            if attempt < RETRIES:
-                time.sleep(5)
-            else:
+            if attempt >= RETRIES:
                 raise
+            time.sleep(5)
