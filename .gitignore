@@ -1,52 +1,9 @@
-# ==============================
-# Python bytecode
-# ==============================
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.egg-info/
-
-# ==============================
-# Virtual environments
-# ==============================
-.venv/
-venv/
-tools/venv/
-
-# ==============================
-# Environment & secrets
-# ==============================
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
 .env
-
-# ==============================
-# ML models & artifacts
-# ==============================
-tools/models/
-**/models--*/
-*.pt
-*.pth
-*.bin
-*.safetensors
-*.index.json
-
-# ==============================
-# Hugging Face cache
-# ==============================
-.cache/
-**/.cache/
-.cache/huggingface/
-
-# ==============================
-# Logs & temporary files
-# ==============================
-*.log
-*.tmp
-*.bak
-
-# ==============================
-# OS-generated files
-# ==============================
+__pycache__
+*.pyc
 .DS_Store
-Thumbs.db
-desktop.ini
