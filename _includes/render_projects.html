@@ -1,24 +1,26 @@
-{% assign files = site.static_files | sort: "path" | reverse %}
+{% assign images = site.static_files | where_exp: "f", "f.path contains '/projects/'" | sort: "path" | reverse %}
 
-{% for file in files %}
-  {% if file.path contains "/projects/" and file.extname == ".jpg" or file.extname == ".png" %}
+{% for image in images %}
+  {% if image.extname == ".jpg" or image.extname == ".jpeg" or image.extname == ".png" %}
 
     <div class="diagram-block">
+
       <img
-        src="{{ file.path }}"
-        alt="{{ file.name }}"
+        src="{{ image.path }}"
+        alt="{{ image.name }}"
         loading="lazy"
       >
 
-      {% assign md_path = file.path | replace: ".jpg", ".md" | replace: ".png", ".md" %}
+      {% assign stem = image.name | remove: image.extname %}
 
-      {% for page in site.pages %}
-        {% if page.path == md_path %}
+      {% for diagram in site.diagrams %}
+        {% if diagram.path contains stem %}
           <div class="diagram-text">
-            {{ page.content | markdownify }}
+            {{ diagram.content }}
           </div>
         {% endif %}
       {% endfor %}
+
     </div>
 
   {% endif %}
