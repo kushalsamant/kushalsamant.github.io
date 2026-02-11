@@ -1,6 +1,7 @@
 ---
 layout: default
 title: kvshvl
+markdown: kramdown
 ---
 
 # Kushal Samant Architects
