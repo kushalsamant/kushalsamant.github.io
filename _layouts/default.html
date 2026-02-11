@@ -1,147 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) begins -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GC9X1GXL67"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC9X1GXL67"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GC9X1GXL67');
+  </script>
 
-  gtag('config', 'G-GC9X1GXL67');
-</script>
-<!-- Google tag (gtag.js) ends -->
   <meta charset="UTF-8" />
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <style>
-    :root {
-      --text-primary: #888888;
-      --text-muted: #f12345;
-      --bg: #ffffff;
-      --accent: #aaaaaa;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      font-size: clamp(15px, 1.2vw, 18px);
-    }
-
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.65;
-      color: var(--text-primary);
-      background: var(--bg);
-      padding: 1.5rem;
-    }
-
-    main {
-      max-width: 72ch;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 1.6rem;
-    }
-
-    h1, h2, h3 {
-      font-weight: 500;
-      line-height: 1.25;
-      color: var(--text-primary);
-    }
-
-    h1 {
-      font-size: clamp(2rem, 4vw, 2.8rem);
-    }
-
-    h2 {
-      font-size: clamp(1.4rem, 3vw, 1.9rem);
-    }
-
-    h3 {
-      font-size: 1.15rem;
-    }
-
-    p {
-      max-width: 65ch;
-    }
-
-    ul {
-      padding-left: 1.2rem;
-    }
-
-    li {
-      margin-bottom: 0.4rem;
-    }
-
-    a {
-      color: var(--text-primary);
-      text-decoration: none;
-      border-bottom: 1px solid var(--text-muted);
-    }
-
-    a:hover {
-      border-color: var(--accent);
-    }
-
-    .cta {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.55rem 0.9rem;
-      background: var(--accent);
-      color: #ffffff;
-      font-weight: 500;
-      border-radius: 0.35rem;
-      width: fit-content;
-    }
-
-    footer {
-      margin-top: 4rem;
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }
-
-    /* Responsive spacing */
-    @media (min-width: 768px) {
-      body {
-        padding: 3rem;
-      }
-
-      main {
-        gap: 2rem;
-      }
-    }
-
-    @media (min-width: 1200px) {
-      main {
-        max-width: 80ch;
-      }
-    }
-
-        /* Diagram blocks */
-
-        .diagram-block {
-      margin: 3rem 0;
-    }
-
-    .diagram-block img {
-      display: block;
-      width: 100%;
-      height: auto;
-      margin-bottom: 1rem;
-    }
-
-    .diagram-text {
-      max-width: 65ch;
-    }
-
-  </style>
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
