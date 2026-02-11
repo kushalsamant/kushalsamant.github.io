@@ -6,14 +6,14 @@ layout: none
 Axonometric section revealing structural and spatial organization
 
 ## Spatial focus
-- Floor plan arrangement
-- Vertical structural support
-- Exterior envelope treatment
+- Ground plane and elevation relationship
+- Interior circulation and room demarcation
+- Vertical support and enclosure system
 
 ## Diagrammatic ideas
-- Layered representation of enclosure and void
-- Structural framing as spatial determinant
-- Isometric perspective as analytical tool
+- Layered representation of structural and spatial elements
+- Contrast between solid and void through line weight and sectioning
+- Isometric perspective as a tool for spatial clarity
 
 ## Reading
-The diagram presents a resolved spatial configuration where the structural grid defines both the planar divisions and the vertical articulation. The thickened lines demarcate primary circulation and spatial thresholds, while the vertical elements establish a rhythmic pattern that anchors the form. The exterior envelope is rendered as a continuous, articulated surface that responds to the internal spatial logic. The isometric perspective allows the viewer to perceive the interplay between solid and void without hierarchical emphasis, revealing the building as a composite of discrete yet interconnected volumes. The diagram functions as a spatial syntax, where the relationships between planes, supports, and openings are made explicit through proportional and linear relationships.
+The diagram establishes a clear hierarchy through the manipulation of line weight and sectioning, differentiating structural supports from interior partitions. The vertical elements are rendered with consistent thickness and spacing, suggesting a modular system. The ground plane is presented as a continuous surface, while the building’s elevation is articulated through a dense, rhythmic pattern of vertical lines. The interior is sectioned to reveal room boundaries and circulation paths without explicit labeling, relying on implied spatial logic. The perspective is chosen to maintain clarity of form while allowing the viewer to perceive depth and spatial relationships simultaneously.

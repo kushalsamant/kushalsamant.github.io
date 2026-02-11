@@ -3,17 +3,17 @@ layout: none
 ---
 
 ## Diagram role
-Sectional isometric representation of a multi-level spatial assembly
+Sectional isometric representation of spatial hierarchy and structural framing
 
 ## Spatial focus
 - Vertical circulation path
-- Interior enclosure boundaries
-- Ground plane relationship
+- Interior room division
+- Ground plane adjacency
 
 ## Diagrammatic ideas
-- Layered spatial demarcation through line weight contrast
-- Structural hierarchy expressed via intersecting planes
-- Depth modulation through receding grid patterns
+- Layered spatial sequencing
+- Framing as spatial delimiter
+- Structural continuity through elevation
 
 ## Reading
-The diagram establishes a clear vertical sequence through the contrast of thick and thin lines, defining circulation as a dominant axis. The grid pattern on the floor and ceiling planes provides a consistent spatial reference while the vertical elements interrupt this uniformity to create thresholds. The relationship between the raised platform and ground level is mediated by the structural supports, which anchor the upper volume while allowing visual and physical permeability. The diagram’s precision in line treatment suggests a methodical approach to spatial organization, where each element’s placement reinforces the overall structural logic.
+The diagram establishes a clear vertical progression through the use of stepped transitions and continuous framing elements. Spatial thresholds are defined by the interplay of solid and void, where structural members simultaneously articulate boundaries and support circulation. The ground plane is rendered as a distinct datum, establishing orientation and scale relative to the elevated volumes. The repetition of vertical elements creates a rhythmic pattern that reinforces the diagram’s hierarchical organization. The sectional perspective reveals the spatial logic of enclosure and access without relying on surface representation.

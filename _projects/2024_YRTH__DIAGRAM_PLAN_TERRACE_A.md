@@ -6,14 +6,14 @@ layout: none
 Boundary definition for a structural grid system
 
 ## Spatial focus
-- Vertical plane orientation
-- Upper horizontal datum
-- Lower horizontal datum
+- Vertical plane alignment
+- Horizontal plane alignment
+- Grid intersection points
 
 ## Diagrammatic ideas
-- Grid alignment with datum lines
-- Vertical and horizontal registration points
-- Spatial partitioning through intersecting lines
+- Layered structural framing
+- Spatial partitioning through repetition
+- Absence as spatial marker
 
 ## Reading
-The diagram establishes a vertical plane defined by a grid system that intersects with two horizontal datum lines. The grid’s regularity creates a spatial framework where vertical elements are aligned to horizontal references. The datum lines serve as fixed spatial anchors, defining the upper and lower limits of the plane’s operational scope. The intersection points of the grid with the datum lines create discrete spatial coordinates, suggesting a system for precise placement or measurement. The vertical plane’s extent is bounded by the grid’s vertical edges, which are aligned with the datum lines, reinforcing the diagram’s function as a spatial reference system.
+The diagram establishes a vertical boundary through a dashed line that defines the extent of a structural grid. Within this boundary, a finer grid system is superimposed, indicating a hierarchical relationship between primary and secondary framing. The grid’s termination at the boundary suggests a fixed spatial limit. The absence of content within the boundary’s lower section implies a void or non-structural condition. The diagram communicates spatial constraint through the precise alignment and termination of grid lines.

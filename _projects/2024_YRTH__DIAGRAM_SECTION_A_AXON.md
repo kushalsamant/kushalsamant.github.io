@@ -6,14 +6,14 @@ layout: none
 Axonometric section revealing structural and spatial organization
 
 ## Spatial focus
-- Ground plane and street edge
-- Interior circulation and vertical access
-- Enclosure and facade articulation
+- Ground-level circulation and support
+- Vertical circulation and access
+- Enclosure and facade treatment
 
 ## Diagrammatic ideas
-- Layering of structural elements and spatial voids
-- Vertical hierarchy through stair placement and column grid
-- Contrast between opaque mass and open circulation paths
+- Layering of structural and spatial elements
+- Emphasis on verticality through stair placement
+- Contrast between solid and void in massing
 
 ## Reading
-The diagram establishes a clear vertical sequence through the placement of stairs and the elevation of the upper level, creating a spatial hierarchy that directs movement. Structural columns are arranged in a regular grid, supporting the floor slabs and defining interior zones while allowing visual continuity. The facade is articulated through a repetitive vertical element, which both encloses and defines the building’s form. The section reveals the building’s relationship to the street, with the ground floor partially open to the public realm. The contrast between the solid mass of the upper level and the open lower level emphasizes the building’s spatial program and structural logic.
+The diagram establishes a clear hierarchy of spatial and structural components through the use of contrasting line weights and sectional clarity. The primary structural frame is rendered with bold, unbroken lines that anchor the composition, while interior partitions and finishes are delineated with finer, more fragmented lines. The stair assembly functions as both a vertical connector and a spatial generator, its placement and form dictating the building’s vertical articulation. The facade treatment, expressed through a dense vertical grid, creates a rhythmic pattern that contrasts with the open, column-supported ground plane. The section reveals how circulation, structure, and enclosure are interwoven, with the stair becoming a key node that organizes both vertical movement and spatial hierarchy.

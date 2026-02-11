@@ -3,17 +3,17 @@ layout: none
 ---
 
 ## Diagram role
-Axonometric section revealing structural and spatial relationships
+Sectional axonometric representation of structural assembly
 
 ## Spatial focus
-- Ground plane and foundation
-- Roof geometry and eaves
-- Interior volume and circulation
+- Vertical plane of section
+- Roof-to-floor spatial articulation
+- Foundation and ground interface
 
 ## Diagrammatic ideas
-- Layered representation of building components
-- Emphasis on structural articulation
-- Clear demarcation of interior/exterior thresholds
+- Layered construction sequencing
+- Material differentiation through line treatment
+- Spatial hierarchy via sectional depth
 
 ## Reading
-The diagram isolates a critical vertical section, exposing the building’s foundational plane and its relationship to the roof plane through a consistent axial perspective. The roof’s geometry is rendered as a distinct, planar entity that intersects the ground plane, establishing a clear spatial hierarchy. Interior elements are shown in reduced scale, emphasizing the building’s structural skeleton over interior detailing. The use of layered linework and selective shading delineates material boundaries and spatial depth without introducing visual clutter. The diagram’s precision in representing structural relationships suggests a focus on the building’s spatial logic rather than aesthetic expression.
+The diagram establishes a clear vertical progression from ground plane to roof plane, emphasizing the structural articulation through distinct layers. The section reveals the spatial organization of the building’s core volume, with the roof structure appearing as a continuous, folded plane. Material distinctions are implied through variations in line weight and termination, suggesting different constructional systems. The ground interface is rendered with a solid black band, anchoring the structure and defining its spatial presence. The sectional cut exposes internal spatial relationships without introducing decorative or contextual elements, focusing purely on the building’s structural logic.

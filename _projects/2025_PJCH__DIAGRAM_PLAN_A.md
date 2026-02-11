@@ -3,17 +3,17 @@ layout: none
 ---
 
 ## Diagram role
-Spatial organization of a building’s internal structure
+Spatial organization diagram
 
 ## Spatial focus
-- Core circulation and central void
+- Core circulation path
 - Peripheral functional zones
-- Boundary conditions and enclosure
+- Boundary conditions
 
 ## Diagrammatic ideas
-- Nested spatial hierarchy
-- Contrast of solid and void
-- Grid-based spatial modulation
+- Nested enclosure hierarchy
+- Threshold demarcation
+- Grid-based spatial reference
 
 ## Reading
-The diagram establishes a clear axial relationship between the central void and surrounding spaces, with the nested square forms suggesting a layered spatial progression. The thick lines demarcate primary boundaries and circulation paths, while the thinner lines define secondary zones and thresholds. The grid within the innermost square introduces a measure of spatial order, contrasting with the more irregular outer forms. The diagram’s composition emphasizes enclosure and containment, with the central void acting as a spatial anchor. The distribution of solid and void suggests a deliberate hierarchy of use and movement.
+The diagram establishes a clear hierarchy through nested rectangular forms, suggesting a progression from public to private realms. The central void, defined by a grid and multiple framing layers, functions as the primary spatial anchor. Peripheral zones are arranged asymmetrically around this core, implying differentiated uses and circulation paths. Thick lines demarcate boundaries and access points, while thinner lines indicate internal divisions or spatial transitions. The grid within the core provides a precise spatial reference, anchoring the surrounding forms to a consistent metric system.

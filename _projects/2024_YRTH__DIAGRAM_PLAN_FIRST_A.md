@@ -3,17 +3,17 @@ layout: none
 ---
 
 ## Diagram role
-Floor plan of a vertical circulation core
+Floor plan of a residential unit
 
 ## Spatial focus
-- Vertical axis of movement
-- Core service elements
-- Adjacent private zones
+- Vertical circulation
+- Private sleeping area
+- Public living area
 
 ## Diagrammatic ideas
-- Layering of structural and functional boundaries
-- Contrast between continuous and interrupted circulation
-- Spatial hierarchy through proportional massing
+- Layered enclosure through varying line weights
+- Spatial hierarchy via proportional massing
+- Circulation as a continuous, unbroken path
 
 ## Reading
-The diagram establishes a vertical sequence through the strategic placement of opaque mass, defining circulation as a continuous path interrupted by discrete functional nodes. The core’s form is articulated by the rhythm of its boundary lines, which modulate between solid and void to control access and define spatial thresholds. The proportional relationships between the core and surrounding zones suggest a hierarchy of use, with the core acting as a stabilizing element that anchors the spatial organization. The diagram’s clarity derives from the unambiguous distinction between circulation and enclosure, allowing the spatial logic to be read as a sequence of defined transitions. The grid underpinning the composition reinforces a structural logic that informs the spatial allocation without visual distraction.
+The diagram establishes a vertical sequence through the modulation of enclosure lines, differentiating zones by their thickness and placement. The primary circulation path is rendered as a continuous, unbroken element that threads through the plan, connecting distinct spatial masses. The sleeping area is defined by a dense, solid boundary that contrasts with the lighter treatment of the public zone below. The spatial organization suggests a clear progression from entry to private retreat, mediated by the circulation’s path and the shifting scale of enclosed volumes. The grid provides a structural reference, while the varying line weights articulate the diagram’s internal logic without explicit annotation.

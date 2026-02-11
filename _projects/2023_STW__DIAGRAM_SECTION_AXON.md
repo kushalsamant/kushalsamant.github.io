@@ -3,17 +3,17 @@ layout: none
 ---
 
 ## Diagram role
-Spatial composition of a single-level interior volume
+Spatial organization of interior volume
 
 ## Spatial focus
 - Floor plan configuration
-- Wall enclosure relationships
-- Interior furniture placement
+- Wall assembly and partitioning
+- Vertical circulation and access points
 
 ## Diagrammatic ideas
-- Layered representation of spatial depth
-- Grid-based structural organization
-- Contrast between solid and void
+- Layered representation of spatial hierarchy
+- Explicit demarcation of fixed and movable elements
+- Emphasis on structural and functional boundaries
 
 ## Reading
-The diagram establishes a clear hierarchy through the modulation of line weight and spatial recession, defining primary enclosure against secondary elements. The grid system on walls and floor provides a consistent spatial reference, while the blackened edges of the volume and key furniture items create a visual anchor. Interior partitions and furniture are rendered with minimal detailing, emphasizing their function as spatial dividers rather than objects. The perspective is deliberately neutral, avoiding atmospheric cues to focus attention on the formal relationships between volume, surface, and object. The diagram’s clarity derives from its restraint, presenting spatial logic without ornamentation.
+The diagram establishes a clear hierarchy through the differentiation of solid and void, with primary walls rendered as continuous black lines and secondary partitions as lighter lines. The grid on walls and floor suggests a modular system, while the placement of black blocks indicates fixed fixtures or circulation elements. The isometric perspective reveals spatial relationships without implying depth of materiality, focusing instead on the logic of containment and access. The diagram’s restraint in detail prioritizes structural clarity over decorative or contextual cues, reinforcing a functionalist spatial grammar.

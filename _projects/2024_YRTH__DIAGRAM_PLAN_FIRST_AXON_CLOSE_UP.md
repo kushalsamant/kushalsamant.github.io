@@ -3,17 +3,17 @@ layout: none
 ---
 
 ## Diagram role
-Axonometric representation of spatial organization
+Axonometric representation of structural and spatial organization
 
 ## Spatial focus
 - Interior circulation paths
-- Enclosure boundaries
-- Floor-to-ceiling vertical articulation
+- Vertical support elements
+- Floor-to-ceiling enclosure system
 
 ## Diagrammatic ideas
-- Layered planar relationships
-- Structural grid alignment
-- Contrast between solid and void
+- Layered representation of structural hierarchy
+- Emphasis on linear articulation
+- Contrast between solid and void through line weight
 
 ## Reading
-The diagram establishes a clear hierarchy through the modulation of line weight and spatial density. The primary circulation axis is emphasized by thickened lines that define a continuous path through the plan, while secondary zones are delineated by thinner, more fragmented lines. The vertical elements create a rhythmic pattern that anchors the composition, with their density varying to suggest different spatial functions. The grid on the floor plane provides a consistent reference for spatial proportions, while the solid black bands along the perimeter and within the plan indicate zones of transition or fixed elements. The diagram’s perspective is calibrated to reveal both the planar layout and the vertical articulation without introducing distortion.
+The diagram establishes a clear hierarchy of structural and spatial elements through the manipulation of line weight and spatial density. Thick, continuous lines define primary circulation routes and structural supports, while thinner lines delineate secondary spatial divisions and enclosure details. The vertical elements are rendered as a continuous, rhythmic pattern that suggests both structural continuity and surface texture. The spatial organization is resolved through a grid-based floor plan that is interrupted by the placement of voids and solid masses, creating a dynamic interplay between containment and openness. The perspective is deliberately constrained to emphasize the diagram’s informational clarity over atmospheric effect.
