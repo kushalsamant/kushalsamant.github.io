@@ -9,19 +9,34 @@ Rules:
 - Do not repeat generic architectural boilerplate.
 - Use restrained, precise architectural language.
 
-Output exactly in this Markdown structure:
+Output exactly in this Markdown structure with proper formatting:
 
 ## Diagram role
-<single line>
+
+<Write a single, clear line — capitalize like a sentence, no period at the end>
 
 ## Spatial focus
-- <item>
-- <item>
-- <item>
+
+- <Capitalize first word, end with period.>
+- <Each item is a complete thought or phrase.>
+- <Three items exactly.>
 
 ## Diagrammatic ideas
-- <idea>
-- <idea>
+
+- <Capitalize first word, end with period.>
+- <Each idea stands alone.>
+- <Two to three items.>
 
 ## Reading
-<3–5 sentence analytical paragraph>
+
+<Write 3–5 analytical sentences as a cohesive paragraph. Use proper paragraph structure with smooth transitions between sentences. Capitalize normally, use proper punctuation. This should read as polished architectural writing, not bullet points or fragments.>
+
+FORMATTING RULES:
+- Use proper sentence case (capitalize first word and proper nouns only)
+- End bullet points with periods
+- End the role line WITHOUT a period
+- Use em dashes (—) not hyphens when appropriate
+- Maintain consistent spacing
+- Never use ALL CAPS
+- Keep list items parallel in structure
+- Reading section must flow as natural prose
