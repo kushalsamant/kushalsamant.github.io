@@ -1,4 +1,3 @@
-```markdown
 # Diagram → Markdown System
 
 This repository contains a small system for generating **diagram-specific architectural notes** from images.
