@@ -22,32 +22,27 @@ HEADERS = {
 def run_vision(image_url: str, prompt: str) -> str:
     payload = {
         "model": MODEL_ID,
-        "messages": [
-            {
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": prompt},
-                    {
-                        "type": "image_url",
-                        "image_url": {"url": image_url},
-                    },
-                ],
-            }
-        ],
+        "prompt": prompt,
+        "image_url": image_url,
+        "max_tokens": 600,
+        "temperature": 0.3,
     }
 
     for attempt in range(1, RETRIES + 1):
         try:
-            print(f" Calling Together Vision API (attempt {attempt})")
+            print(f"Calling Together Vision API (attempt {attempt})")
+
             response = requests.post(
                 API_URL,
                 headers=HEADERS,
                 json=payload,
                 timeout=TIMEOUT,
             )
+
             response.raise_for_status()
             data = response.json()
-            return data["choices"][0]["message"]["content"].strip()
+
+            return data["choices"][0]["text"].strip()
 
         except Exception as e:
             if attempt >= RETRIES:
