@@ -2,7 +2,7 @@
 
 This repository contains a small system for generating **diagram-specific architectural notes** from images.
 
-Each diagram image in `/diagrams` is paired with a `.md` file containing analytical text written against a fixed prompt structure.
+Each image in `/diagrams` is paired with a `.md` file containing analytical text written against a fixed prompt structure.
 
 The system is designed to be:
 
@@ -14,7 +14,7 @@ The system is designed to be:
 ## What this does
 
 - Scans the `/diagrams` directory  
-- Finds diagram images without a corresponding `.md` file  
+- Finds images without a corresponding `.md` file  
 - Selects the **smallest unprocessed image first**  
 - Sends the image (via URL) and a fixed prompt to a vision-language model  
 - Writes a standalone Markdown file next to the image  
