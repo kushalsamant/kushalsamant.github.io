@@ -12,7 +12,11 @@ load_dotenv()
 
 PROJECTS_DIR = Path(os.getenv("PROJECTS_DIR", "projects"))
 BASE_IMAGE_URL = os.getenv("BASE_IMAGE_URL", "https://www.kvshvl.in/projects")
-IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png"}
+
+IMAGE_EXTENSIONS = {
+    ext.strip().lower()
+    for ext in os.getenv("IMAGE_EXTENSIONS", ".jpg,.jpeg,.png").split(",")
+}
 
 PROMPT_FILE = Path(os.getenv("PROMPT_FILE", "tools/diagram_prompt.txt"))
 PROMPT = PROMPT_FILE.read_text(encoding="utf-8")
