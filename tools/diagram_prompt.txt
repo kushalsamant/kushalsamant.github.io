@@ -5,7 +5,7 @@ Rules:
 - Do not mention other drawings.
 - Do not summarise the project.
 - Do not describe style, line weight, colour, or representation.
-- Do not explain what the drawing “shows” visually.
+- Do not explain what the drawing "shows" visually.
 - Do not repeat generic architectural boilerplate.
 - Use restrained, precise architectural language.
 
