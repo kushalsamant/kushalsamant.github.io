@@ -1,40 +1,52 @@
-# --- Python ---
+# ==============================
+# Python bytecode
+# ==============================
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 *.egg-info/
-.env
+
+# ==============================
+# Virtual environments
+# ==============================
 .venv/
 venv/
-
-# --- Virtual environments ---
 tools/venv/
 
-# --- Hugging Face / ML models ---
+# ==============================
+# Environment & secrets
+# ==============================
+.env
+
+# ==============================
+# ML models & artifacts
+# ==============================
 tools/models/
 **/models--*/
-
-# --- Hugging Face cache (Windows) ---
-.cache/
-.cache/huggingface/
-**/.cache/
-
-# --- PyTorch / Torch artifacts ---
 *.pt
 *.pth
 *.bin
 *.safetensors
 *.index.json
 
-# --- OS noise ---
+# ==============================
+# Hugging Face cache
+# ==============================
+.cache/
+**/.cache/
+.cache/huggingface/
+
+# ==============================
+# Logs & temporary files
+# ==============================
+*.log
+*.tmp
+*.bak
+
+# ==============================
+# OS-generated files
+# ==============================
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# --- Logs ---
-*.log
-
-# --- Temporary files ---
-*.tmp
-*.bak
