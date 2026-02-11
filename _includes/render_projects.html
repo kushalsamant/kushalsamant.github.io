@@ -1,17 +1,16 @@
 {% assign files = site.static_files | sort: "path" | reverse %}
 
 {% for file in files %}
-  {% if file.path contains "/projects/" and file.extname == ".jpg" %}
+  {% if file.path contains "/projects/" and file.extname == ".jpg" or file.extname == ".png" %}
 
     <div class="diagram-block">
-
       <img
         src="{{ file.path }}"
         alt="{{ file.name }}"
         loading="lazy"
       >
 
-      {% assign md_path = file.path | replace: ".jpg", ".md" %}
+      {% assign md_path = file.path | replace: ".jpg", ".md" | replace: ".png", ".md" %}
 
       {% for page in site.pages %}
         {% if page.path == md_path %}
@@ -20,7 +19,6 @@
           </div>
         {% endif %}
       {% endfor %}
-
     </div>
 
   {% endif %}
