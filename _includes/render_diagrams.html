@@ -14,15 +14,30 @@
         loading="lazy"
       >
 
-      {% assign stem = image.name | remove: image.extname %}
+      {% comment %}
+      Extract the base filename without extension from the image
+      Example: "diagram_01.jpg" -> "diagram_01"
+      {% endcomment %}
+      {% assign stem = image.name | replace: image.extname, "" %}
 
-      {% for diagram in site.diagrams %}
-        {% if diagram.path contains stem %}
-          <div class="diagram-text">
-            {{ diagram.content }}
-          </div>
-        {% endif %}
-      {% endfor %}
+      {% if site.diagrams %}
+        {% for diagram in site.diagrams %}
+          {% comment %}
+          Extract filename from diagram.path
+          Example: "_diagrams/diagram_01.md" -> "diagram_01"
+          {% endcomment %}
+          {% assign diagram_parts = diagram.path | split: "/" %}
+          {% assign diagram_filename = diagram_parts | last %}
+          {% assign diagram_stem = diagram_filename | replace: ".md", "" %}
+          
+          {% if diagram_stem == stem %}
+            <div class="diagram-text">
+              {{ diagram.content }}
+            </div>
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
 
     </div>
 
