@@ -3,7 +3,7 @@
 {% for image in images %}
   {% if image.extname == ".jpg" or image.extname == ".jpeg" or image.extname == ".png" %}
 
-    <div class="diagram-block">
+    <div class="project-block">
 
       <img
         src="{{ image.path }}"
@@ -13,10 +13,10 @@
 
       {% assign stem = image.name | remove: image.extname %}
 
-      {% for diagram in site.diagrams %}
-        {% if diagram.path contains stem %}
-          <div class="diagram-text">
-            {{ diagram.content }}
+      {% for project in site.projects %}
+        {% if project.path contains stem %}
+          <div class="project-text">
+            {{ project.content }}
           </div>
         {% endif %}
       {% endfor %}
