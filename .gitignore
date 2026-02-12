@@ -4,6 +4,9 @@ _site
 .jekyll-metadata
 vendor
 .env
+env
+*.env
+env.*
 __pycache__
 *.pyc
 .DS_Store
