@@ -1,0 +1,16 @@
+name: Dependency Security Scan
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Dependabot Audit
+        run: |
+          npm audit || true

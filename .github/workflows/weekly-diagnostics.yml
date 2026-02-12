@@ -1,0 +1,39 @@
+name: Weekly Diagnostics Suite
+
+on:
+  schedule:
+    - cron: "0 3 * * 0"
+
+jobs:
+  diagnostics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Install linkchecker
+        run: sudo apt-get install -y linkchecker
+
+      - name: Check Links
+        run: linkchecker ./_site --output text > link-report.txt || true
+
+      - name: Lighthouse Audit
+        uses: treosh/lighthouse-ci-action@v10
+        with:
+          urls: |
+            https://kvshvl.in
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+
+      - name: Upload Reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostics-report
+          path: |
+            link-report.txt

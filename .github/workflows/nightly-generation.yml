@@ -1,15 +1,20 @@
-name: Nightly Diagram Generation
+name: Nightly Diagram Processing
 
 on:
   schedule:
     - cron: "0 2 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  generate:
+  nightly:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,7 +38,7 @@ jobs:
           BATCH_SIZE: 10
         run: python tools/generate_diagram_md.py
 
-      - name: Commit
+      - name: Commit Changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
