@@ -2,7 +2,7 @@
 
 This repository contains a small system for generating **diagram-specific architectural notes** from images.
 
-Each image in `/diagrams` is paired with a `.md` file containing analytical text written against a fixed prompt structure.
+Each image in `/diagrams` is paired with a `.md` file in `/_diagrams` containing analytical text written against a fixed prompt structure.
 
 The system is designed to be:
 
@@ -14,10 +14,10 @@ The system is designed to be:
 ## What this does
 
 - Scans the `/diagrams` directory  
-- Finds images without a corresponding `.md` file  
+- Finds images without a corresponding `.md` file in `/_diagrams`  
 - Selects the **smallest unprocessed image first**  
 - Sends the image (via URL) and a fixed prompt to a vision-language model  
-- Writes a standalone Markdown file next to the image  
+- Writes a standalone Markdown file to `/_diagrams`  
 
 Each `.md` file:
 
@@ -39,44 +39,86 @@ Each `.md` file:
 
 ```
 diagrams/
-diagram_01.jpg
-diagram_01.md
-diagram_02.jpg
+  2023_STW__DIAGRAM_PLAN_A.jpg
+  2024_YRTH__DIAGRAM_SECTION_A.jpg
+  2025_PJCH__DIAGRAM_PLAN_A.jpg
+
+_diagrams/
+  2023_STW__DIAGRAM_PLAN_A.md
+  2024_YRTH__DIAGRAM_SECTION_A.md
+  2025_PJCH__DIAGRAM_PLAN_A.md
 
 tools/
-generate_diagram_md.py
-vision_runner.py
-diagram_prompt.txt
+  generate_diagram_md.py
+  vision_runner.py
+  diagram_prompt.txt
 
 .env
+.env.example
 ```
+
+## Naming Convention
+
+All diagrams must follow this pattern:
+```
+YYYY_PROJECT-SLUG__TYPE_DESCRIPTOR.ext
+```
+
+**Components:**
+- `YYYY` - Year (4 digits)
+- `PROJECT-SLUG` - Short project code (e.g., STW, YRTH, PJCH)
+- `TYPE` - Content type (DIAGRAM, RENDER, PHOTO, etc.)
+- `DESCRIPTOR` - Specific view or detail (PLAN_A, SECTION_AXON, etc.)
+- `ext` - File extension (.jpg, .jpeg, .png for images; .md for markdown)
+
+**Examples:**
+- `2023_STW__DIAGRAM_PLAN_A.jpg`
+- `2024_YRTH__DIAGRAM_SECTION_AXON.jpg`
+- `2025_PJCH__DIAGRAM_CROSS_AXON.jpg`
 
 ## Environment configuration
 
 All runtime configuration lives in `.env`.
 
+Copy `.env.example` to `.env` and configure:
+
 ### Required
 
 ```env
 TOGETHER_API_KEY=your_key_here
-````
+TOGETHER_API_URL=https://api.together.xyz/v1/chat/completions
+TOGETHER_MODEL_ID=meta-llama/Llama-Vision-Free
+```
 
-### Used by the system
+### Optional (with defaults)
 
 ```env
-TOGETHER_API_URL=https://api.together.ai/v1/chat/completions
-TOGETHER_MODEL_ID=Qwen/Qwen3-VL-8B-Instruct
 TOGETHER_TIMEOUT=120
 TOGETHER_RETRIES=2
 
 DIAGRAMS_DIR=diagrams
 BASE_IMAGE_URL=https://www.kvshvl.in/diagrams
 PROMPT_FILE=tools/diagram_prompt.txt
+IMAGE_EXTENSIONS=.jpg,.jpeg,.png
 
 BATCH_SIZE=1
 ```
 
-Nothing else is required.
+## Setup
+
+1. Install dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+2. Create `.env` from template:
+
+```bash
+cp .env.example .env
+```
+
+3. Edit `.env` and add your `TOGETHER_API_KEY`
 
 ## How to run
 
@@ -87,7 +129,7 @@ python tools/generate_diagram_md.py
 ```
 
 * Processes `BATCH_SIZE` images
-* Writes `.md` files
+* Writes `.md` files to `_diagrams/`
 * Safe to run repeatedly
 * Skips images already processed
 
@@ -117,18 +159,3 @@ This system is intentionally simple.
 If a feature is not clearly necessary, it is not included.
 
 That is a design decision.
-
-## Setup
-
-Install dependencies once:
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-```text
-# requirements.txt
-together>=0.2.0
-python-dotenv>=1.0.0
-requests>=2.31.0
-```

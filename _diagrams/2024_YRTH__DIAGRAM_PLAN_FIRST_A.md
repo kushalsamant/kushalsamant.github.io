@@ -2,13 +2,13 @@
 layout: none
 ---
 
-Floor plan diagram illustrating spatial organization within a vertical section
+Defines spatial organization through grid-aligned partitions and voids
 
-- Uppermost level contains a narrow, elongated room with a single darkened area suggesting a fixed element
-- Middle section features a large, open rectangular space interrupted by a central corridor and a smaller inset room
-- Lower section contains a larger rectangular area with three distinct smaller blocks arranged along one side
+- Uppermost zone contains a singular, vertically oriented void — likely a circulation or service element
+- Middle section features a fragmented layout with intersecting corridors and enclosed rooms — suggesting functional separation
+- Lower portion anchors a large, open-plan area with clustered rectangular forms — indicative of primary use
 
-- Emphasis on vertical circulation through continuous linear elements
-- Use of contrasting voids and solid masses to define functional zones
+- Emphasizes vertical stratification through stacked spatial blocks — creating distinct programmatic layers
+- Uses negative space as a structural device — reinforcing circulation and defining boundaries without explicit walls
 
-The diagram establishes a clear vertical hierarchy, with the uppermost space functioning as a specialized zone, the middle as a primary circulation and gathering area, and the lower as a more expansive, multi-functional zone. The corridor acts as a primary axis, connecting the upper and lower levels while separating the middle space into distinct sub-zones. Solid elements are strategically placed to define thresholds and intimate spaces, while the voids maintain open circulation and visual continuity. The arrangement suggests a deliberate sequencing of functions, with the lower level accommodating larger groupings and the upper level serving a more singular, possibly private, purpose. The spatial logic prioritizes vertical movement and the modulation of enclosure to control access and define activity.
+The diagram establishes a vertical hierarchy by stacking spatial functions, with the upper void acting as a transitional or service spine. The middle section fractures the plan into discrete, interconnected zones, implying a deliberate separation of activity. The lower area consolidates larger, open forms, suggesting a primary operational or social core. The grid imposes a rational framework, while the placement of voids and blocks introduces intentional spatial tension. The logic prioritizes vertical circulation over horizontal sprawl, reinforcing a compact, layered composition.

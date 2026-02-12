@@ -2,13 +2,13 @@
 layout: none
 ---
 
-Spatial organization of a multi-level building massing
+Defines spatial organization through axial alignment and nested enclosure
 
-- Upper level assembly of interconnected rectangular volumes
-- Lower level circulation and service core with stepped transitions
-- Central atrium defined by vertical elements and grid flooring
+- Central courtyard as primary spatial anchor
+- Peripheral wings arranged symmetrically around core
+- Staircases establish vertical circulation between levels
 
-- Emphasis on axial alignment and hierarchical volume stacking
-- Use of stepped platforms to articulate vertical movement
+- Emphasis on orthogonal grid as structural and spatial grammar
+- Use of nested voids to define hierarchy and spatial sequence
 
-The diagram establishes a clear vertical hierarchy through the juxtaposition of upper and lower spatial zones, with the central core acting as a structural and programmatic anchor. Movement is mediated by stepped transitions that create distinct levels of access and visual emphasis. The upper volumes are arranged in a fragmented, modular fashion, suggesting functional differentiation while maintaining a unified massing. The lower level integrates circulation with service elements, forming a continuous path that connects the building’s extremities to its core. The vertical elements within the atrium reinforce the diagram’s focus on axial alignment and spatial centrality.
+The plan establishes a clear centrality through the courtyard, which is framed by a continuous perimeter wall and accessed via axial pathways. Wings extend from the core with uniform spacing, creating a balanced distribution of private and semi-public zones. Staircases are positioned to reinforce the vertical hierarchy, linking the central void to upper levels while maintaining visual continuity. The orthogonal grid underpins all spatial relationships, ensuring structural coherence and directional clarity. Enclosure is layered — from the outer perimeter to the inner courtyard — to create a sequence of thresholds that modulate spatial experience.

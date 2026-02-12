@@ -2,13 +2,13 @@
 layout: none
 ---
 
-Illustrates the spatial organization and structural articulation of a building through a sectional view.
+Illustrates vertical circulation and roof geometry through a longitudinal section
 
-- Primary volume defined by a continuous roof plane intersected by a vertical cut
-- Secondary volume revealed through the removal of a wall section exposing internal circulation
-- Staircase and platform elements establish vertical transitions between levels
+- Primary volume defined by a continuous roof plane with offset overhangs
+- Secondary volume revealed by a stepped cut revealing internal stair sequence
+- Ground plane demarcated by a solid black strip indicating boundary or foundation
 
-- Emphasizes the contrast between solid mass and open void
-- Uses sectioning to expose spatial hierarchy and functional sequencing
+- Spatial hierarchy established by contrasting opaque and voided sections
+- Diagrammatic clarity achieved through selective sectioning and implied perspective
 
-The diagram reveals how the building’s form is resolved through the interplay of mass and void, with the roof plane acting as a dominant horizontal element that is interrupted to reveal internal circulation. The cut section exposes a staircase and platform, indicating a deliberate hierarchy of movement and spatial priority. The solid wall remains intact on one side while the other is removed, creating a clear distinction between enclosed and open space. This sectional treatment underscores the building’s logic through spatial sequencing, where vertical transitions are explicitly articulated. The diagram’s spatial organization suggests a functional clarity, where the internal structure is revealed to support the building’s overall form.
+The diagram establishes a clear vertical sequence through the stepped cut, revealing how circulation ascends from ground level to upper floors. The roof plane acts as a primary spatial organizer, its offset geometry suggesting differentiated programmatic zones. The solid black boundary at the base anchors the structure to the ground while contrasting with the open interior. The internal stair becomes the axis of movement, its placement reinforcing the spatial hierarchy. The sectioning method prioritizes clarity over ornamentation, allowing the logic of ascent and roof form to remain unambiguous.

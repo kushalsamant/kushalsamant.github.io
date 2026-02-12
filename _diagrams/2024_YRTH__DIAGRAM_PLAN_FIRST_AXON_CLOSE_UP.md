@@ -2,13 +2,13 @@
 layout: none
 ---
 
-Illustrates spatial organization through layered axial relationships
+Defines spatial organization through layered enclosure and circulation paths
 
-- Primary circulation path defined by bold black lines
-- Enclosed zones demarcated by vertical slat screens
-- Ground plane segmented by grid and raised platforms
+- Primary circulation corridor bisects the plan, connecting major zones
+- Central void accommodates vertical circulation and service functions
+- Peripheral zones are demarcated by wall systems and floor tiling
 
-- Emphasis on axial alignment and directional flow
-- Contrast between solid mass and open voids
+— Emphasizes hierarchy through spatial partitioning and circulation priority
+— Uses voids to articulate functional separation and visual continuity
 
-The diagram establishes a clear hierarchy through the interplay of axial corridors and enclosed volumes, guiding movement through a sequence of spatial thresholds. Vertical slat screens create a rhythmic modulation of enclosure, softening transitions between public and private zones. The grid on the ground plane anchors spatial orientation while the raised platforms introduce vertical stratification, reinforcing functional separation. Architectural logic is expressed through the precise alignment of structural elements and the deliberate interruption of flow by solid boundaries, which define moments of pause or transition. The spatial sequence is not merely linear but unfolds as a choreographed progression, where each volume serves a distinct role in the overall spatial narrative.
+The diagram establishes a clear vertical and horizontal hierarchy where circulation routes dominate spatial definition. Enclosure is differentiated by material implication rather than physical mass, allowing for perceptual clarity. Zones are organized around the central axis, reinforcing directional flow and functional sequencing. The voids serve as both structural anchors and spatial thresholds, mediating between public and private realms. Architectural logic is derived from the interplay of containment and permeability, where circulation is the primary organizing principle.

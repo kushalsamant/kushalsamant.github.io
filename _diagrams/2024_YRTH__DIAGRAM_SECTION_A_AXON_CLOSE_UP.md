@@ -2,13 +2,13 @@
 layout: none
 ---
 
-Illustrates structural hierarchy and spatial circulation through layered planes.
+Schematic section revealing vertical circulation and spatial layering
 
-- Upper level defined by continuous railing and grid-patterned floor.
-- Lower level marked by open void and column-supported platform.
-- Vertical circulation accessed via staircases integrated into the facade.
+- Upper floor plan with grid-based furniture arrangement
+- Lower floor plan with open circulation and structural columns
+- Staircase as primary vertical connector between levels
 
-— Emphasizes contrast between opaque mass and transparent circulation.
-— Uses scale variation to articulate functional zones and movement paths.
+- Framing of interior space through structural bays
+- Emphasis on circulation as spatial generator
 
-The diagram establishes a clear vertical hierarchy where the upper plane dominates as a primary spatial container, while the lower level functions as a transitional or service zone. Staircases act as both connectors and visual anchors, reinforcing the separation between levels without obscuring the structural logic. The grid on the upper floor suggests a uniform spatial rhythm, contrasting with the irregular placement of columns and the open void below. The railing system defines boundaries while allowing visual continuity, maintaining a balance between enclosure and permeability. The overall composition implies a deliberate sequence of movement, guiding the user through a layered experience of space.
+The diagram establishes a clear hierarchy between public and private zones through the placement of the staircase and the density of furnishings. The upper level functions as a more contained, furnished space, while the lower level accommodates movement and structural expression. Vertical circulation is not merely a functional element but a spatial anchor that defines the building’s rhythm. The grid on the upper floor suggests a regulated spatial logic, contrasting with the more open and column-defined lower level. The diagram implies a relationship between structure and use, where the physical form directly informs the spatial experience.

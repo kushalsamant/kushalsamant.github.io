@@ -2,13 +2,13 @@
 layout: none
 ---
 
-Illustrates structural hierarchy and spatial sequencing through vertical and horizontal articulation
+Defines vertical circulation and structural articulation through sectional transparency
 
-- Ground-level circulation defined by a continuous, elevated platform supported by discrete columns
-- Upper volume establishes a distinct, enclosed space with vertical slats forming a rhythmic facade
-- Staircase and ramp serve as vertical connectors between levels, modulating access and movement
+- Ground-level platform supports elevated living volume
+- Staircase cluster defines vertical access and spatial transition
+- Interior grid establishes modular spatial organization
 
-- Emphasizes the separation of public and private through layered spatial thresholds
-- Uses linear elements to establish a clear axis of circulation and visual emphasis
+— Emphasizes structural hierarchy through exposed vertical elements
+— Uses sectional cut to reveal spatial sequencing and programmatic layering
 
-The diagram organizes space through a clear vertical stratification, where the ground plane functions as a transitional zone supporting both pedestrian flow and structural load. The upper volume is articulated as a self-contained unit, its facade pattern suggesting enclosure while maintaining visual permeability. Vertical circulation is deliberately placed to anchor the structure’s hierarchy, with the staircase serving as both a functional and symbolic axis. The spatial logic prioritizes circulation over enclosure, using the platform as a mediator between the street and the elevated space. The relationship between the two levels is governed by structural independence and spatial contrast, reinforcing a dual-functionality within a single volume.
+The building’s mass is elevated on a discrete platform that separates circulation from habitation, creating a clear distinction between ground plane and living volume. The staircase cluster functions as a vertical spine, organizing movement while also defining the building’s right-hand edge. Interior space is articulated by a grid that suggests modularity and control over spatial distribution. Structural elements are rendered as continuous verticals that anchor the form and reinforce the diagram’s emphasis on verticality. The diagram’s logic prioritizes clarity of function over ornamentation, establishing a hierarchy where circulation, structure, and spatial sequence are visually and physically prioritized.

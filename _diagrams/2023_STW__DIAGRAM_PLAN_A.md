@@ -2,13 +2,13 @@
 layout: none
 ---
 
-Defines spatial organization through grid-based partitioning and vertical circulation
+Defines spatial organization through axial alignment and partitioned zones
 
-- Upper-left quadrant contains private enclosure with inset service zones
-- Central vertical corridor serves as primary circulation spine
-- Lower section features linear arrangement of service and public modules
+- Upper-left chamber with defined enclosure and internal furnishings
+- Central vertical corridor serving as primary circulation spine
+- Lower section with linear arrangement of functional units
 
-— Emphasizes hierarchical zoning via proportional massing
-— Uses grid alignment to enforce modular spatial logic
+- Emphasis on vertical hierarchy through stacked spatial blocks
+- Use of negative space to delineate programmatic boundaries
 
-The diagram establishes a vertical hierarchy by anchoring circulation at the center, which mediates between upper and lower zones. Upper zones are defined by compact, inward-facing modules suggesting privacy, while lower zones unfold in a linear sequence implying public or service function. The grid structure enforces uniformity across all spatial elements, yet the placement of black masses disrupts this uniformity to denote functional priority. Spatial relationships are mediated by the corridor’s continuous presence, which both separates and connects the zones without interrupting the overall planar logic. The diagram’s logic prioritizes circulation as the organizing principle, with spatial types emerging from its interaction with the grid and the distribution of mass.
+The diagram establishes a vertical hierarchy where the upper chamber functions as a distinct, enclosed volume, contrasting with the open-plan lower section. The central corridor acts as a unifying axis, directing movement while separating private and public realms. Spatial density increases progressively downward, suggesting a shift in programmatic intensity. The arrangement of units along the lower axis implies a linear workflow, reinforced by the absence of internal partitions. The diagram’s logic prioritizes circulation as a structural element rather than an incidental condition.

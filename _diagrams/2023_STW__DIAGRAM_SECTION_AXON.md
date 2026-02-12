@@ -2,12 +2,13 @@
 layout: none
 ---
 
-Spatial configuration of a rectangular volume with internal divisions and defined thresholds
+Defines spatial organization through axial alignment and threshold demarcation
 
-- Primary circulation path along the longitudinal axis
-- Enclosed service zone at the rear wall
-- Access point at the front facade with adjacent storage
+- Primary circulation axis oriented along the building’s longitudinal plane
+- Secondary circulation branching off at the rear wall to service internal zones
+- Service core positioned adjacent to the main entrance for efficient flow
 
-Diagrammatic emphasis on modular partitioning — explicit hierarchy of spatial zones — use of voids to define transitions
+- Emphasis on axial continuity as a unifying spatial principle
+- Use of threshold elements to articulate functional transitions
 
-The spatial hierarchy establishes a clear progression from entry to core functions through a sequence of thresholds. The rear wall contains a compact, self-contained unit that contrasts with the open circulation space. Partitioning is not arbitrary but follows a consistent grid logic that reinforces spatial legibility. The access point is deliberately positioned to frame the movement into the deeper volume. Architectural logic prioritizes functional separation while maintaining visual continuity through the consistent use of aligned planes.
+The diagram establishes a clear hierarchy through the alignment of movement and structure, with the main axis dictating primary access and spatial sequence. The rear branching circulation introduces a secondary layer of function without disrupting the primary flow. Service elements are strategically placed to minimize interference with the main path while maintaining operational efficiency. The spatial logic prioritizes linear progression, with each zone defined by its relationship to the axis and its proximity to entry points. The diagram’s architecture operates through a system of containment and release, where each threshold serves both as a boundary and a conduit.

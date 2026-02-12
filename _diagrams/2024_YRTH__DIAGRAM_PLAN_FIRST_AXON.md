@@ -2,12 +2,13 @@
 layout: none
 ---
 
-Defines spatial organization through layered axial relationships
+Illustrates structural and spatial organization through a layered axonometric projection
 
-- Primary circulation path along central corridor
-- Enclosed private zones at rear and left extremities
-- Open communal area at front with defined seating
+- Upper floor plan delineates circulation and functional zones with distinct room boundaries
+- Lower structural frame defines spatial support and establishes vertical hierarchy
+- Exterior envelope with vertical slats modulates light and defines boundary conditions
 
-Introduces hierarchy through spatial modulation —— uses axial alignment to establish directional flow —— employs enclosure to differentiate function
+- Emphasizes separation between structural skeleton and enclosed interior space
+- Uses layering to articulate the transition from ground plane to elevated volume
 
-The building’s plan unfolds as a sequence of nested volumes, where the central corridor acts as a spine connecting distinct zones. The rear and left sections are demarcated by solid walls, suggesting privacy or specialized use. The front area, open and oriented toward the street, functions as a threshold space. The structural columns support a raised platform, creating a visual and physical separation from the ground plane. The axial arrangement prioritizes movement while the enclosure defines boundaries, establishing a clear spatial hierarchy.
+The diagram positions the building as a suspended mass, supported by discrete columns that elevate the living volume above the ground plane. The upper level’s plan reveals a clear zoning of activity, with corridors and rooms arranged to optimize flow and privacy. The vertical slats on the exterior create a rhythmic modulation that separates the building from its context while maintaining visual permeability. Structural elements are rendered as a secondary layer, allowing the spatial program to dominate the composition. The elevation of the volume suggests a deliberate disconnection from the ground, reinforcing a sense of autonomy and spatial clarity.

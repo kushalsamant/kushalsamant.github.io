@@ -2,13 +2,13 @@
 layout: none
 ---
 
-Elevation section revealing structural and spatial organization
+Elevation diagram illustrating a dual-volume structure with stepped base and shared roofline.
 
-- Wall plane with fenestration and vertical supports
-- Roof plane with gable geometry and overhangs
-- Foundation level with stepped platform and column base
+- Central core with continuous horizontal fenestration.
+- Flanking volumes defined by vertical mass and recessed entry.
+- Ground plane interruption by stepped platform and central stair.
 
-- Spatial hierarchy through massing and elevation breaks
-- Structural logic expressed through column placement and floor levels
+- Spatial modulation through rhythmic elevation breaks.
+- Roof plane continuity masking internal division.
 
-The diagram establishes a clear vertical hierarchy where the roof plane dominates the upper register, while the foundation level anchors the structure through its stepped platform and column bases. The wall plane mediates between these extremes, defining the spatial envelope through its fenestration and vertical supports. The gable roof geometry creates a sense of enclosure and shelter, while the stepped foundation suggests a deliberate relationship to ground plane and access. Column placement reinforces structural articulation, creating zones of visual and spatial emphasis. The diagram’s logic prioritizes structural clarity over decorative embellishment, allowing spatial relationships to emerge through material and form.
+The diagram establishes a clear hierarchy between the central circulation and flanking private zones through the modulation of mass and elevation. The stepped base creates a threshold that anchors the structure to the ground while visually separating the core from the wings. The shared roof plane unifies the volumes despite their differing programmatic intent, suggesting a spatial logic of shared circulation. The vertical elements act as spatial anchors, defining entry points and reinforcing the separation of public and private functions. The diagram’s logic relies on the interplay of elevation and mass to articulate spatial relationships without explicit interior detailing.

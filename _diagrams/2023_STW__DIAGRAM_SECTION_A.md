@@ -2,13 +2,13 @@
 layout: none
 ---
 
-Defines spatial organization through a grid-based system with inserted voids and massing.
+Defines vertical circulation and spatial organization through layered massing
 
-- Vertical massing on the left anchors the primary circulation spine.
-- Horizontal voids interrupt the grid to create distinct functional zones.
-- Central corridor acts as a vertical axis separating main circulation from service areas.
+- Left wing accommodates stacked service cores and vertical access
+- Central spine separates primary circulation from secondary zones
+- Right wing contains compact, offset volumes for localized functions
 
-- Emphasizes modularity through consistent grid alignment.
-- Uses contrast between filled and voided sections to establish hierarchy.
+- Grid system establishes proportional order and spatial rhythm
+- Massing contrasts create visual hierarchy and directional emphasis
 
-The diagram establishes a clear hierarchy by anchoring the primary circulation spine to the left, which in turn organizes the spatial sequence. The horizontal voids interrupt the grid to delineate distinct functional zones without disrupting the underlying structure. The central corridor functions as a vertical axis, separating the main circulation from service areas while maintaining a consistent grid logic. The spatial relationships are defined by the placement of massing and voids, which create a predictable rhythm and guide movement through the plan. The grid remains uniform throughout, ensuring that all elements are proportionally aligned and functionally integrated.
+The diagram presents a vertical sequence where service cores are concentrated on the left, anchoring the structure’s core functions. The central spine acts as a transitional zone, separating primary circulation from peripheral uses. The right wing’s compact forms suggest localized activity, creating a spatial asymmetry that directs movement. The grid imposes a uniform rhythm, yet the massing deviations introduce a deliberate disruption in that order. The hierarchy is established through volume placement, not through explicit marking, allowing spatial relationships to define function implicitly.

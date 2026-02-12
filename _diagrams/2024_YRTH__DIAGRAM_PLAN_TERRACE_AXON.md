@@ -2,13 +2,13 @@
 layout: none
 ---
 
-Illustrates structural framing and spatial organization through orthogonal projection
+Defines the structural and spatial organization of a raised rectangular volume
 
-- Ground plane defined by continuous paving and elevation change
-- Vertical enclosure composed of repeated linear elements forming a grid
-- Interior voids and structural supports establish spatial hierarchy
+- Upper level enclosed by vertical grid and recessed openings
+- Lower level supported by discrete columns and open plan
+- Ground plane defined by stepped transitions and continuous surface
 
-- Emphasizes structural logic through exposed framing
-- Spatial modulation achieved via rhythmic repetition of elements
+- Emphasizes vertical articulation through layered structural expression
+- Contrasts enclosed upper mass with open lower support system
 
-The diagram establishes a clear vertical hierarchy where the building mass is elevated on a robust structural frame, creating a distinct separation between the ground plane and the enclosed volume. The grid of vertical elements not only defines the facade but also reinforces the spatial rhythm and scale of the interior. The elevation change at the base introduces a deliberate shift in the spatial experience, anchoring the structure to the terrain while preserving an unobstructed view. The absence of interior detailing suggests a focus on the fundamental relationship between support, enclosure, and ground plane. The diagram’s logic prioritizes structural clarity over decorative articulation, revealing how spatial configuration emerges from the interplay of vertical and horizontal systems.
+The diagram establishes a clear vertical hierarchy, with the upper volume suspended above the ground by a skeletal frame. The lower level functions as a transitional zone, its openness contrasting with the enclosed upper mass. Structural elements are not merely supportive but define spatial boundaries and circulation paths. The grid on the upper surface suggests a system of internal organization while the lower columns articulate the building’s footprint. The stepped ground plane introduces a subtle topographical shift that reinforces the building’s elevated presence.
