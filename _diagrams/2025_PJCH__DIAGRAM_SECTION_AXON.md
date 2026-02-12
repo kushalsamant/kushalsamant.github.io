@@ -2,18 +2,13 @@
 layout: none
 ---
 
-## Diagram role
-Spatial relationship diagram
+Illustrates the spatial organization and structural articulation of a building through a sectional view.
 
-## Spatial focus
-- Interior volume
-- Exterior envelope
-- Circulation path
+- Primary volume defined by a continuous roof plane intersected by a vertical cut
+- Secondary volume revealed through the removal of a wall section exposing internal circulation
+- Staircase and platform elements establish vertical transitions between levels
 
-## Diagrammatic ideas
-- Layering of spatial conditions
-- Ambiguity of boundary
-- Directional flow
+- Emphasizes the contrast between solid mass and open void
+- Uses sectioning to expose spatial hierarchy and functional sequencing
 
-## Reading
-The diagram establishes a hierarchy of spatial conditions through the arrangement of interior volume, exterior envelope, and circulation path. The layering of these elements suggests a sequence of spatial experience, where transitions are not clearly demarcated but rather implied through proximity and orientation. The ambiguity of boundary is rendered through overlapping zones, indicating a fluid relationship between enclosed and open space. Directional flow is indicated by the alignment and spacing of circulation paths, which guide movement while maintaining spatial ambiguity. The diagram’s composition prioritizes relational logic over fixed form, emphasizing how spatial conditions interact rather than how they are defined.
+The diagram reveals how the building’s form is resolved through the interplay of mass and void, with the roof plane acting as a dominant horizontal element that is interrupted to reveal internal circulation. The cut section exposes a staircase and platform, indicating a deliberate hierarchy of movement and spatial priority. The solid wall remains intact on one side while the other is removed, creating a clear distinction between enclosed and open space. This sectional treatment underscores the building’s logic through spatial sequencing, where vertical transitions are explicitly articulated. The diagram’s spatial organization suggests a functional clarity, where the internal structure is revealed to support the building’s overall form.

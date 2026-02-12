@@ -2,18 +2,13 @@
 layout: none
 ---
 
-## Diagram role
-Diagram of spatial relationships
+Spatial organization of a multi-level building massing
 
-## Spatial focus
-- Interstitial zones
-- Thresholds
-- Circulation paths
+- Upper level assembly of interconnected rectangular volumes
+- Lower level circulation and service core with stepped transitions
+- Central atrium defined by vertical elements and grid flooring
 
-## Diagrammatic ideas
-- Layering of spatial conditions
-- Compression of spatial sequences
-- Use of voids to articulate movement
+- Emphasis on axial alignment and hierarchical volume stacking
+- Use of stepped platforms to articulate vertical movement
 
-## Reading
-The diagram compresses spatial sequences into a single plane, emphasizing the interstitial as a generator of spatial experience. Voids are not merely negative space but active articulators of movement, defining thresholds that condition circulation. Layering reveals how spatial conditions accumulate, creating a hierarchy of permeability and enclosure. The diagram’s structure suggests a choreography of movement, where transitions are not incidental but architecturally orchestrated. The compression of sequences into a flat representation allows for a focused analysis of spatial logic without distraction from form or materiality.
+The diagram establishes a clear vertical hierarchy through the juxtaposition of upper and lower spatial zones, with the central core acting as a structural and programmatic anchor. Movement is mediated by stepped transitions that create distinct levels of access and visual emphasis. The upper volumes are arranged in a fragmented, modular fashion, suggesting functional differentiation while maintaining a unified massing. The lower level integrates circulation with service elements, forming a continuous path that connects the building’s extremities to its core. The vertical elements within the atrium reinforce the diagram’s focus on axial alignment and spatial centrality.

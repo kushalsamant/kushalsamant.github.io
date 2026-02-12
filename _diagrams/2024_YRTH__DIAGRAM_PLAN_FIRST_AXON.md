@@ -2,18 +2,12 @@
 layout: none
 ---
 
-## Diagram role
-Spatial relationship diagram
+Defines spatial organization through layered axial relationships
 
-## Spatial focus
-- Interior volume
-- Exterior envelope
-- Circulation path
+- Primary circulation path along central corridor
+- Enclosed private zones at rear and left extremities
+- Open communal area at front with defined seating
 
-## Diagrammatic ideas
-- Layered spatial hierarchy
-- Directional flow
-- Boundary condition
+Introduces hierarchy through spatial modulation —— uses axial alignment to establish directional flow —— employs enclosure to differentiate function
 
-## Reading
-The diagram establishes a spatial logic through the interplay of interior volume and exterior envelope, mediated by circulation path. The layered spatial hierarchy suggests a progression of spatial experience, with each layer defining a distinct spatial condition. Directional flow is implied through the orientation of circulation path relative to the envelope, indicating a sequence of spatial encounters. Boundary condition is rendered as a threshold between interior and exterior, where the circulation path acts as a liminal space. The diagram’s spatial grammar is articulated through these three elements, creating a coherent spatial syntax without explicit annotation.
+The building’s plan unfolds as a sequence of nested volumes, where the central corridor acts as a spine connecting distinct zones. The rear and left sections are demarcated by solid walls, suggesting privacy or specialized use. The front area, open and oriented toward the street, functions as a threshold space. The structural columns support a raised platform, creating a visual and physical separation from the ground plane. The axial arrangement prioritizes movement while the enclosure defines boundaries, establishing a clear spatial hierarchy.

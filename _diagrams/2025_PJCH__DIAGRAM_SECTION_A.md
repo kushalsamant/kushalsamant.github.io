@@ -2,18 +2,13 @@
 layout: none
 ---
 
-## Diagram role
-Spatial relationship diagram
+Elevation section revealing structural and spatial organization
 
-## Spatial focus
-- Interior volume
-- Exterior envelope
-- Transition zone
+- Wall plane with fenestration and vertical supports
+- Roof plane with gable geometry and overhangs
+- Foundation level with stepped platform and column base
 
-## Diagrammatic ideas
-- Layered spatial hierarchy
-- Contour-based spatial definition
-- Directional flow
+- Spatial hierarchy through massing and elevation breaks
+- Structural logic expressed through column placement and floor levels
 
-## Reading
-The diagram establishes a spatial hierarchy through layered contours that delineate zones of increasing intimacy. The interior volume is defined by a dense contour network, suggesting a high degree of spatial enclosure and control. The exterior envelope is rendered with sparser contours, indicating openness and reduced spatial definition. Transition zones are marked by intermediate contour density, facilitating a gradual shift between interior and exterior conditions. The directional flow is implied by the orientation and spacing of contours, guiding movement through the spatial sequence. The diagram’s spatial logic is not explicit but emerges from the interplay of contour density and spatial orientation.
+The diagram establishes a clear vertical hierarchy where the roof plane dominates the upper register, while the foundation level anchors the structure through its stepped platform and column bases. The wall plane mediates between these extremes, defining the spatial envelope through its fenestration and vertical supports. The gable roof geometry creates a sense of enclosure and shelter, while the stepped foundation suggests a deliberate relationship to ground plane and access. Column placement reinforces structural articulation, creating zones of visual and spatial emphasis. The diagram’s logic prioritizes structural clarity over decorative embellishment, allowing spatial relationships to emerge through material and form.

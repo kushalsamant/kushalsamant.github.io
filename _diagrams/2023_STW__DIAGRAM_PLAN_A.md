@@ -2,18 +2,13 @@
 layout: none
 ---
 
-## Diagram role
-Diagrammatic exploration of spatial configuration
+Defines spatial organization through grid-based partitioning and vertical circulation
 
-## Spatial focus
-- Vertical articulation
-- Horizontal layering
-- Circulation paths
+- Upper-left quadrant contains private enclosure with inset service zones
+- Central vertical corridor serves as primary circulation spine
+- Lower section features linear arrangement of service and public modules
 
-## Diagrammatic ideas
-- Layered spatial sequences
-- Nested circulation nodes
-- Conditional spatial thresholds
+— Emphasizes hierarchical zoning via proportional massing
+— Uses grid alignment to enforce modular spatial logic
 
-## Reading
-The diagram establishes a vertical hierarchy through stacked spatial volumes, each defined by distinct horizontal thresholds. Circulation is mediated by nested nodes that conditionally connect adjacent layers, creating a system of spatial transitions rather than direct pathways. The spatial sequences are not linear but iterative, suggesting a choreographed movement through thresholds that modulate access and perception. The diagram implies a spatial grammar where each layer operates as a distinct spatial register, governed by its own set of conditional relationships. The vertical stacking is not merely structural but conceptual, encoding a hierarchy of spatial experience through the sequencing of thresholds and circulation nodes.
+The diagram establishes a vertical hierarchy by anchoring circulation at the center, which mediates between upper and lower zones. Upper zones are defined by compact, inward-facing modules suggesting privacy, while lower zones unfold in a linear sequence implying public or service function. The grid structure enforces uniformity across all spatial elements, yet the placement of black masses disrupts this uniformity to denote functional priority. Spatial relationships are mediated by the corridor’s continuous presence, which both separates and connects the zones without interrupting the overall planar logic. The diagram’s logic prioritizes circulation as the organizing principle, with spatial types emerging from its interaction with the grid and the distribution of mass.

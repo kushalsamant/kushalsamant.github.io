@@ -2,18 +2,14 @@
 layout: none
 ---
 
-## Diagram role
-Spatial relationship diagram
+Spatial organization of a multi-room interior with defined circulation paths
 
-## Spatial focus
-- Vertical alignment of structural elements
-- Horizontal distribution of functional zones
-- Interstitial spaces between programmatic blocks
+- Primary circulation corridor along the long axis
+- Secondary service core positioned at the rear corner
+- Enclosed private zones in the northern quadrant
 
-## Diagrammatic ideas
-- Layering of structural and programmatic information
-- Use of orthogonal projection to establish clarity
-- Emphasis on spatial thresholds and transitions
+Diagrammatic ideas —
+- Use of orthogonal partitioning to establish spatial hierarchy
+- Emphasis on linear movement through contrast of void and mass
 
-## Reading
-The diagram establishes a hierarchy of spatial organization through the precise alignment of vertical elements, which anchor the composition and define structural continuity. Horizontal bands demarcate functional zones, creating a clear segmentation that supports programmatic legibility without visual clutter. Interstitial spaces are rendered as negative volumes, subtly suggesting movement and circulation between defined areas. The orthogonal projection reinforces spatial clarity by eliminating perspective distortion, allowing the viewer to perceive relationships as pure spatial constructs. The layering of structural and programmatic data creates a dual register of information, where form and function are interwoven without hierarchy, enabling a simultaneous reading of both systems.
+The diagram establishes a clear axial progression from entry to rear zones, guiding movement through a sequence of defined thresholds. The service core acts as a structural anchor, separating circulation from private functions while maintaining visual continuity. Spatial hierarchy is reinforced by the scale and placement of enclosed volumes, which diminish in prominence as they recede from the main axis. The orthogonal grid reinforces a rational, modular logic that governs both circulation and spatial enclosure. The arrangement suggests a functional sequence prioritizing efficiency over ambiguity.

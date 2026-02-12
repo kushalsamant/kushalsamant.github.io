@@ -2,18 +2,13 @@
 layout: none
 ---
 
-## Diagram role
-Spatial relationship between building and site
+Defines spatial organization through a grid-based system with inserted voids and massing.
 
-## Spatial focus
-- Building footprint
-- Site boundary
-- Adjacent land use
+- Vertical massing on the left anchors the primary circulation spine.
+- Horizontal voids interrupt the grid to create distinct functional zones.
+- Central corridor acts as a vertical axis separating main circulation from service areas.
 
-## Diagrammatic ideas
-- Layering of spatial zones
-- Contouring of boundary conditions
-- Implicit hierarchy of spatial control
+- Emphasizes modularity through consistent grid alignment.
+- Uses contrast between filled and voided sections to establish hierarchy.
 
-## Reading
-The diagram establishes a clear spatial hierarchy through the juxtaposition of fixed and variable zones. The building footprint is rendered as a stable, enclosed form, while the site boundary acts as a transitional threshold. Adjacent land use is depicted as an external condition, influencing but not defining the building’s spatial logic. The contouring of boundary conditions suggests a negotiation between internal control and external pressure. Layering implies a sequence of spatial interventions, each responding to the next, without explicit hierarchy. The diagram’s clarity derives from its restraint: no extraneous detail, no decorative element, only the essential spatial relationships. This precision allows the viewer to perceive the spatial logic without distraction, making the diagram a tool for spatial reasoning rather than visual interpretation.
+The diagram establishes a clear hierarchy by anchoring the primary circulation spine to the left, which in turn organizes the spatial sequence. The horizontal voids interrupt the grid to delineate distinct functional zones without disrupting the underlying structure. The central corridor functions as a vertical axis, separating the main circulation from service areas while maintaining a consistent grid logic. The spatial relationships are defined by the placement of massing and voids, which create a predictable rhythm and guide movement through the plan. The grid remains uniform throughout, ensuring that all elements are proportionally aligned and functionally integrated.

@@ -2,18 +2,13 @@
 layout: none
 ---
 
-## Diagram role
-Spatial relationship diagram
+Illustrates structural framing and spatial organization through orthogonal projection
 
-## Spatial focus
-- Vertical circulation
-- Horizontal circulation
-- Circulation nodes
+- Ground plane defined by continuous paving and elevation change
+- Vertical enclosure composed of repeated linear elements forming a grid
+- Interior voids and structural supports establish spatial hierarchy
 
-## Diagrammatic ideas
-- Layered hierarchy
-- Spatial compression
-- Circulation as structural element
+- Emphasizes structural logic through exposed framing
+- Spatial modulation achieved via rhythmic repetition of elements
 
-## Reading
-The diagram organizes movement through a vertical stacking of circulation paths, creating a hierarchy that prioritizes access to key nodes. Spatial compression is evident in the dense arrangement of circulation routes, suggesting a high degree of interaction and connectivity. Circulation is not merely a functional conduit but is rendered as a structural backbone, reinforcing the spatial logic of the building. The layered hierarchy implies a deliberate ordering of movement, with primary routes distinguished from secondary ones. This compression and structuring of circulation paths indicate a design intent to optimize flow while maintaining spatial coherence.
+The diagram establishes a clear vertical hierarchy where the building mass is elevated on a robust structural frame, creating a distinct separation between the ground plane and the enclosed volume. The grid of vertical elements not only defines the facade but also reinforces the spatial rhythm and scale of the interior. The elevation change at the base introduces a deliberate shift in the spatial experience, anchoring the structure to the terrain while preserving an unobstructed view. The absence of interior detailing suggests a focus on the fundamental relationship between support, enclosure, and ground plane. The diagram’s logic prioritizes structural clarity over decorative articulation, revealing how spatial configuration emerges from the interplay of vertical and horizontal systems.

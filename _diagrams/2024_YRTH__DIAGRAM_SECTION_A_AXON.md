@@ -2,18 +2,13 @@
 layout: none
 ---
 
-## Diagram role
-Spatial relationship diagram
+Illustrates structural hierarchy and spatial sequencing through vertical and horizontal articulation
 
-## Spatial focus
-- Vertical alignment of structural elements
-- Horizontal distribution of functional zones
-- Interstitial relationships between circulation and enclosure
+- Ground-level circulation defined by a continuous, elevated platform supported by discrete columns
+- Upper volume establishes a distinct, enclosed space with vertical slats forming a rhythmic facade
+- Staircase and ramp serve as vertical connectors between levels, modulating access and movement
 
-## Diagrammatic ideas
-- Layering of structural and spatial hierarchies
-- Use of voids to articulate spatial sequence
-- Emphasis on transitional thresholds
+- Emphasizes the separation of public and private through layered spatial thresholds
+- Uses linear elements to establish a clear axis of circulation and visual emphasis
 
-## Reading
-The diagram establishes a vertical hierarchy through the alignment of structural members, which anchors the spatial organization. Horizontal zones are distributed with deliberate spacing, creating distinct functional areas while maintaining visual continuity. Voids are strategically placed to define transitions and modulate the spatial experience, guiding movement through thresholds that articulate the interstitial relationships between circulation and enclosure. The layering of structural and spatial hierarchies reinforces the diagram’s logic, while the emphasis on transitional thresholds suggests a choreography of movement that is both contained and fluid. The diagram’s clarity lies in its ability to resolve spatial complexity without recourse to ornamentation or explicit annotation.
+The diagram organizes space through a clear vertical stratification, where the ground plane functions as a transitional zone supporting both pedestrian flow and structural load. The upper volume is articulated as a self-contained unit, its facade pattern suggesting enclosure while maintaining visual permeability. Vertical circulation is deliberately placed to anchor the structure’s hierarchy, with the staircase serving as both a functional and symbolic axis. The spatial logic prioritizes circulation over enclosure, using the platform as a mediator between the street and the elevated space. The relationship between the two levels is governed by structural independence and spatial contrast, reinforcing a dual-functionality within a single volume.

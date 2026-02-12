@@ -2,18 +2,12 @@
 layout: none
 ---
 
-## Diagram role
-Spatial relationship diagram
+Spatial configuration of a rectangular volume with internal divisions and defined thresholds
 
-## Spatial focus
-- Interior volume
-- Exterior envelope
-- Circulation path
+- Primary circulation path along the longitudinal axis
+- Enclosed service zone at the rear wall
+- Access point at the front facade with adjacent storage
 
-## Diagrammatic ideas
-- Layering of spatial conditions
-- Conditional adjacency
-- Thresholds as spatial operators
+Diagrammatic emphasis on modular partitioning — explicit hierarchy of spatial zones — use of voids to define transitions
 
-## Reading
-The diagram establishes a hierarchy of spatial relationships through the explicit layering of interior volume, exterior envelope, and circulation path. Each layer is defined by its conditional adjacency to the others, with thresholds acting as spatial operators that mediate transitions. The diagram’s structure implies a non-linear progression, where movement is contingent upon spatial conditions rather than fixed routes. The interplay between enclosed and open conditions is rendered through the spatial operators, which function as both boundaries and conduits. The diagram’s logic prioritizes spatial condition over spatial sequence, suggesting a system where spatial experience is modulated by relational thresholds.
+The spatial hierarchy establishes a clear progression from entry to core functions through a sequence of thresholds. The rear wall contains a compact, self-contained unit that contrasts with the open circulation space. Partitioning is not arbitrary but follows a consistent grid logic that reinforces spatial legibility. The access point is deliberately positioned to frame the movement into the deeper volume. Architectural logic prioritizes functional separation while maintaining visual continuity through the consistent use of aligned planes.

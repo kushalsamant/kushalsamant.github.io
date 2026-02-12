@@ -2,18 +2,13 @@
 layout: none
 ---
 
-## Diagram role
-Spatial relationship diagram
+Illustrates spatial organization through layered axial relationships
 
-## Spatial focus
-- Interior volume
-- Exterior envelope
-- Boundary condition
+- Primary circulation path defined by bold black lines
+- Enclosed zones demarcated by vertical slat screens
+- Ground plane segmented by grid and raised platforms
 
-## Diagrammatic ideas
-- Layering of spatial thresholds
-- Compression of spatial hierarchy
-- Ambiguity of spatial ownership
+- Emphasis on axial alignment and directional flow
+- Contrast between solid mass and open voids
 
-## Reading
-The diagram establishes a spatial grammar through the juxtaposition of interior volume and exterior envelope, mediated by boundary conditions that dissolve fixed spatial ownership. Layering of thresholds suggests a sequence of spatial transitions, while compression of hierarchy implies a flattened spatial logic. Ambiguity in ownership is rendered through overlapping zones, where interior and exterior are not mutually exclusive but interpenetrating. The diagram’s spatial syntax operates without explicit hierarchy, relying instead on relational density to define spatial meaning. This relational density is not merely formal but functional, implying a spatial logic that prioritizes interaction over containment. The diagram thus functions as a spatial schema, not a plan, where spatial meaning emerges from relational proximity rather than fixed demarcation.
+The diagram establishes a clear hierarchy through the interplay of axial corridors and enclosed volumes, guiding movement through a sequence of spatial thresholds. Vertical slat screens create a rhythmic modulation of enclosure, softening transitions between public and private zones. The grid on the ground plane anchors spatial orientation while the raised platforms introduce vertical stratification, reinforcing functional separation. Architectural logic is expressed through the precise alignment of structural elements and the deliberate interruption of flow by solid boundaries, which define moments of pause or transition. The spatial sequence is not merely linear but unfolds as a choreographed progression, where each volume serves a distinct role in the overall spatial narrative.
