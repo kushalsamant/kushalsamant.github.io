@@ -1,353 +1,155 @@
-/* =========================================
-   Master Stylesheet
-   Unified System
-   Clean • Architectural • Tokenized
-   ========================================= */
+/* =========================================================
+   KUSHAL SAMANT ARCHITECTS
+   Architectural Layout System
+   ========================================================= */
 
-/* =========================================
-   Root Tokens
-   ========================================= */
+/* ---------- Base Reset ---------- */
 
-   :root {
-    --color-text: #1a1a1a;
-    --color-text-muted: #666666;
-    --color-bg: #ffffff;
-    --color-border: #e0e0e0;
-    --color-accent: #f12345;
-  
-    --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    --font-mono: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, monospace;
-  
-    --content-width: 72ch;
-    --image-max-width: 1200px;
-  }
-  
-  /* =========================================
-     Reset
-     ========================================= */
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  html {
-    font-size: clamp(15px, 1.1vw, 18px);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  body {
-    font-family: var(--font-sans);
-    line-height: 1.7;
-    color: var(--color-text);
-    background: var(--color-bg);
-    padding: 2rem 1.5rem;
-    max-width: 100%;
-  }
-  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: clamp(16px, 1.1vw, 18px);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #111;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ---------- Layout Container ---------- */
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem 8rem 1.5rem;
+}
+
+/* Wider reading on large screens */
+
+@media (min-width: 1400px) {
   main {
-    max-width: var(--content-width);
-    margin: 0 auto;
+    max-width: 820px;
   }
-  
-  /* =========================================
-     Typography
-     ========================================= */
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: 600;
-    line-height: 1.3;
-    margin-bottom: 1rem;
-    color: var(--color-text);
+}
+
+/* ---------- Typography ---------- */
+
+h1 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 4rem;
+  margin-bottom: 1.2rem;
+}
+
+p {
+  margin: 0 0 1.4rem 0;
+  max-width: 65ch;
+}
+
+ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+/* ---------- Links ---------- */
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  transition: border-color 0.2s ease;
+}
+
+a:hover {
+  border-color: rgba(0,0,0,0.6);
+}
+
+/* ---------- Diagram System ---------- */
+
+.diagram-block {
+  margin: 6rem 0;
+}
+
+.diagram-block img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2.5rem;
+}
+
+.diagram-text {
+  max-width: 65ch;
+}
+
+/* Make diagram sections quieter */
+
+.diagram-text h2 {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  margin-top: 3rem;
+}
+
+/* ---------- Section Dividers ---------- */
+
+hr {
+  border: none;
+  height: 1px;
+  background: #e5e5e5;
+  margin: 4rem 0;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+  margin-top: 6rem;
+  padding: 4rem 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* ---------- Image Behavior ---------- */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Mobile Adjustments ---------- */
+
+@media (max-width: 768px) {
+
+  main {
+    padding: 4rem 1.2rem 6rem 1.2rem;
   }
-  
-  h1 {
-    font-size: clamp(1.9rem, 3vw, 2.5rem);
-    margin-bottom: 1.5rem;
-  }
-  
-  h2 {
-    font-size: clamp(1.4rem, 2.5vw, 1.9rem);
-    margin-top: 2.5rem;
-  }
-  
-  h3 {
-    font-size: clamp(1.1rem, 2vw, 1.4rem);
-    margin-top: 2rem;
-  }
-  
-  p {
-    margin-bottom: 1.25rem;
-    max-width: var(--content-width);
-  }
-  
-  ul,
-  ol {
-    margin-bottom: 1.25rem;
-    padding-left: 1.5rem;
-  }
-  
-  li {
-    margin-bottom: 0.5rem;
-  }
-  
-  code {
-    font-family: var(--font-mono);
-    font-size: 0.9em;
-    background: #f5f5f5;
-    padding: 0.2em 0.4em;
-    border-radius: 3px;
-  }
-  
-  pre {
-    background: #f5f5f5;
-    padding: 1rem;
-    overflow-x: auto;
-    border-radius: 4px;
-    margin-bottom: 1.25rem;
-  }
-  
-  pre code {
-    background: none;
-    padding: 0;
-  }
-  
-  /* =========================================
-     Links
-     ========================================= */
-  
-  a {
-    color: var(--color-text);
-    text-decoration: underline;
-    text-decoration-color: var(--color-border);
-    text-underline-offset: 2px;
-    transition: opacity 0.2s ease;
-  }
-  
-  a:hover {
-    opacity: 0.7;
-    text-decoration-color: var(--color-accent);
-  }
-  
-  /* =========================================
-     Diagram System
-     ========================================= */
-  
-  .diagram-count {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    color: var(--color-text-muted);
-    font-size: 0.9rem;
-  }
-  
+
   .diagram-block {
     margin: 4rem 0;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid var(--color-border);
   }
-  
-  .diagram-block:last-of-type {
-    border-bottom: none;
+
+  h1 {
+    margin-bottom: 2rem;
   }
-  
-  .diagram-block img {
-    display: block;
-    width: 100%;
-    max-width: var(--image-max-width);
-    height: auto;
-    margin: 0 auto 2rem auto;
-    border: 1px solid var(--color-border);
-  }
-  
-  .diagram-text {
-    max-width: var(--content-width);
-    margin: 0 auto;
-    line-height: 1.8;
-    font-size: 0.95rem;
-    color: var(--color-text);
-  }
-  
-  .diagram-text > p:first-child {
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-  }
-  
-  .diagram-text ul {
-    margin: 1.5rem 0;
-    padding-left: 1.2rem;
-  }
-  
-  .diagram-text li {
-    margin-bottom: 0.4rem;
-  }
-  
-  .diagram-text > p:last-of-type {
-    margin-top: 1.5rem;
-    line-height: 1.9;
-  }
-  
-  .diagram-text--pending {
-    color: var(--color-text-muted);
-    font-style: italic;
-    text-align: center;
-    padding: 2rem 0;
-  }
-  
-  /* =========================================
-     Sections
-     ========================================= */
-  
-  section {
-    margin-top: 4rem;
-    padding-top: 3rem;
-    border-top: 1px solid var(--color-border);
-  }
-  
-  /* =========================================
-     Tables
-     ========================================= */
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 1.5rem;
-  }
-  
-  th,
-  td {
-    text-align: left;
-    padding: 0.75rem;
-    border-bottom: 1px solid var(--color-border);
-  }
-  
-  th {
-    font-weight: 600;
-    color: var(--color-text);
-  }
-  
-  /* =========================================
-     Blockquotes
-     ========================================= */
-  
-  blockquote {
-    border-left: 3px solid var(--color-border);
-    padding-left: 1.5rem;
-    margin: 1.5rem 0;
-    color: var(--color-text-muted);
-    font-style: italic;
-  }
-  
-  /* =========================================
-     Footer
-     ========================================= */
-  
-  footer {
-    margin-top: 5rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--color-border);
-    font-size: 0.875rem;
-    color: var(--color-text-muted);
-    text-align: center;
-  }
-  
-  /* =========================================
-     Accessibility
-     ========================================= */
-  
-  :focus {
-    outline: 2px solid var(--color-accent);
-    outline-offset: 2px;
-  }
-  
-  :focus:not(:focus-visible) {
-    outline: none;
-  }
-  
-  :focus-visible {
-    outline: 2px solid var(--color-accent);
-    outline-offset: 2px;
-  }
-  
-  ::selection {
-    background-color: var(--color-accent);
-    color: #ffffff;
-  }
-  
-  ::-moz-selection {
-    background-color: var(--color-accent);
-    color: #ffffff;
-  }
-  
-  @media (prefers-reduced-motion: reduce) {
-    * {
-      animation-duration: 0.01ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
-    }
-  }
-  
-  /* =========================================
-     Responsive
-     ========================================= */
-  
-  @media (max-width: 768px) {
-    body {
-      padding: 1.5rem 1rem;
-    }
-  
-    .diagram-block {
-      margin: 3rem 0;
-    }
-  
-    .diagram-text {
-      max-width: 100%;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    body {
-      padding: 3rem 2rem;
-    }
-  }
-  
-  /* =========================================
-     Print
-     ========================================= */
-  
-  @media print {
-    body {
-      padding: 0;
-      max-width: 100%;
-    }
-  
-    .diagram-block {
-      margin: 2rem 0;
-      page-break-inside: avoid;
-      border-bottom: 1px solid #000;
-    }
-  
-    .diagram-block img {
-      max-width: 100%;
-      border: none;
-    }
-  
-    a {
-      text-decoration: none;
-      color: #000;
-    }
-  
-    footer,
-    .diagram-text--pending {
-      display: none;
-    }
-  }
-  
+}
