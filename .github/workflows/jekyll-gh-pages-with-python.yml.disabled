@@ -1,0 +1,79 @@
+name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "diagrams/**"
+      - "tools/**"
+      - "requirements.txt"
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Automated diagram generation
+      # Runs ONLY when paths above change
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate diagram markdown
+        env:
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          TOGETHER_API_URL: ${{ secrets.TOGETHER_API_URL }}
+          TOGETHER_MODEL_ID: ${{ secrets.TOGETHER_MODEL_ID }}
+          BASE_IMAGE_URL: https://www.kvshvl.in/diagrams
+          PROMPT_FILE: tools/diagram_prompt.txt
+          IMAGE_EXTENSIONS: .jpg,jpeg,png
+          DIAGRAMS_DIR: diagrams
+          BATCH_SIZE: 5
+        run: python tools/generate_diagram_md.py
+        continue-on-error: true
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
