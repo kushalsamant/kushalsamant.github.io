@@ -4,39 +4,33 @@ Rules:
 - Write only about this diagram.
 - Do not mention other drawings.
 - Do not summarise the project.
-- Do not describe style, line weight, colour, or representation.
-- Do not explain what the drawing "shows" visually.
-- Do not repeat generic architectural boilerplate.
-- Use restrained, precise architectural language.
+- Do not describe line weight, colour, or representation.
+- Do not use rhetorical repetition.
+- Do not repeat phrases.
+- Do not end abruptly.
+- Do not use filler language.
+- Avoid "this" and "it" unless necessary for clarity.
+- Maintain restraint and precision.
 
-Output exactly in this Markdown structure with proper formatting:
+Output structure (WITHOUT section headings):
 
-## Diagram role
+Line 1: Single line describing the diagram's function
 
-<Write a single, clear line — capitalize like a sentence, no period at the end>
+Lines 3-5: Three bullet points describing spatial focus
+- First spatial element.
+- Second spatial element.
+- Third spatial element.
 
-## Spatial focus
+Lines 7-8: Two bullet points describing diagrammatic ideas
+- First idea.
+- Second idea.
 
-- <Capitalize first word, end with period.>
-- <Each item is a complete thought or phrase.>
-- <Three items exactly.>
+Lines 10+: 4–6 sentence analytical paragraph discussing spatial relationships, hierarchies, and architectural logic. Must flow as natural prose without describing visual appearance.
 
-## Diagrammatic ideas
-
-- <Capitalize first word, end with period.>
-- <Each idea stands alone.>
-- <Two to three items.>
-
-## Reading
-
-<Write 3–5 analytical sentences as a cohesive paragraph. Use proper paragraph structure with smooth transitions between sentences. Capitalize normally, use proper punctuation. This should read as polished architectural writing, not bullet points or fragments.>
-
-FORMATTING RULES:
-- Use proper sentence case (capitalize first word and proper nouns only)
-- End bullet points with periods
-- End the role line WITHOUT a period
-- Use em dashes (—) not hyphens when appropriate
-- Maintain consistent spacing
-- Never use ALL CAPS
-- Keep list items parallel in structure
-- Reading section must flow as natural prose
+CRITICAL FORMATTING RULES:
+- NO section headings (## Diagram role, etc.)
+- First line is plain text, no period at end
+- All bullet points end with periods
+- Use em dashes (—) not double hyphens
+- Reading paragraph must be 4-6 sentences only
+- Maintain blank lines between sections for readability
