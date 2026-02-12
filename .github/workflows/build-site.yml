@@ -1,10 +1,12 @@
-name: Build and Deploy Site
+name: Production Build and Deploy
 
 on:
   push:
     branches: ["main"]
-
-  workflow_dispatch:
+    paths-ignore:
+      - "diagrams/**"
+      - "tools/**"
+      - "requirements.txt"
 
 permissions:
   contents: read
@@ -12,8 +14,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: "production-deploy"
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -26,24 +28,34 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Build with Jekyll
+      - name: Build with Jekyll (Strict Mode)
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
 
-      - name: Upload artifact
+      - name: Verify Build Output
+        run: |
+          if [ ! -f "_site/index.html" ]; then
+            echo "Build failed: index.html missing"
+            exit 1
+          fi
+
+      - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+          retention-days: 7
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
 
     environment:
-      name: github-pages
+      name: production
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
