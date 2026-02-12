@@ -1,302 +1,353 @@
-/* ========================================
-   Kushal Samant Architects - Main Stylesheet
-   Design: Clean, restrained, architectural
-   ======================================== */
+/* =========================================
+   Master Stylesheet
+   Unified System
+   Clean • Architectural • Tokenized
+   ========================================= */
 
-/* === Reset & Base === */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* =========================================
+   Root Tokens
+   ========================================= */
 
-html {
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.65;
-  color: #1a1a1a;
-  background-color: #ffffff;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem;
-}
-
-@media (min-width: 768px) {
-  body {
-    padding: 3rem 2.5rem;
+   :root {
+    --color-text: #1a1a1a;
+    --color-text-muted: #666666;
+    --color-bg: #ffffff;
+    --color-border: #e0e0e0;
+    --color-accent: #f12345;
+  
+    --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-mono: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, monospace;
+  
+    --content-width: 72ch;
+    --image-max-width: 1200px;
   }
-}
-
-@media (min-width: 1024px) {
-  body {
-    padding: 4rem 3rem;
+  
+  /* =========================================
+     Reset
+     ========================================= */
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
-}
-
-/* === Typography === */
-h1 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  margin-bottom: 2rem;
-  color: #000000;
-}
-
-h2 {
-  font-size: 1.125rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  color: #000000;
-}
-
-h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
-  color: #000000;
-}
-
-p {
-  margin-bottom: 1.25rem;
-  max-width: 70ch;
-  font-size: 1rem;
-  color: #2a2a2a;
-}
-
-/* === Links === */
-a {
-  color: #000000;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
-  transition: opacity 0.2s ease;
-}
-
-a:hover {
-  opacity: 0.6;
-}
-
-/* === Diagram Count === */
-.diagram-count {
-  margin-bottom: 3rem;
-  margin-top: -1rem;
-}
-
-.diagram-count small {
-  font-size: 0.875rem;
-  color: #666666;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-
-/* === Diagram Block === */
-.diagram-block {
-  margin-bottom: 5rem;
-  border-top: 1px solid #e0e0e0;
-  padding-top: 2rem;
-}
-
-.diagram-block:first-of-type {
-  border-top: 2px solid #000000;
-  margin-top: 2rem;
-}
-
-.diagram-block img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 1.5rem;
-  background-color: #fafafa;
-}
-
-/* === Diagram Text === */
-.diagram-text {
-  font-size: 0.9375rem;
-  line-height: 1.6;
-  color: #333333;
-  max-width: 65ch;
-}
-
-.diagram-text > *:first-child {
-  font-weight: 500;
-  margin-bottom: 1rem;
-  color: #000000;
-}
-
-.diagram-text ul {
-  list-style: none;
-  margin: 1.25rem 0;
-  padding: 0;
-}
-
-.diagram-text li {
-  margin-bottom: 0.5rem;
-  padding-left: 1.25rem;
-  position: relative;
-}
-
-.diagram-text li::before {
-  content: "–";
-  position: absolute;
-  left: 0;
-  color: #666666;
-}
-
-.diagram-text p {
-  margin-top: 1.25rem;
-  margin-bottom: 0;
-  font-size: 0.9375rem;
-}
-
-/* === Pending State === */
-.diagram-text--pending {
-  font-style: italic;
-  color: #999999;
-}
-
-.diagram-text--pending em {
-  font-style: normal;
-}
-
-/* === About Section === */
-section {
-  margin-top: 4rem;
-  padding-top: 3rem;
-  border-top: 1px solid #e0e0e0;
-}
-
-section h2 {
-  margin-top: 0;
-}
-
-/* === Footer === */
-footer {
-  margin-top: 5rem;
-  padding-top: 2rem;
-  border-top: 1px solid #e0e0e0;
-  text-align: center;
-}
-
-footer p {
-  font-size: 0.875rem;
-  color: #666666;
-  margin: 0;
-}
-
-/* === Lists === */
-ul, ol {
-  margin-left: 1.5rem;
-  margin-bottom: 1.25rem;
-}
-
-li {
-  margin-bottom: 0.5rem;
-}
-
-/* === Code === */
-code {
-  font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, monospace;
-  font-size: 0.875em;
-  background-color: #f5f5f5;
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-}
-
-pre {
-  background-color: #f5f5f5;
-  padding: 1rem;
-  overflow-x: auto;
-  border-radius: 4px;
-  margin-bottom: 1.25rem;
-}
-
-pre code {
-  background: none;
-  padding: 0;
-}
-
-/* === Blockquotes === */
-blockquote {
-  border-left: 3px solid #e0e0e0;
-  padding-left: 1.5rem;
-  margin: 1.5rem 0;
-  color: #666666;
-  font-style: italic;
-}
-
-/* === Tables === */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 1.5rem;
-}
-
-th, td {
-  text-align: left;
-  padding: 0.75rem;
-  border-bottom: 1px solid #e0e0e0;
-}
-
-th {
-  font-weight: 600;
-  color: #000000;
-}
-
-/* === Print Styles === */
-@media print {
+  
+  html {
+    font-size: clamp(15px, 1.1vw, 18px);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
   body {
+    font-family: var(--font-sans);
+    line-height: 1.7;
+    color: var(--color-text);
+    background: var(--color-bg);
+    padding: 2rem 1.5rem;
     max-width: 100%;
+  }
+  
+  main {
+    max-width: var(--content-width);
+    margin: 0 auto;
+  }
+  
+  /* =========================================
+     Typography
+     ========================================= */
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+  }
+  
+  h1 {
+    font-size: clamp(1.9rem, 3vw, 2.5rem);
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+    margin-top: 2.5rem;
+  }
+  
+  h3 {
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    margin-top: 2rem;
+  }
+  
+  p {
+    margin-bottom: 1.25rem;
+    max-width: var(--content-width);
+  }
+  
+  ul,
+  ol {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  code {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    background: #f5f5f5;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+  }
+  
+  pre {
+    background: #f5f5f5;
     padding: 1rem;
+    overflow-x: auto;
+    border-radius: 4px;
+    margin-bottom: 1.25rem;
+  }
+  
+  pre code {
+    background: none;
+    padding: 0;
+  }
+  
+  /* =========================================
+     Links
+     ========================================= */
+  
+  a {
+    color: var(--color-text);
+    text-decoration: underline;
+    text-decoration-color: var(--color-border);
+    text-underline-offset: 2px;
+    transition: opacity 0.2s ease;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+    text-decoration-color: var(--color-accent);
+  }
+  
+  /* =========================================
+     Diagram System
+     ========================================= */
+  
+  .diagram-count {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
   }
   
   .diagram-block {
-    page-break-inside: avoid;
+    margin: 4rem 0;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
   }
   
-  a {
-    text-decoration: none;
+  .diagram-block:last-of-type {
+    border-bottom: none;
   }
-}
-
-/* === Accessibility === */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
+  
+  .diagram-block img {
+    display: block;
+    width: 100%;
+    max-width: var(--image-max-width);
+    height: auto;
+    margin: 0 auto 2rem auto;
+    border: 1px solid var(--color-border);
   }
-}
-
-/* === Selection === */
-::selection {
-  background-color: #000000;
-  color: #ffffff;
-}
-
-::-moz-selection {
-  background-color: #000000;
-  color: #ffffff;
-}
-
-/* === Focus States === */
-:focus {
-  outline: 2px solid #000000;
-  outline-offset: 2px;
-}
-
-:focus:not(:focus-visible) {
-  outline: none;
-}
-
-:focus-visible {
-  outline: 2px solid #000000;
-  outline-offset: 2px;
-}
+  
+  .diagram-text {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 0.95rem;
+    color: var(--color-text);
+  }
+  
+  .diagram-text > p:first-child {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .diagram-text ul {
+    margin: 1.5rem 0;
+    padding-left: 1.2rem;
+  }
+  
+  .diagram-text li {
+    margin-bottom: 0.4rem;
+  }
+  
+  .diagram-text > p:last-of-type {
+    margin-top: 1.5rem;
+    line-height: 1.9;
+  }
+  
+  .diagram-text--pending {
+    color: var(--color-text-muted);
+    font-style: italic;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  /* =========================================
+     Sections
+     ========================================= */
+  
+  section {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--color-border);
+  }
+  
+  /* =========================================
+     Tables
+     ========================================= */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  
+  th {
+    font-weight: 600;
+    color: var(--color-text);
+  }
+  
+  /* =========================================
+     Blockquotes
+     ========================================= */
+  
+  blockquote {
+    border-left: 3px solid var(--color-border);
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+  
+  /* =========================================
+     Footer
+     ========================================= */
+  
+  footer {
+    margin-top: 5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    text-align: center;
+  }
+  
+  /* =========================================
+     Accessibility
+     ========================================= */
+  
+  :focus {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+  
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+  
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+  
+  ::selection {
+    background-color: var(--color-accent);
+    color: #ffffff;
+  }
+  
+  ::-moz-selection {
+    background-color: var(--color-accent);
+    color: #ffffff;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+  
+  /* =========================================
+     Responsive
+     ========================================= */
+  
+  @media (max-width: 768px) {
+    body {
+      padding: 1.5rem 1rem;
+    }
+  
+    .diagram-block {
+      margin: 3rem 0;
+    }
+  
+    .diagram-text {
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body {
+      padding: 3rem 2rem;
+    }
+  }
+  
+  /* =========================================
+     Print
+     ========================================= */
+  
+  @media print {
+    body {
+      padding: 0;
+      max-width: 100%;
+    }
+  
+    .diagram-block {
+      margin: 2rem 0;
+      page-break-inside: avoid;
+      border-bottom: 1px solid #000;
+    }
+  
+    .diagram-block img {
+      max-width: 100%;
+      border: none;
+    }
+  
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  
+    footer,
+    .diagram-text--pending {
+      display: none;
+    }
+  }
+  
