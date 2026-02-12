@@ -1,9 +1,23 @@
 import os
+import sys
 import time
 import requests
 from dotenv import load_dotenv
 
 load_dotenv()
+
+# Validate required environment variables
+REQUIRED_ENV_VARS = [
+    "TOGETHER_API_KEY",
+    "TOGETHER_API_URL",
+    "TOGETHER_MODEL_ID",
+]
+
+missing_vars = [var for var in REQUIRED_ENV_VARS if not os.getenv(var)]
+if missing_vars:
+    print(f"ERROR: Missing required environment variables: {', '.join(missing_vars)}")
+    print("Please check your .env file.")
+    sys.exit(1)
 
 TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
 TOGETHER_API_URL = os.getenv("TOGETHER_API_URL")
@@ -18,6 +32,19 @@ HEADERS = {
 
 
 def run_vision(image_url: str, prompt: str) -> str:
+    """Call Together AI Vision API to analyze an architectural diagram.
+    
+    Args:
+        image_url: Public URL to the diagram image
+        prompt: Instruction prompt for the vision model
+        
+    Returns:
+        Generated text analysis from the model
+        
+    Raises:
+        requests.HTTPError: If API returns error status
+        Exception: If all retry attempts fail
+    """
     payload = {
         "model": MODEL_ID,
         "messages": [
@@ -33,7 +60,7 @@ def run_vision(image_url: str, prompt: str) -> str:
 
     for attempt in range(1, RETRIES + 1):
         try:
-            print(f"Calling Together Vision API (attempt {attempt})")
+            print(f"Calling Together Vision API (attempt {attempt}/{RETRIES})")
             response = requests.post(
                 TOGETHER_API_URL,
                 headers=HEADERS,
@@ -44,9 +71,30 @@ def run_vision(image_url: str, prompt: str) -> str:
             data = response.json()
             return data["choices"][0]["message"]["content"].strip()
 
+        except requests.exceptions.Timeout:
+            print(f"Request timeout after {TIMEOUT}s")
+            if attempt < RETRIES:
+                print("Retrying in 5 seconds...")
+                time.sleep(5)
+            else:
+                raise
+                
+        except requests.exceptions.HTTPError as e:
+            print(f"HTTP error: {e}")
+            if attempt < RETRIES:
+                print("Retrying in 5 seconds...")
+                time.sleep(5)
+            else:
+                raise
+                
+        except KeyError as e:
+            print(f"Unexpected API response format: missing key {e}")
+            raise
+            
         except Exception as e:
             print(f"Vision call failed: {e}")
             if attempt < RETRIES:
+                print("Retrying in 5 seconds...")
                 time.sleep(5)
             else:
                 raise
