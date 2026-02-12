@@ -26,7 +26,8 @@ DIAGRAMS_DIR = Path(os.getenv("DIAGRAMS_DIR", "diagrams"))
 BASE_IMAGE_URL = os.getenv("BASE_IMAGE_URL")
 PROMPT_FILE = Path(os.getenv("PROMPT_FILE"))
 IMAGE_EXTENSIONS = set(
-    ext.strip() for ext in os.getenv("IMAGE_EXTENSIONS", "").split(",")
+    ext.strip() if ext.strip().startswith('.') else f".{ext.strip()}"
+    for ext in os.getenv("IMAGE_EXTENSIONS", "").split(",")
 )
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "1"))
 
@@ -59,14 +60,18 @@ def log(message: str, level: str = "INFO"):
 
 
 def fix_encoding(text: str) -> str:
-    """Fix UTF-8 mojibake from API responses."""
+    """Fix UTF-8 mojibake from API responses.
+    
+    These patterns occur when UTF-8 text is incorrectly decoded as Latin-1
+    and then re-encoded as UTF-8.
+    """
     replacements = {
-        'â€™': "'",
-        'â€œ': '"',
-        'â€': '"',
-        'â€"': '—',
-        'â€"': '–',
-        'â€¦': '…',
+        'Ã¢â‚¬â„¢': "'",  # U+2019 RIGHT SINGLE QUOTATION MARK
+        'Ã¢â‚¬Å"': '"',   # U+201C LEFT DOUBLE QUOTATION MARK
+        'Ã¢â‚¬': '"',     # U+201D RIGHT DOUBLE QUOTATION MARK
+        'Ã¢â‚¬â€œ': '—',   # U+2014 EM DASH
+        'Ã¢â‚¬â€"': '–',   # U+2013 EN DASH
+        'Ã¢â‚¬Â¦': '…',    # U+2026 HORIZONTAL ELLIPSIS
     }
     
     for wrong, right in replacements.items():
@@ -76,7 +81,7 @@ def fix_encoding(text: str) -> str:
 
 
 def clean_output(text: str) -> str:
-    """Enforce typographic cleanliness."""
+    """Enforce typographic cleanliness and remove unwanted formatting."""
     text = fix_encoding(text)
     
     lines = text.splitlines()
@@ -85,10 +90,12 @@ def clean_output(text: str) -> str:
     for line in lines:
         line = line.strip()
 
+        # Preserve blank lines
         if not line:
             cleaned.append("")
             continue
 
+        # Remove section headings (lines starting with ## but keep single #)
         if line.startswith("#") and not line.startswith("## "):
             continue
 
@@ -98,6 +105,7 @@ def clean_output(text: str) -> str:
 
 
 def get_unprocessed_images():
+    """Find images that don't have corresponding markdown files."""
     if not DIAGRAMS_DIR.exists():
         log(f"Diagrams directory not found: {DIAGRAMS_DIR}", "ERROR")
         sys.exit(1)
@@ -108,6 +116,7 @@ def get_unprocessed_images():
         and not (OUTPUT_DIR / p.with_suffix(".md").name).exists()
     ]
 
+    # Process smallest files first for faster feedback
     images.sort(key=lambda p: p.stat().st_size)
     return images[:BATCH_SIZE]
 
