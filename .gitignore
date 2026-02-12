@@ -26,3 +26,11 @@ generation.log
 .vscode/
 .idea/
 *.swp
+
+.ext
+*.ext
+ext.*
+
+.disabled
+*.disabled
+disabled.*
