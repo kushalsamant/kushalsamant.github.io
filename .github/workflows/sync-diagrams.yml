@@ -6,7 +6,6 @@ on:
 
 jobs:
   sync:
-    # Prevent infinite loop when bot commits
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
@@ -19,26 +18,33 @@ jobs:
           image_dir="diagrams"
           md_dir="_diagrams"
 
-          echo "Collecting image base names..."
-          images=$(ls $image_dir 2>/dev/null | sed 's/\.[^.]*$//' || true)
+          echo "Scanning markdown files..."
 
-          echo "Collecting markdown base names..."
-          markdowns=$(ls $md_dir 2>/dev/null | sed 's/\.md$//' || true)
+          for md_path in "$md_dir"/*.md; do
+            [ -e "$md_path" ] || continue
 
-          echo "Removing markdown files without images..."
-          for md in $markdowns; do
-            if [ ! -f "$image_dir/$md.jpg" ] && [ ! -f "$image_dir/$md.png" ]; then
-              rm "$md_dir/$md.md"
-              echo "Deleted orphan markdown: $md.md"
+            base_name=$(basename "$md_path" .md)
+
+            if [ ! -f "$image_dir/$base_name.jpg" ] && \
+               [ ! -f "$image_dir/$base_name.png" ] && \
+               [ ! -f "$image_dir/$base_name.webp" ]; then
+              
+              echo "Deleting orphan markdown: $md_path"
+              rm -f "$md_path"
             fi
           done
 
-          echo "Removing images without markdown..."
-          for img in $images; do
-            if [ ! -f "$md_dir/$img.md" ]; then
-              rm "$image_dir/$img.jpg" 2>/dev/null || true
-              rm "$image_dir/$img.png" 2>/dev/null || true
-              echo "Deleted orphan image: $img"
+          echo "Scanning image files..."
+
+          for img_path in "$image_dir"/*; do
+            [ -e "$img_path" ] || continue
+
+            filename=$(basename "$img_path")
+            base_name="${filename%.*}"
+
+            if [ ! -f "$md_dir/$base_name.md" ]; then
+              echo "Deleting orphan image: $img_path"
+              rm -f "$img_path"
             fi
           done
 
