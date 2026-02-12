@@ -2,7 +2,7 @@ name: Nightly Diagram Processing
 
 on:
   schedule:
-    - cron: "0 2 * * *"
+    - cron: "0 2 * * *"  # 2 AM UTC daily
 
 permissions:
   contents: write
@@ -31,9 +31,11 @@ jobs:
       - name: Generate Markdown
         env:
           TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          TOGETHER_API_URL: ${{ secrets.TOGETHER_API_URL }}
+          TOGETHER_MODEL_ID: ${{ secrets.TOGETHER_MODEL_ID }}
           BASE_IMAGE_URL: https://www.kvshvl.in/diagrams
           PROMPT_FILE: tools/diagram_prompt.txt
-          IMAGE_EXTENSIONS: .jpg,jpeg,png
+          IMAGE_EXTENSIONS: .jpg,.jpeg,.png
           DIAGRAMS_DIR: diagrams
           BATCH_SIZE: 10
         run: python tools/generate_diagram_md.py
