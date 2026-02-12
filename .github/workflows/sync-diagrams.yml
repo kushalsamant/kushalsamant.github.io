@@ -1,0 +1,56 @@
+name: Sync Diagrams and Markdown
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  sync:
+    # Prevent infinite loop when bot commits
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Sync diagrams and markdown
+        run: |
+          image_dir="diagrams"
+          md_dir="_diagrams"
+
+          echo "Collecting image base names..."
+          images=$(ls $image_dir 2>/dev/null | sed 's/\.[^.]*$//' || true)
+
+          echo "Collecting markdown base names..."
+          markdowns=$(ls $md_dir 2>/dev/null | sed 's/\.md$//' || true)
+
+          echo "Removing markdown files without images..."
+          for md in $markdowns; do
+            if [ ! -f "$image_dir/$md.jpg" ] && [ ! -f "$image_dir/$md.png" ]; then
+              rm "$md_dir/$md.md"
+              echo "Deleted orphan markdown: $md.md"
+            fi
+          done
+
+          echo "Removing images without markdown..."
+          for img in $images; do
+            if [ ! -f "$md_dir/$img.md" ]; then
+              rm "$image_dir/$img.jpg" 2>/dev/null || true
+              rm "$image_dir/$img.png" 2>/dev/null || true
+              echo "Deleted orphan image: $img"
+            fi
+          done
+
+      - name: Commit changes if needed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "Sync diagrams and markdown files"
+            git push
+          else
+            echo "No changes to commit."
+          fi
