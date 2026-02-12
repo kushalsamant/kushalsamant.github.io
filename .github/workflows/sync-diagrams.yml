@@ -4,8 +4,13 @@ on:
   push:
     branches: [ main ]
 
+# Required so github-actions can push commits
+permissions:
+  contents: write
+
 jobs:
   sync:
+    # Prevent workflow loop when bot pushes commit
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
