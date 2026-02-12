@@ -3,6 +3,10 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 on:
   push:
     branches: ["main"]
+    paths:
+      - "diagrams/**"
+      - "tools/**"
+      - "requirements.txt"
 
   workflow_dispatch:
 
@@ -23,11 +27,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Optional: Automated diagram generation
-      # Requires GitHub repository secrets:
-      # TOGETHER_API_KEY
-      # TOGETHER_API_URL
-      # TOGETHER_MODEL_ID
+      # Automated diagram generation
+      # Runs ONLY when paths above change
 
       - name: Setup Python
         uses: actions/setup-python@v4
