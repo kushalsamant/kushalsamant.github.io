@@ -1,24 +1,24 @@
-name: Sync Diagrams and Markdown
+name: Sync Diagrams (Markdown Follows Images)
 
 on:
   push:
     branches: [ main ]
 
-# Required so github-actions can push commits
 permissions:
   contents: write
 
 jobs:
   sync:
-    # Prevent workflow loop when bot pushes commit
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
-      - name: Sync diagrams and markdown
+      - name: Remove orphan markdown files
         run: |
           image_dir="diagrams"
           md_dir="_diagrams"
@@ -39,29 +39,15 @@ jobs:
             fi
           done
 
-          echo "Scanning image files..."
-
-          for img_path in "$image_dir"/*; do
-            [ -e "$img_path" ] || continue
-
-            filename=$(basename "$img_path")
-            base_name="${filename%.*}"
-
-            if [ ! -f "$md_dir/$base_name.md" ]; then
-              echo "Deleting orphan image: $img_path"
-              rm -f "$img_path"
-            fi
-          done
-
       - name: Commit changes if needed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
 
           if [ -n "$(git status --porcelain)" ]; then
-            git add .
-            git commit -m "Sync diagrams and markdown files"
-            git push
+            git add _diagrams
+            git commit -m "Remove orphan markdown files"
+            git push || true
           else
             echo "No changes to commit."
           fi
