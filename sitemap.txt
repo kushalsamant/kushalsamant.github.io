@@ -1,0 +1,9 @@
+./index.html
+./_includes/render_diagrams.html
+./_includes/contact.html
+./_includes/about.html
+./_includes/people.html
+./_includes/youtube_embed.html
+./_includes/social.html
+./pinterest-bdc46.html
+./_layouts/default.html
