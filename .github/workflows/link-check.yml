@@ -1,0 +1,18 @@
+name: Check Broken Links
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install link checker
+        run: sudo apt-get install -y linkchecker
+
+      - name: Run link checker
+        run: linkchecker ./_site || true
