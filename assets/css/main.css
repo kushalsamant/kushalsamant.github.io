@@ -19,8 +19,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  color: #111;
-  background: #ffffff;
+  color: #888;
+  background: #fff;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -116,7 +116,7 @@ a:hover {
 hr {
   border: none;
   height: 1px;
-  background: #e5e5e5;
+  background: #fff;
   margin: 4rem 0;
 }
 
@@ -127,7 +127,7 @@ footer {
   padding: 4rem 1.5rem;
   text-align: center;
   font-size: 0.85rem;
-  color: #777;
+  color: #f12;
 }
 
 /* ---------- Image Behavior ---------- */
