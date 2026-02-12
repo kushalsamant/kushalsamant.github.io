@@ -20,6 +20,7 @@ concurrency:
 jobs:
   generate-and-build:
     runs-on: ubuntu-latest
+    environment: github-pages
 
     steps:
       - uses: actions/checkout@v4
@@ -46,11 +47,16 @@ jobs:
 
       - name: Commit Generated Files
         run: |
-          git config user.name "github-actions"
+          git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
-          git add _diagrams/
-          git commit -m "Auto-generate diagram markdown" || echo "No changes"
-          git push
+
+          if [ -n "$(git status --porcelain _diagrams)" ]; then
+            git add _diagrams/
+            git commit -m "Auto-generate diagram markdown"
+            git push
+          else
+            echo "No markdown changes to commit."
+          fi
 
       - uses: actions/configure-pages@v5
 
