@@ -1,7 +1,16 @@
 /* =========================================================
    KUSHAL SAMANT ARCHITECTS
-   Architectural Layout System
+   Unified Color System
    ========================================================= */
+
+/* ---------- Color Variables ---------- */
+
+:root {
+  --accent: #f12345;
+  --text-primary: #888888;
+  --text-muted: #aaaaaa;
+  --background: #ffffff;
+}
 
 /* ---------- Base Reset ---------- */
 
@@ -19,8 +28,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  color: #888;
-  background: #fff;
+  color: var(--text-primary);
+  background: var(--background);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -32,8 +41,6 @@ main {
   margin: 0 auto;
   padding: 6rem 1.5rem 8rem 1.5rem;
 }
-
-/* Wider reading on large screens */
 
 @media (min-width: 1400px) {
   main {
@@ -57,6 +64,7 @@ h2 {
   letter-spacing: 0.08em;
   margin-top: 4rem;
   margin-bottom: 1.2rem;
+  color: var(--text-primary);
 }
 
 p {
@@ -73,17 +81,33 @@ li {
   margin-bottom: 0.4rem;
 }
 
+/* ---------- Muted Text Utility ---------- */
+
+.text-muted {
+  color: var(--text-muted);
+}
+
 /* ---------- Links ---------- */
 
 a {
-  color: inherit;
+  color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid rgba(241,35,69,0.15);
-  transition: border-color 0.2s ease;
+  border-bottom: 1px solid rgba(241, 35, 69, 0.25);
+  transition: all 0.2s ease;
 }
 
 a:hover {
-  border-color: rgba(241,35,69,0.6);
+  border-color: var(--accent);
+}
+
+/* ---------- Accent Utilities ---------- */
+
+.border-accent {
+  border: 1px solid var(--accent);
+}
+
+.accent-text {
+  color: var(--accent);
 }
 
 /* ---------- Diagram System ---------- */
@@ -97,18 +121,18 @@ a:hover {
   width: 100%;
   height: auto;
   margin-bottom: 2.5rem;
+  border: 1px solid rgba(241, 35, 69, 0.15);
 }
 
 .diagram-text {
   max-width: 65ch;
 }
 
-/* Make diagram sections quieter */
-
 .diagram-text h2 {
   font-size: 0.8rem;
   letter-spacing: 0.12em;
   margin-top: 3rem;
+  color: var(--text-muted);
 }
 
 /* ---------- Section Dividers ---------- */
@@ -116,7 +140,7 @@ a:hover {
 hr {
   border: none;
   height: 1px;
-  background: #fff;
+  background: rgba(241, 35, 69, 0.2);
   margin: 4rem 0;
 }
 
@@ -127,7 +151,8 @@ footer {
   padding: 4rem 1.5rem;
   text-align: center;
   font-size: 0.85rem;
-  color: #f12;
+  color: var(--text-muted);
+  border-top: 1px solid rgba(241, 35, 69, 0.2);
 }
 
 /* ---------- Image Behavior ---------- */
