@@ -4,7 +4,7 @@ import time
 from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
-from vision_runner import run_vision
+from vision_runner_base64 import run_vision
 
 load_dotenv()
 
