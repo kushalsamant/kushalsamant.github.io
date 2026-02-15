@@ -147,7 +147,7 @@ def main():
         start_time = time.time()
 
         try:
-            raw_body = run_vision(image_url, PROMPT)
+            raw_body = run_vision(image, PROMPT)
             body = clean_output(raw_body)
 
             md_path.write_text(
