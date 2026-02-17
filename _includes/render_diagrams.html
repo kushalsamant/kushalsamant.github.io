@@ -1,37 +1,49 @@
 {% assign images = site.static_files
   | where_exp: "f", "f.path contains '/diagrams/'"
-  | sort: "path"
+  | sort: "path" %}
+
+{% assign grouped = images
+  | group_by_exp: "f", "f.name | split: '__' | first"
   | reverse %}
 
-{% for image in images %}
-  {% if image.extname == ".jpg" or image.extname == ".jpeg" or image.extname == ".png" %}
+{% for group in grouped %}
 
-    <div class="diagram-block">
+  {% assign sorted = group.items | sort: "path" %}
 
-      {% assign stem = image.name | replace: image.extname, "" %}
+  {% for image in sorted %}
 
-      <img src="{{ image.path }}" alt="{{ stem | replace: '_', ' ' | replace: '-', ' ' }}">
+    {% if image.extname == ".jpg" or image.extname == ".jpeg" or image.extname == ".png" %}
 
-      {% assign found = false %}
+      <div class="diagram-block">
 
-      {% for diagram in site.diagrams %}
-        {% assign name = diagram.path | split: "/" | last | split: "." | first %}
-        {% if name == stem %}
-          <div class="diagram-text">
-            {{ diagram.content }}
+        {% assign stem = image.name | replace: image.extname, "" %}
+
+        <img src="{{ image.path }}"
+             alt="{{ stem | replace: '_', ' ' | replace: '-', ' ' }}">
+
+        {% assign found = false %}
+
+        {% for diagram in site.diagrams %}
+          {% assign name = diagram.path | split: "/" | last | split: "." | first %}
+          {% if name == stem %}
+            <div class="diagram-text">
+              {{ diagram.content }}
+            </div>
+            {% assign found = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% unless found %}
+          <div class="diagram-text diagram-text--pending">
+            <p><em>Analysis pending</em></p>
           </div>
-          {% assign found = true %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
+        {% endunless %}
 
-      {% unless found %}
-        <div class="diagram-text diagram-text--pending">
-          <p><em>Analysis pending</em></p>
-        </div>
-      {% endunless %}
+      </div>
 
-    </div>
+    {% endif %}
 
-  {% endif %}
+  {% endfor %}
+
 {% endfor %}
