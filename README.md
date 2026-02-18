@@ -16,7 +16,7 @@ The system is designed to be:
 - Scans the `/diagrams` directory  
 - Finds images without a corresponding `.md` file in `/_diagrams`  
 - Selects the **smallest unprocessed image first**  
-- Sends the image (via URL) and a fixed prompt to a vision-language model  
+- Encodes the image as base64 and sends it with a fixed prompt to a vision-language model  
 - Writes a standalone Markdown file to `/_diagrams`  
 
 Each `.md` file:
@@ -49,12 +49,12 @@ _diagrams/
   2025_PJCH__DIAGRAM_PLAN_A.md
 
 tools/
-  generate_diagram_md.py
+  generate_markdown.py
   vision_runner.py
   diagram_prompt.txt
 
 .env
-.env.example
+env.example
 ```
 
 ## Naming Convention
@@ -65,11 +65,11 @@ YYYY_PROJECT-SLUG__TYPE_DESCRIPTOR.ext
 ```
 
 **Components:**
-- `YYYY` - Year (4 digits)
-- `PROJECT-SLUG` - Short project code (e.g., STW, YRTH, PJCH)
-- `TYPE` - Content type (DIAGRAM, RENDER, PHOTO, etc.)
-- `DESCRIPTOR` - Specific view or detail (PLAN_A, SECTION_AXON, etc.)
-- `ext` - File extension (.jpg, .jpeg, .png for images; .md for markdown)
+- `YYYY` — Year (4 digits)
+- `PROJECT-SLUG` — Short project code (e.g., STW, YRTH, PJCH)
+- `TYPE` — Content type (DIAGRAM, RENDER, PHOTO, etc.)
+- `DESCRIPTOR` — Specific view or detail (PLAN_A, SECTION_AXON, etc.)
+- `ext` — File extension (.jpg, .jpeg, .png for images; .md for markdown)
 
 **Examples:**
 - `2023_STW__DIAGRAM_PLAN_A.jpg`
@@ -80,14 +80,16 @@ YYYY_PROJECT-SLUG__TYPE_DESCRIPTOR.ext
 
 All runtime configuration lives in `.env`.
 
-Copy `.env.example` to `.env` and configure:
+Copy `env.example` to `.env` and configure:
 
 ### Required
 
 ```env
 TOGETHER_API_KEY=your_key_here
-TOGETHER_API_URL=https://api.together.xyz/v1/chat/completions
-TOGETHER_MODEL_ID=meta-llama/Llama-Vision-Free
+TOGETHER_API_URL=https://api.together.ai/v1/chat/completions
+TOGETHER_MODEL_ID=Qwen/Qwen3-VL-8B-Instruct
+PROMPT_FILE=tools/diagram_prompt.txt
+IMAGE_EXTENSIONS=.jpg,.jpeg,.png
 ```
 
 ### Optional (with defaults)
@@ -95,13 +97,9 @@ TOGETHER_MODEL_ID=meta-llama/Llama-Vision-Free
 ```env
 TOGETHER_TIMEOUT=120
 TOGETHER_RETRIES=2
-
 DIAGRAMS_DIR=diagrams
-BASE_IMAGE_URL=https://www.kvshvl.in/diagrams
-PROMPT_FILE=tools/diagram_prompt.txt
-IMAGE_EXTENSIONS=.jpg,.jpeg,.png
-
 BATCH_SIZE=1
+DEBUG=false
 ```
 
 ## Setup
@@ -115,7 +113,7 @@ python -m pip install -r requirements.txt
 2. Create `.env` from template:
 
 ```bash
-cp .env.example .env
+cp env.example .env
 ```
 
 3. Edit `.env` and add your `TOGETHER_API_KEY`
@@ -125,13 +123,12 @@ cp .env.example .env
 From the repository root:
 
 ```bash
-python tools/generate_diagram_md.py
+python tools/generate_markdown.py
 ```
 
-* Processes `BATCH_SIZE` images
-* Writes `.md` files to `_diagrams/`
-* Safe to run repeatedly
-* Skips images already processed
+- Processes `BATCH_SIZE` images per run  
+- Writes `.md` files to `_diagrams/`  
+- Safe to run repeatedly — skips already-processed images  
 
 ## Prompt control
 
@@ -147,8 +144,8 @@ Changing this file affects **future outputs only**.
 
 To separate:
 
-* **diagrams** (chronological, expanding)
-* **interpretation** (precise, local, non-repetitive)
+- **diagrams** (chronological, expanding)
+- **interpretation** (precise, local, non-repetitive)
 
 This avoids project-level narration and keeps diagram thinking legible over time.
 
