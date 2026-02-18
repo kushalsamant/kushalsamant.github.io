@@ -1,6 +1,7 @@
 name: Sync Diagrams (Markdown Follows Images)
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
 
