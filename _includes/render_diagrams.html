@@ -25,12 +25,11 @@
 
         {% for diagram in site.diagrams %}
           {% assign name = diagram.path | split: "/" | last | split: "." | first %}
-          {% if name == stem %}
+          {% if name == stem and found == false %}
             <div class="diagram-text">
               {{ diagram.content }}
             </div>
             {% assign found = true %}
-            {% break %}
           {% endif %}
         {% endfor %}
 
