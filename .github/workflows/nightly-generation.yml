@@ -1,6 +1,7 @@
 name: Nightly Diagram Processing
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 2 * * *"  # 2 AM UTC daily
 
