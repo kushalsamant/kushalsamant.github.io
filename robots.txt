@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kushalsamant.github.io/sitemap.xml
+Sitemap: https://www.kvshvl.in/sitemap.xml
