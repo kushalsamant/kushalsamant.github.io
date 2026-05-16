@@ -13,6 +13,9 @@ title: kvshvl
 
 <p>This is ongoing work. It moves forward every day.</p>
 
+{% include about.html %}
+{% include people.html %}
+
 {% assign in_diagrams_folder = site.static_files | where_exp: "f", "f.path contains '/diagrams/'" %}
 {% assign jpg_files  = in_diagrams_folder | where: "extname", ".jpg" %}
 {% assign jpeg_files = in_diagrams_folder | where: "extname", ".jpeg" %}
@@ -24,7 +27,5 @@ title: kvshvl
 
 {% include render_diagrams.html %}
 
-{% include about.html %}
-{% include people.html %}
 {% include contact.html %}
 {% include social.html %}
