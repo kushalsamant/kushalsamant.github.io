@@ -16,6 +16,8 @@ title: kvshvl
 {% include about.html %}
 {% include people.html %}
 
+<p>Diagrams</p>
+
 {% assign in_diagrams_folder = site.static_files | where_exp: "f", "f.path contains '/diagrams/'" %}
 {% assign jpg_files  = in_diagrams_folder | where: "extname", ".jpg" %}
 {% assign jpeg_files = in_diagrams_folder | where: "extname", ".jpeg" %}
