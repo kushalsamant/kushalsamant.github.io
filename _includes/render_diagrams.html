@@ -1,3 +1,5 @@
+<h2>Diagrams</h2>
+
 {% assign images = site.static_files
   | where_exp: "f", "f.path contains '/diagrams/'"
   | sort: "path" %}
