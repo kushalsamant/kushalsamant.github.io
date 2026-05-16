@@ -23,7 +23,9 @@ title: kvshvl
 
 {% assign diagram_images = jpg_files | concat: jpeg_files | concat: png_files %}
 
-{{ diagram_images | size }} {% include render_diagrams.html %}
+<p class="diagram-count"><small>{{ diagram_images | size }} diagrams</small></p>
+
+{% include render_diagrams.html %}
 
 {% include contact.html %}
 {% include social.html %}
